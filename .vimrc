@@ -76,12 +76,22 @@ set enc=utf-8
 let g:ackprg = 'ag --nogroup --nocolor --column' " ag searcher
 
 " NERDTree
-nmap en :NERDTree <CR>
-nmap ne :NERDTreeClose <CR>
+map <silent> en :NERDTreeToggle<CR>
+let NERDTreeShowBookmarks=1 " 默认显示书签
 
 " taglist
-nmap em :TlistOpen <CR>
-nmap me :TlistClose <CR>
+map <silent> em :TlistToggle<CR>
 let Tlist_Show_One_File = 1  " 不同时显示多个文件的tag，只显示当前文件的
 let Tlist_Exit_OnlyWindow = 1  " 如果taglist窗口是最后一个窗口，则退出vim
 let Tlist_Use_Right_Window = 1  " 在右侧窗口中显示taglist窗口
+
+" 设置 find/sfind 查找路径
+set path=$PWD/**
+" 将缓冲区作为参考点，可用 %% 展开为当前缓冲区路径
+cnoremap <expr> %% getcmdtype( ) == ':' ? expand('%:h').'/' : '%%'
+
+" 按键映射 - 缓冲区遍历 前后 首尾
+nnoremap <silent> [b :bprevious<CR>
+nnoremap <silent> ]b :bnext<CR>
+nnoremap <silent> [B :bfirst<CR>
+nnoremap <silent> ]B :blast<CR>
