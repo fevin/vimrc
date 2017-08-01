@@ -20,7 +20,7 @@ Plugin 'scrooloose/nerdtree' " tree
 Plugin 'ctrlpvim/ctrlp.vim' " search file
 Plugin 'vim-syntastic/syntastic' " code synstatic
 Plugin 'vim-scripts/taglist.vim' " function list
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe' " auto to complete
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
@@ -95,3 +95,10 @@ nnoremap <silent> [b :bprevious<CR>
 nnoremap <silent> ]b :bnext<CR>
 nnoremap <silent> [B :bfirst<CR>
 nnoremap <silent> ]B :blast<CR>
+
+" tab
+set expandtab
+set tabstop=4
+
+" 空格滚屏
+map <space> <c-e>j
