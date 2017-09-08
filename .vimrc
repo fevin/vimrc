@@ -102,3 +102,15 @@ set tabstop=4
 
 " 空格滚屏
 map <space> <c-e>j
+
+" YouCompleteMe 报错
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+
+" 查询忽略大小写
+set ignorecase
+
+" 解决 vim 报错 Error detected while processing function <SNR>51_Tlist_Refresh_Folds
+set shell=/bin/sh
+
+" 切换缓冲区时，避免提示保存
+set hidden
