@@ -19,3 +19,6 @@ ln -s $PATH/.vimrc ~/.vimrc
 * Plugin 'ctrlpvim/ctrlp.vim' " search file
 * Plugin 'vim-syntastic/syntastic' " code synstatic
 * Plugin 'vim-scripts/taglist.vim' " function list
+
+## Languages SyntaxCheck
+* PHP
