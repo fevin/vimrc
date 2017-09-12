@@ -96,10 +96,6 @@ nnoremap <silent> ]b :bnext<CR>
 nnoremap <silent> [B :bfirst<CR>
 nnoremap <silent> ]B :blast<CR>
 
-" tab
-set expandtab
-set tabstop=4
-
 " 空格滚屏
 map <space> <c-e>j
 
@@ -114,3 +110,40 @@ set shell=/bin/sh
 
 " 切换缓冲区时，避免提示保存
 set hidden
+
+""""""""""""
+" taglist
+""""""""""""
+let Tlist_Auto_Open = 0
+let Tlist_Auto_Update = 1
+let Tlist_Hightlight_Tag_On_BufEnter = 1
+let Tlist_Show_One_File = 1    " 只显示当前文件
+let Tlist_Enable_Fold_Column = 0
+let Tlist_File_Fold_Auto_Close = 0
+let Tlist_Process_File_Always = 1
+let Tlist_Display_Prototype = 0
+let Tlist_Compact_Format = 1
+let Tlist_Use_Right_Window = 1
+let tlist_php_settings = 'php;c:classes;i:interfaces;d:const;f:func'
+" taglist 默认跳转到第一个匹配项的问题
+map <c-]> g<c-]>
+
+" unix
+set fileformats=unix
+
+" tab
+set expandtab
+set tabstop=4
+" 高亮多余的空白字符及 Tab
+highlight RedundantSpaces ctermbg=red guibg=red
+match RedundantSpaces /\s\+$\| \+\ze\t\|\t/
+set list                     " 显示Tab符，
+set listchars=tab:>-,trail:- " Tab 符号 显示为 >--
+
+" 缩进
+set autoindent              " 设置自动缩进
+set smartindent             " 设置智能缩进
+
+set backspace=2             " 设置退格键可用
+set mouse=a                 " 鼠标可用
+set ve=block                " 光标可以定位在没有实际字符的地方
