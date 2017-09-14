@@ -129,21 +129,28 @@ let tlist_php_settings = 'php;c:classes;i:interfaces;d:const;f:func'
 map <c-]> g<c-]>
 
 " unix
-set fileformats=unix
+set fileformats=unix,dos
 
 " tab
 set expandtab
 set tabstop=4
 " 高亮多余的空白字符及 Tab
-highlight RedundantSpaces ctermbg=red guibg=red
-match RedundantSpaces /\s\+$\| \+\ze\t\|\t/
+" highlight RedundantSpaces ctermbg=red guibg=red " 多余空白符背景色
+" match RedundantSpaces /\s\+$\| \+\ze\t\|\t/
 set list                     " 显示Tab符，
 set listchars=tab:>-,trail:- " Tab 符号 显示为 >--
 
 " 缩进
-set autoindent              " 设置自动缩进
-set smartindent             " 设置智能缩进
+" set autoindent              " 设置自动缩进
 
 set backspace=2             " 设置退格键可用
 set mouse=a                 " 鼠标可用
 set ve=block                " 光标可以定位在没有实际字符的地方
+
+" 插入时，智能匹配
+set completeopt=longest,menu
+
+" 再次打开文件，光标定位在上次退出的位置
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
