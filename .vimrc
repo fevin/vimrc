@@ -21,6 +21,7 @@ Plugin 'ctrlpvim/ctrlp.vim' " search file
 Plugin 'vim-syntastic/syntastic' " code synstatic
 Plugin 'vim-scripts/taglist.vim' " function list
 Plugin 'Valloric/YouCompleteMe' " auto to complete
+Plugin 'vim-scripts/DoxygenToolkit.vim' " auto to complete
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
@@ -39,7 +40,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
-"filetype plugin on
+" filetype plugin on
 "
 " Brief help
 " :PluginList       - lists configured plugins
@@ -131,9 +132,6 @@ map <c-]> g<c-]>
 " unix
 set fileformats=unix,dos
 
-" tab
-set expandtab
-set tabstop=4
 " 高亮多余的空白字符及 Tab
 " highlight RedundantSpaces ctermbg=red guibg=red " 多余空白符背景色
 " match RedundantSpaces /\s\+$\| \+\ze\t\|\t/
@@ -141,10 +139,13 @@ set list                     " 显示Tab符，
 set listchars=tab:>-,trail:- " Tab 符号 显示为 >--
 
 " 缩进
-" set autoindent              " 设置自动缩进
+set autoindent              " 设置自动缩进
+set sw=4                    " 每行缩进的空格数
+set ts=4                    " tabstop 一个 tab 四个空格
+set expandtab               " 是否将输入的TAB自动展开成空格。开启后要输入TAB，需要Ctrl-V<TAB>
 
 set backspace=2             " 设置退格键可用
-set mouse=a                 " 鼠标可用
+" set mouse=a                 " 鼠标可用
 set ve=block                " 光标可以定位在没有实际字符的地方
 
 " 插入时，智能匹配
