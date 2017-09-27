@@ -9,6 +9,10 @@ git clone https://github.com/fevin/vimrc.git ~/vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/vimrc/.vim/bundle/Vundle.vim
 ln -s ~/vimrc/.vim ~/.vim
 ln -s ~/vimrc/.vimrc ~/.vimrc
+
+# open vim and install plugin
+vim
+:PluginInstall
 ```
 ---
 
