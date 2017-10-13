@@ -5,9 +5,14 @@ Welcome to add.
 
 ## Usage
 ```shell
-git clone git@github.com:fevin/vimrc.git
-ln -s $PATH/.vim ~/.vim
-ln -s $PATH/.vimrc ~/.vimrc
+git clone https://github.com/fevin/vimrc.git ~/vimrc
+git clone https://github.com/VundleVim/Vundle.vim.git ~/vimrc/.vim/bundle/Vundle.vim
+ln -s ~/vimrc/.vim ~/.vim
+ln -s ~/vimrc/.vimrc ~/.vimrc
+
+# open vim and install plugin
+vim
+:PluginInstall
 ```
 ---
 
