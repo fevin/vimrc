@@ -1,0 +1,5140 @@
+<pre>Array
+(
+    [Core] => Array
+        (
+            [0] => zend_version()
+            [1] => func_num_args()
+            [2] => func_get_arg($arg_num)
+            [3] => func_get_args()
+            [4] => strlen($str)
+            [5] => strcmp($str1,$str2)
+            [6] => strncmp($str1,$str2,$len)
+            [7] => strcasecmp($str1,$str2)
+            [8] => strncasecmp($str1,$str2,$len)
+            [9] => each($arr)
+            [10] => error_reporting($new_error_level)
+            [11] => define($constant_name,$value,$case_insensitive)
+            [12] => defined($constant_name)
+            [13] => get_class($object)
+            [14] => get_called_class()
+            [15] => get_parent_class($object)
+            [16] => method_exists($object,$method)
+            [17] => property_exists($object_or_class,$property_name)
+            [18] => class_exists($classname,$autoload)
+            [19] => interface_exists($classname,$autoload)
+            [20] => trait_exists($traitname,$autoload)
+            [21] => function_exists($function_name)
+            [22] => class_alias($user_class_name,$alias_name,$autoload)
+            [23] => get_included_files()
+            [24] => get_required_files()
+            [25] => is_subclass_of($object,$class_name,$allow_string)
+            [26] => is_a($object,$class_name,$allow_string)
+            [27] => get_class_vars($class_name)
+            [28] => get_object_vars($obj)
+            [29] => get_class_methods($class)
+            [30] => trigger_error($message,$error_type)
+            [31] => user_error($message,$error_type)
+            [32] => set_error_handler($error_handler,$error_types)
+            [33] => restore_error_handler()
+            [34] => set_exception_handler($exception_handler)
+            [35] => restore_exception_handler()
+            [36] => get_declared_classes()
+            [37] => get_declared_traits()
+            [38] => get_declared_interfaces()
+            [39] => get_defined_functions()
+            [40] => get_defined_vars()
+            [41] => create_function($args,$code)
+            [42] => get_resource_type($res)
+            [43] => get_loaded_extensions($zend_extensions)
+            [44] => extension_loaded($extension_name)
+            [45] => get_extension_funcs($extension_name)
+            [46] => get_defined_constants($categorize)
+            [47] => debug_backtrace($options,$limit)
+            [48] => debug_print_backtrace($options)
+            [49] => gc_collect_cycles()
+            [50] => gc_enabled()
+            [51] => gc_enable()
+            [52] => gc_disable()
+        )
+
+    [date] => Array
+        (
+            [0] => strtotime($time,$now)
+            [1] => date($format,$timestamp)
+            [2] => idate($format,$timestamp)
+            [3] => gmdate($format,$timestamp)
+            [4] => mktime($hour,$min,$sec,$mon,$day,$year,$is_dst)
+            [5] => gmmktime($hour,$min,$sec,$mon,$day,$year,$is_dst)
+            [6] => checkdate($month,$day,$year)
+            [7] => strftime($format,$timestamp)
+            [8] => gmstrftime($format,$timestamp)
+            [9] => time()
+            [10] => localtime($timestamp,$associative_array)
+            [11] => getdate($timestamp)
+            [12] => date_create($time,$object)
+            [13] => date_create_immutable($time,$object)
+            [14] => date_create_from_format($format,$time,$object)
+            [15] => date_create_immutable_from_format($format,$time,$object)
+            [16] => date_parse($date)
+            [17] => date_parse_from_format($format,$date)
+            [18] => date_get_last_errors()
+            [19] => date_format($object,$format)
+            [20] => date_modify($object,$modify)
+            [21] => date_add($object,$interval)
+            [22] => date_sub($object,$interval)
+            [23] => date_timezone_get($object)
+            [24] => date_timezone_set($object,$timezone)
+            [25] => date_offset_get($object)
+            [26] => date_diff($object,$object2,$absolute)
+            [27] => date_time_set($object,$hour,$minute,$second)
+            [28] => date_date_set($object,$year,$month,$day)
+            [29] => date_isodate_set($object,$year,$week,$day)
+            [30] => date_timestamp_set($object,$unixtimestamp)
+            [31] => date_timestamp_get($object)
+            [32] => timezone_open($timezone)
+            [33] => timezone_name_get($object)
+            [34] => timezone_name_from_abbr($abbr,$gmtoffset,$isdst)
+            [35] => timezone_offset_get($object,$datetime)
+            [36] => timezone_transitions_get($object,$timestamp_begin,$timestamp_end)
+            [37] => timezone_location_get($object)
+            [38] => timezone_identifiers_list($what,$country)
+            [39] => timezone_abbreviations_list()
+            [40] => timezone_version_get()
+            [41] => date_interval_create_from_date_string($time)
+            [42] => date_interval_format($object,$format)
+            [43] => date_default_timezone_set($timezone_identifier)
+            [44] => date_default_timezone_get()
+            [45] => date_sunrise($time,$format,$latitude,$longitude,$zenith,$gmt_offset)
+            [46] => date_sunset($time,$format,$latitude,$longitude,$zenith,$gmt_offset)
+            [47] => date_sun_info($time,$latitude,$longitude)
+        )
+
+    [ereg] => Array
+        (
+            [0] => ereg($pattern,$string,$registers)
+            [1] => ereg_replace($pattern,$replacement,$string)
+            [2] => eregi($pattern,$string,$registers)
+            [3] => eregi_replace($pattern,$replacement,$string)
+            [4] => split($pattern,$string,$limit)
+            [5] => spliti($pattern,$string,$limit)
+            [6] => sql_regcase($string)
+        )
+
+    [libxml] => Array
+        (
+            [0] => libxml_set_streams_context($context)
+            [1] => libxml_use_internal_errors($use_errors)
+            [2] => libxml_get_last_error()
+            [3] => libxml_clear_errors()
+            [4] => libxml_get_errors()
+            [5] => libxml_disable_entity_loader($disable)
+            [6] => libxml_set_external_entity_loader($resolver_function)
+        )
+
+    [openssl] => Array
+        (
+            [0] => openssl_get_cert_locations()
+            [1] => openssl_spki_new($privkey,$challenge,$algo)
+            [2] => openssl_spki_verify($spki)
+            [3] => openssl_spki_export($spki)
+            [4] => openssl_spki_export_challenge($spki)
+            [5] => openssl_pkey_free($key)
+            [6] => openssl_pkey_new($configargs)
+            [7] => openssl_pkey_export($key,$out,$passphrase,$config_args)
+            [8] => openssl_pkey_export_to_file($key,$outfilename,$passphrase,$config_args)
+            [9] => openssl_pkey_get_private($key,$passphrase)
+            [10] => openssl_pkey_get_public($cert)
+            [11] => openssl_pkey_get_details($key)
+            [12] => openssl_free_key($key)
+            [13] => openssl_get_privatekey($key,$passphrase)
+            [14] => openssl_get_publickey($cert)
+            [15] => openssl_x509_read($cert)
+            [16] => openssl_x509_free($x509)
+            [17] => openssl_x509_parse($x509,$shortname)
+            [18] => openssl_x509_checkpurpose($x509cert,$purpose,$cainfo,$untrustedfile)
+            [19] => openssl_x509_check_private_key($cert,$key)
+            [20] => openssl_x509_export($x509,$out,$notext)
+            [21] => openssl_x509_fingerprint($x509,$method,$raw_output)
+            [22] => openssl_x509_export_to_file($x509,$outfilename,$notext)
+            [23] => openssl_pkcs12_export($x509,$out,$priv_key,$pass,$args)
+            [24] => openssl_pkcs12_export_to_file($x509,$filename,$priv_key,$pass,$args)
+            [25] => openssl_pkcs12_read($PKCS12,$certs,$pass)
+            [26] => openssl_csr_new($dn,$privkey,$configargs,$extraattribs)
+            [27] => openssl_csr_export($csr,$out,$notext)
+            [28] => openssl_csr_export_to_file($csr,$outfilename,$notext)
+            [29] => openssl_csr_sign($csr,$x509,$priv_key,$days,$config_args,$serial)
+            [30] => openssl_csr_get_subject($csr)
+            [31] => openssl_csr_get_public_key($csr)
+            [32] => openssl_digest($data,$method,$raw_output)
+            [33] => openssl_encrypt($data,$method,$password,$options,$iv)
+            [34] => openssl_decrypt($data,$method,$password,$options,$iv)
+            [35] => openssl_cipher_iv_length($method)
+            [36] => openssl_sign($data,$signature,$key,$method)
+            [37] => openssl_verify($data,$signature,$key,$method)
+            [38] => openssl_seal($data,$sealdata,$ekeys,$pubkeys,$method)
+            [39] => openssl_open($data,$opendata,$ekey,$privkey)
+            [40] => openssl_pbkdf2($password,$salt,$key_length,$iterations,$digest_algorithm)
+            [41] => openssl_pkcs7_verify($filename,$flags,$signerscerts,$cainfo,$extracerts,$content)
+            [42] => openssl_pkcs7_decrypt($infilename,$outfilename,$recipcert,$recipkey)
+            [43] => openssl_pkcs7_sign($infile,$outfile,$signcert,$signkey,$headers,$flags,$extracertsfilename)
+            [44] => openssl_pkcs7_encrypt($infile,$outfile,$recipcerts,$headers,$flags,$cipher)
+            [45] => openssl_private_encrypt($data,$crypted,$key,$padding)
+            [46] => openssl_private_decrypt($data,$crypted,$key,$padding)
+            [47] => openssl_public_encrypt($data,$crypted,$key,$padding)
+            [48] => openssl_public_decrypt($data,$crypted,$key,$padding)
+            [49] => openssl_get_md_methods($aliases)
+            [50] => openssl_get_cipher_methods($aliases)
+            [51] => openssl_dh_compute_key($pub_key,$dh_key)
+            [52] => openssl_random_pseudo_bytes($length,$result_is_strong)
+            [53] => openssl_error_string()
+        )
+
+    [pcre] => Array
+        (
+            [0] => preg_match($pattern,$subject,$subpatterns,$flags,$offset)
+            [1] => preg_match_all($pattern,$subject,$subpatterns,$flags,$offset)
+            [2] => preg_replace($regex,$replace,$subject,$limit,$count)
+            [3] => preg_replace_callback($regex,$callback,$subject,$limit,$count)
+            [4] => preg_filter($regex,$replace,$subject,$limit,$count)
+            [5] => preg_split($pattern,$subject,$limit,$flags)
+            [6] => preg_quote($str,$delim_char)
+            [7] => preg_grep($regex,$input,$flags)
+            [8] => preg_last_error()
+        )
+
+    [zlib] => Array
+        (
+            [0] => readgzfile($filename,$use_include_path)
+            [1] => gzrewind($fp)
+            [2] => gzclose($fp)
+            [3] => gzeof($fp)
+            [4] => gzgetc($fp)
+            [5] => gzgets($fp,$length)
+            [6] => gzgetss($fp,$length,$allowable_tags)
+            [7] => gzread($fp,$length)
+            [8] => gzopen($filename,$mode,$use_include_path)
+            [9] => gzpassthru($fp)
+            [10] => gzseek($fp,$offset,$whence)
+            [11] => gztell($fp)
+            [12] => gzwrite($fp,$str,$length)
+            [13] => gzputs($fp,$str,$length)
+            [14] => gzfile($filename,$use_include_path)
+            [15] => gzcompress($data,$level,$encoding)
+            [16] => gzuncompress($data,$max_decoded_len)
+            [17] => gzdeflate($data,$level,$encoding)
+            [18] => gzinflate($data,$max_decoded_len)
+            [19] => gzencode($data,$level,$encoding)
+            [20] => gzdecode($data,$max_decoded_len)
+            [21] => zlib_encode($data,$encoding,$level)
+            [22] => zlib_decode($data,$max_decoded_len)
+            [23] => zlib_get_coding_type()
+            [24] => ob_gzhandler($data,$flags)
+        )
+
+    [bcmath] => Array
+        (
+            [0] => bcadd($left_operand,$right_operand,$scale)
+            [1] => bcsub($left_operand,$right_operand,$scale)
+            [2] => bcmul($left_operand,$right_operand,$scale)
+            [3] => bcdiv($left_operand,$right_operand,$scale)
+            [4] => bcmod($left_operand,$right_operand)
+            [5] => bcpow($x,$y,$scale)
+            [6] => bcsqrt($operand,$scale)
+            [7] => bcscale($scale)
+            [8] => bccomp($left_operand,$right_operand,$scale)
+            [9] => bcpowmod($x,$y,$mod,$scale)
+        )
+
+    [ctype] => Array
+        (
+            [0] => ctype_alnum($text)
+            [1] => ctype_alpha($text)
+            [2] => ctype_cntrl($text)
+            [3] => ctype_digit($text)
+            [4] => ctype_lower($text)
+            [5] => ctype_graph($text)
+            [6] => ctype_print($text)
+            [7] => ctype_punct($text)
+            [8] => ctype_space($text)
+            [9] => ctype_upper($text)
+            [10] => ctype_xdigit($text)
+        )
+
+    [curl] => Array
+        (
+            [0] => curl_init($url)
+            [1] => curl_copy_handle($ch)
+            [2] => curl_version($version)
+            [3] => curl_setopt($ch,$option,$value)
+            [4] => curl_setopt_array($ch,$options)
+            [5] => curl_exec($ch)
+            [6] => curl_getinfo($ch,$option)
+            [7] => curl_error($ch)
+            [8] => curl_errno($ch)
+            [9] => curl_close($ch)
+            [10] => curl_strerror($errornum)
+            [11] => curl_multi_strerror($errornum)
+            [12] => curl_reset($ch)
+            [13] => curl_escape($ch,$str)
+            [14] => curl_unescape($ch,$str)
+            [15] => curl_pause($ch,$bitmask)
+            [16] => curl_multi_init()
+            [17] => curl_multi_add_handle($mh,$ch)
+            [18] => curl_multi_remove_handle($mh,$ch)
+            [19] => curl_multi_select($mh,$timeout)
+            [20] => curl_multi_exec($mh,$still_running)
+            [21] => curl_multi_getcontent($ch)
+            [22] => curl_multi_info_read($mh,$msgs_in_queue)
+            [23] => curl_multi_close($mh)
+            [24] => curl_multi_setopt($sh,$option,$value)
+            [25] => curl_share_init()
+            [26] => curl_share_close($sh)
+            [27] => curl_share_setopt($sh,$option,$value)
+            [28] => curl_file_create($filename,$mimetype,$postname)
+        )
+
+    [dom] => Array
+        (
+            [0] => dom_import_simplexml($node)
+        )
+
+    [hash] => Array
+        (
+            [0] => hash($algo,$data,$raw_output)
+            [1] => hash_file($algo,$filename,$raw_output)
+            [2] => hash_hmac($algo,$data,$key,$raw_output)
+            [3] => hash_hmac_file($algo,$filename,$key,$raw_output)
+            [4] => hash_init($algo,$options,$key)
+            [5] => hash_update($context,$data)
+            [6] => hash_update_stream($context,$handle,$length)
+            [7] => hash_update_file($context,$filename,$context)
+            [8] => hash_final($context,$raw_output)
+            [9] => hash_copy($context)
+            [10] => hash_algos()
+            [11] => hash_pbkdf2($algo,$password,$salt,$iterations,$length,$raw_output)
+            [12] => hash_equals($known_string,$user_string)
+            [13] => mhash_keygen_s2k($hash,$input_password,$salt,$bytes)
+            [14] => mhash_get_block_size($hash)
+            [15] => mhash_get_hash_name($hash)
+            [16] => mhash_count()
+            [17] => mhash($hash,$data,$key)
+        )
+
+    [fileinfo] => Array
+        (
+            [0] => finfo_open($options,$arg)
+            [1] => finfo_close($finfo)
+            [2] => finfo_set_flags($finfo,$options)
+            [3] => finfo_file($finfo,$filename,$options,$context)
+            [4] => finfo_buffer($finfo,$string,$options,$context)
+            [5] => mime_content_type($string)
+        )
+
+    [filter] => Array
+        (
+            [0] => filter_input($type,$variable_name,$filter,$options)
+            [1] => filter_var($variable,$filter,$options)
+            [2] => filter_input_array($type,$definition,$add_empty)
+            [3] => filter_var_array($data,$definition,$add_empty)
+            [4] => filter_list()
+            [5] => filter_has_var($type,$variable_name)
+            [6] => filter_id($filtername)
+        )
+
+    [ftp] => Array
+        (
+            [0] => ftp_connect($host,$port,$timeout)
+            [1] => ftp_ssl_connect($host,$port,$timeout)
+            [2] => ftp_login($ftp,$username,$password)
+            [3] => ftp_pwd($ftp)
+            [4] => ftp_cdup($ftp)
+            [5] => ftp_chdir($ftp,$directory)
+            [6] => ftp_exec($ftp,$command)
+            [7] => ftp_raw($ftp,$command)
+            [8] => ftp_mkdir($ftp,$directory)
+            [9] => ftp_rmdir($ftp,$directory)
+            [10] => ftp_chmod($ftp,$mode,$filename)
+            [11] => ftp_alloc($ftp,$size,$response)
+            [12] => ftp_nlist($ftp,$directory)
+            [13] => ftp_rawlist($ftp,$directory,$recursive)
+            [14] => ftp_systype($ftp)
+            [15] => ftp_pasv($ftp,$pasv)
+            [16] => ftp_get($ftp,$local_file,$remote_file,$mode,$resume_pos)
+            [17] => ftp_fget($ftp,$fp,$remote_file,$mode,$resumepos)
+            [18] => ftp_put($ftp,$remote_file,$local_file,$mode,$startpos)
+            [19] => ftp_fput($ftp,$remote_file,$fp,$mode,$startpos)
+            [20] => ftp_size($ftp,$filename)
+            [21] => ftp_mdtm($ftp,$filename)
+            [22] => ftp_rename($ftp,$src,$dest)
+            [23] => ftp_delete($ftp,$file)
+            [24] => ftp_site($ftp,$cmd)
+            [25] => ftp_close($ftp)
+            [26] => ftp_set_option($ftp,$option,$value)
+            [27] => ftp_get_option($ftp,$option)
+            [28] => ftp_nb_fget($ftp,$fp,$remote_file,$mode,$resumepos)
+            [29] => ftp_nb_get($ftp,$local_file,$remote_file,$mode,$resume_pos)
+            [30] => ftp_nb_continue($ftp)
+            [31] => ftp_nb_put($ftp,$remote_file,$local_file,$mode,$startpos)
+            [32] => ftp_nb_fput($ftp,$remote_file,$fp,$mode,$startpos)
+            [33] => ftp_quit($ftp)
+        )
+
+    [gd] => Array
+        (
+            [0] => gd_info()
+            [1] => imagearc($im,$cx,$cy,$w,$h,$s,$e,$col)
+            [2] => imageellipse($im,$cx,$cy,$w,$h,$color)
+            [3] => imagechar($im,$font,$x,$y,$c,$col)
+            [4] => imagecharup($im,$font,$x,$y,$c,$col)
+            [5] => imagecolorat($im,$x,$y)
+            [6] => imagecolorallocate($im,$red,$green,$blue)
+            [7] => imagepalettecopy($dst,$src)
+            [8] => imagecreatefromstring($image)
+            [9] => imagecolorclosest($im,$red,$green,$blue)
+            [10] => imagecolorclosesthwb($im,$red,$green,$blue)
+            [11] => imagecolordeallocate($im,$index)
+            [12] => imagecolorresolve($im,$red,$green,$blue)
+            [13] => imagecolorexact($im,$red,$green,$blue)
+            [14] => imagecolorset($im,$color,$red,$green,$blue,$alpha)
+            [15] => imagecolortransparent($im,$col)
+            [16] => imagecolorstotal($im)
+            [17] => imagecolorsforindex($im,$index)
+            [18] => imagecopy($dst_im,$src_im,$dst_x,$dst_y,$src_x,$src_y,$src_w,$src_h)
+            [19] => imagecopymerge($src_im,$dst_im,$dst_x,$dst_y,$src_x,$src_y,$src_w,$src_h,$pct)
+            [20] => imagecopymergegray($src_im,$dst_im,$dst_x,$dst_y,$src_x,$src_y,$src_w,$src_h,$pct)
+            [21] => imagecopyresized($dst_im,$src_im,$dst_x,$dst_y,$src_x,$src_y,$dst_w,$dst_h,$src_w,$src_h)
+            [22] => imagecreate($x_size,$y_size)
+            [23] => imagecreatetruecolor($x_size,$y_size)
+            [24] => imageistruecolor($im)
+            [25] => imagetruecolortopalette($im,$ditherFlag,$colorsWanted)
+            [26] => imagepalettetotruecolor($im)
+            [27] => imagesetthickness($im,$thickness)
+            [28] => imagefilledarc($im,$cx,$cy,$w,$h,$s,$e,$col,$style)
+            [29] => imagefilledellipse($im,$cx,$cy,$w,$h,$color)
+            [30] => imagealphablending($im,$blend)
+            [31] => imagesavealpha($im,$save)
+            [32] => imagecolorallocatealpha($im,$red,$green,$blue,$alpha)
+            [33] => imagecolorresolvealpha($im,$red,$green,$blue,$alpha)
+            [34] => imagecolorclosestalpha($im,$red,$green,$blue,$alpha)
+            [35] => imagecolorexactalpha($im,$red,$green,$blue,$alpha)
+            [36] => imagecopyresampled($dst_im,$src_im,$dst_x,$dst_y,$src_x,$src_y,$dst_w,$dst_h,$src_w,$src_h)
+            [37] => imagerotate($im,$angle,$bgdcolor,$ignoretransparent)
+            [38] => imageflip($im,$mode)
+            [39] => imageantialias($im,$on)
+            [40] => imagecrop($im,$rect)
+            [41] => imagecropauto($im,$mode,$threshold,$color)
+            [42] => imagescale($im,$new_width,$new_height,$mode)
+            [43] => imageaffine($im,$affine,$clip)
+            [44] => imageaffinematrixconcat($m1,$m2)
+            [45] => imageaffinematrixget($type,$options)
+            [46] => imagesetinterpolation($im,$method)
+            [47] => imagesettile($im,$tile)
+            [48] => imagesetbrush($im,$brush)
+            [49] => imagesetstyle($im,$styles)
+            [50] => imagecreatefrompng($filename)
+            [51] => imagecreatefromgif($filename)
+            [52] => imagecreatefromwbmp($filename)
+            [53] => imagecreatefromxbm($filename)
+            [54] => imagecreatefromgd($filename)
+            [55] => imagecreatefromgd2($filename)
+            [56] => imagecreatefromgd2part($filename,$srcX,$srcY,$width,$height)
+            [57] => imagepng($im,$filename)
+            [58] => imagegif($im,$filename)
+            [59] => imagewbmp($im,$filename,$foreground)
+            [60] => imagegd($im,$filename)
+            [61] => imagegd2($im,$filename,$chunk_size,$type)
+            [62] => imagedestroy($im)
+            [63] => imagegammacorrect($im,$inputgamma,$outputgamma)
+            [64] => imagefill($im,$x,$y,$col)
+            [65] => imagefilledpolygon($im,$points,$num_pos,$col)
+            [66] => imagefilledrectangle($im,$x1,$y1,$x2,$y2,$col)
+            [67] => imagefilltoborder($im,$x,$y,$border,$col)
+            [68] => imagefontwidth($font)
+            [69] => imagefontheight($font)
+            [70] => imageinterlace($im,$interlace)
+            [71] => imageline($im,$x1,$y1,$x2,$y2,$col)
+            [72] => imageloadfont($filename)
+            [73] => imagepolygon($im,$points,$num_pos,$col)
+            [74] => imagerectangle($im,$x1,$y1,$x2,$y2,$col)
+            [75] => imagesetpixel($im,$x,$y,$col)
+            [76] => imagestring($im,$font,$x,$y,$str,$col)
+            [77] => imagestringup($im,$font,$x,$y,$str,$col)
+            [78] => imagesx($im)
+            [79] => imagesy($im)
+            [80] => imagedashedline($im,$x1,$y1,$x2,$y2,$col)
+            [81] => imagetypes()
+            [82] => png2wbmp($f_org,$f_dest,$d_height,$d_width,$d_threshold)
+            [83] => image2wbmp($im,$filename,$threshold)
+            [84] => imagelayereffect($im,$effect)
+            [85] => imagexbm($im,$filename,$foreground)
+            [86] => imagecolormatch($im1,$im2)
+            [87] => imagefilter($im,$filtertype,$arg1,$arg2,$arg3,$arg4)
+            [88] => imageconvolution($im,$matrix3x3,$div,$offset)
+        )
+
+    [SPL] => Array
+        (
+            [0] => spl_classes()
+            [1] => spl_autoload($class_name,$file_extensions)
+            [2] => spl_autoload_extensions($file_extensions)
+            [3] => spl_autoload_register($autoload_function,$throw,$prepend)
+            [4] => spl_autoload_unregister($autoload_function)
+            [5] => spl_autoload_functions()
+            [6] => spl_autoload_call($class_name)
+            [7] => class_parents($instance,$autoload)
+            [8] => class_implements($what,$autoload)
+            [9] => class_uses($what,$autoload)
+            [10] => spl_object_hash($obj)
+            [11] => iterator_to_array($iterator,$use_keys)
+            [12] => iterator_count($iterator)
+            [13] => iterator_apply($iterator,$function,$args)
+        )
+
+    [iconv] => Array
+        (
+            [0] => iconv($in_charset,$out_charset,$str)
+            [1] => iconv_get_encoding($type)
+            [2] => iconv_set_encoding($type,$charset)
+            [3] => iconv_strlen($str,$charset)
+            [4] => iconv_substr($str,$offset,$length,$charset)
+            [5] => iconv_strpos($haystack,$needle,$offset,$charset)
+            [6] => iconv_strrpos($haystack,$needle,$charset)
+            [7] => iconv_mime_encode($field_name,$field_value,$preference)
+            [8] => iconv_mime_decode($encoded_string,$mode,$charset)
+            [9] => iconv_mime_decode_headers($headers,$mode,$charset)
+        )
+
+    [json] => Array
+        (
+            [0] => json_encode($value,$options,$depth)
+            [1] => json_decode($json,$assoc,$depth,$options)
+            [2] => json_last_error()
+            [3] => json_last_error_msg()
+        )
+
+    [mbstring] => Array
+        (
+            [0] => mb_convert_case($sourcestring,$mode,$encoding)
+            [1] => mb_strtoupper($sourcestring,$encoding)
+            [2] => mb_strtolower($sourcestring,$encoding)
+            [3] => mb_language($language)
+            [4] => mb_internal_encoding($encoding)
+            [5] => mb_http_input($type)
+            [6] => mb_http_output($encoding)
+            [7] => mb_detect_order($encoding)
+            [8] => mb_substitute_character($substchar)
+            [9] => mb_parse_str($encoded_string,$result)
+            [10] => mb_output_handler($contents,$status)
+            [11] => mb_preferred_mime_name($encoding)
+            [12] => mb_strlen($str,$encoding)
+            [13] => mb_strpos($haystack,$needle,$offset,$encoding)
+            [14] => mb_strrpos($haystack,$needle,$offset,$encoding)
+            [15] => mb_stripos($haystack,$needle,$offset,$encoding)
+            [16] => mb_strripos($haystack,$needle,$offset,$encoding)
+            [17] => mb_strstr($haystack,$needle,$part,$encoding)
+            [18] => mb_strrchr($haystack,$needle,$part,$encoding)
+            [19] => mb_stristr($haystack,$needle,$part,$encoding)
+            [20] => mb_strrichr($haystack,$needle,$part,$encoding)
+            [21] => mb_substr_count($haystack,$needle,$encoding)
+            [22] => mb_substr($str,$start,$length,$encoding)
+            [23] => mb_strcut($str,$start,$length,$encoding)
+            [24] => mb_strwidth($str,$encoding)
+            [25] => mb_strimwidth($str,$start,$width,$trimmarker,$encoding)
+            [26] => mb_convert_encoding($str,$to,$from)
+            [27] => mb_detect_encoding($str,$encoding_list,$strict)
+            [28] => mb_list_encodings()
+            [29] => mb_encoding_aliases($encoding)
+            [30] => mb_convert_kana($str,$option,$encoding)
+            [31] => mb_encode_mimeheader($str,$charset,$transfer,$linefeed,$indent)
+            [32] => mb_decode_mimeheader($string)
+            [33] => mb_convert_variables($to,$from,$vars)
+            [34] => mb_encode_numericentity($string,$convmap,$encoding,$is_hex)
+            [35] => mb_decode_numericentity($string,$convmap,$encoding)
+            [36] => mb_send_mail($to,$subject,$message,$additional_headers,$additional_parameters)
+            [37] => mb_get_info($type)
+            [38] => mb_check_encoding($var,$encoding)
+            [39] => mb_regex_encoding($encoding)
+            [40] => mb_regex_set_options($options)
+            [41] => mb_ereg($pattern,$string,$registers)
+            [42] => mb_eregi($pattern,$string,$registers)
+            [43] => mb_ereg_replace($pattern,$replacement,$string,$option)
+            [44] => mb_eregi_replace($pattern,$replacement,$string)
+            [45] => mb_ereg_replace_callback($pattern,$callback,$string,$option)
+            [46] => mb_split($pattern,$string,$limit)
+            [47] => mb_ereg_match($pattern,$string,$option)
+            [48] => mb_ereg_search($pattern,$option)
+            [49] => mb_ereg_search_pos($pattern,$option)
+            [50] => mb_ereg_search_regs($pattern,$option)
+            [51] => mb_ereg_search_init($string,$pattern,$option)
+            [52] => mb_ereg_search_getregs()
+            [53] => mb_ereg_search_getpos()
+            [54] => mb_ereg_search_setpos($position)
+            [55] => mbregex_encoding($encoding)
+            [56] => mbereg($pattern,$string,$registers)
+            [57] => mberegi($pattern,$string,$registers)
+            [58] => mbereg_replace($pattern,$replacement,$string,$option)
+            [59] => mberegi_replace($pattern,$replacement,$string)
+            [60] => mbsplit($pattern,$string,$limit)
+            [61] => mbereg_match($pattern,$string,$option)
+            [62] => mbereg_search($pattern,$option)
+            [63] => mbereg_search_pos($pattern,$option)
+            [64] => mbereg_search_regs($pattern,$option)
+            [65] => mbereg_search_init($string,$pattern,$option)
+            [66] => mbereg_search_getregs()
+            [67] => mbereg_search_getpos()
+            [68] => mbereg_search_setpos($position)
+        )
+
+    [mcrypt] => Array
+        (
+            [0] => mcrypt_ecb($cipher,$key,$data,$mode,$iv)
+            [1] => mcrypt_cbc($cipher,$key,$data,$mode,$iv)
+            [2] => mcrypt_cfb($cipher,$key,$data,$mode,$iv)
+            [3] => mcrypt_ofb($cipher,$key,$data,$mode,$iv)
+            [4] => mcrypt_get_key_size($cipher,$module)
+            [5] => mcrypt_get_block_size($cipher,$module)
+            [6] => mcrypt_get_cipher_name($cipher)
+            [7] => mcrypt_create_iv($size,$source)
+            [8] => mcrypt_list_algorithms($lib_dir)
+            [9] => mcrypt_list_modes($lib_dir)
+            [10] => mcrypt_get_iv_size($cipher,$module)
+            [11] => mcrypt_encrypt($cipher,$key,$data,$mode,$iv)
+            [12] => mcrypt_decrypt($cipher,$key,$data,$mode,$iv)
+            [13] => mcrypt_module_open($cipher,$cipher_directory,$mode,$mode_directory)
+            [14] => mcrypt_generic_init($td,$key,$iv)
+            [15] => mcrypt_generic($td,$data)
+            [16] => mdecrypt_generic($td,$data)
+            [17] => mcrypt_generic_end($td)
+            [18] => mcrypt_generic_deinit($td)
+            [19] => mcrypt_enc_self_test($td)
+            [20] => mcrypt_enc_is_block_algorithm_mode($td)
+            [21] => mcrypt_enc_is_block_algorithm($td)
+            [22] => mcrypt_enc_is_block_mode($td)
+            [23] => mcrypt_enc_get_block_size($td)
+            [24] => mcrypt_enc_get_key_size($td)
+            [25] => mcrypt_enc_get_supported_key_sizes($td)
+            [26] => mcrypt_enc_get_iv_size($td)
+            [27] => mcrypt_enc_get_algorithms_name($td)
+            [28] => mcrypt_enc_get_modes_name($td)
+            [29] => mcrypt_module_self_test($algorithm,$lib_dir)
+            [30] => mcrypt_module_is_block_algorithm_mode($mode,$lib_dir)
+            [31] => mcrypt_module_is_block_algorithm($algorithm,$lib_dir)
+            [32] => mcrypt_module_is_block_mode($mode,$lib_dir)
+            [33] => mcrypt_module_get_algo_block_size($algorithm,$lib_dir)
+            [34] => mcrypt_module_get_algo_key_size($algorithm,$lib_dir)
+            [35] => mcrypt_module_get_supported_key_sizes($algorithm,$lib_dir)
+            [36] => mcrypt_module_close($td)
+        )
+
+    [session] => Array
+        (
+            [0] => session_name($name)
+            [1] => session_module_name($module)
+            [2] => session_save_path($path)
+            [3] => session_id($id)
+            [4] => session_regenerate_id($delete_old_session)
+            [5] => session_decode($data)
+            [6] => session_encode()
+            [7] => session_start()
+            [8] => session_destroy()
+            [9] => session_unset()
+            [10] => session_set_save_handler($open,$close,$read,$write,$destroy,$gc,$create_sid)
+            [11] => session_cache_limiter($cache_limiter)
+            [12] => session_cache_expire($new_cache_expire)
+            [13] => session_set_cookie_params($lifetime,$path,$domain,$secure,$httponly)
+            [14] => session_get_cookie_params()
+            [15] => session_write_close()
+            [16] => session_abort()
+            [17] => session_reset()
+            [18] => session_status()
+            [19] => session_register_shutdown()
+            [20] => session_commit()
+        )
+
+    [standard] => Array
+        (
+            [0] => constant($const_name)
+            [1] => bin2hex($data)
+            [2] => hex2bin($data)
+            [3] => sleep($seconds)
+            [4] => usleep($micro_seconds)
+            [5] => time_nanosleep($seconds,$nanoseconds)
+            [6] => time_sleep_until($timestamp)
+            [7] => strptime($timestamp,$format)
+            [8] => flush()
+            [9] => wordwrap($str,$width,$break,$cut)
+            [10] => htmlspecialchars($string,$quote_style,$charset,$double_encode)
+            [11] => htmlentities($string,$quote_style,$charset,$double_encode)
+            [12] => html_entity_decode($string,$quote_style,$charset)
+            [13] => htmlspecialchars_decode($string,$quote_style)
+            [14] => get_html_translation_table($table,$quote_style)
+            [15] => sha1($str,$raw_output)
+            [16] => sha1_file($filename,$raw_output)
+            [17] => md5($str,$raw_output)
+            [18] => md5_file($filename,$raw_output)
+            [19] => crc32($str)
+            [20] => iptcparse($iptcdata)
+            [21] => iptcembed($iptcdata,$jpeg_file_name,$spool)
+            [22] => getimagesize($imagefile,$info)
+            [23] => getimagesizefromstring($imagefile,$info)
+            [24] => image_type_to_mime_type($imagetype)
+            [25] => image_type_to_extension($imagetype,$include_dot)
+            [26] => phpinfo($what)
+            [27] => phpversion($extension)
+            [28] => phpcredits($flag)
+            [29] => php_sapi_name()
+            [30] => php_uname()
+            [31] => php_ini_scanned_files()
+            [32] => php_ini_loaded_file()
+            [33] => strnatcmp($s1,$s2)
+            [34] => strnatcasecmp($s1,$s2)
+            [35] => substr_count($haystack,$needle,$offset,$length)
+            [36] => strspn($str,$mask,$start,$len)
+            [37] => strcspn($str,$mask,$start,$len)
+            [38] => strtok($str,$token)
+            [39] => strtoupper($str)
+            [40] => strtolower($str)
+            [41] => strpos($haystack,$needle,$offset)
+            [42] => stripos($haystack,$needle,$offset)
+            [43] => strrpos($haystack,$needle,$offset)
+            [44] => strripos($haystack,$needle,$offset)
+            [45] => strrev($str)
+            [46] => hebrev($str,$max_chars_per_line)
+            [47] => hebrevc($str,$max_chars_per_line)
+            [48] => nl2br($str,$is_xhtml)
+            [49] => basename($path,$suffix)
+            [50] => dirname($path)
+            [51] => pathinfo($path,$options)
+            [52] => stripslashes($str)
+            [53] => stripcslashes($str)
+            [54] => strstr($haystack,$needle,$part)
+            [55] => stristr($haystack,$needle,$part)
+            [56] => strrchr($haystack,$needle)
+            [57] => str_shuffle($str)
+            [58] => str_word_count($str,$format,$charlist)
+            [59] => str_split($str,$split_length)
+            [60] => strpbrk($haystack,$char_list)
+            [61] => substr_compare($main_str,$str,$offset,$length,$case_sensitivity)
+            [62] => strcoll($str1,$str2)
+            [63] => money_format($format,$value)
+            [64] => substr($str,$start,$length)
+            [65] => substr_replace($str,$replace,$start,$length)
+            [66] => quotemeta($str)
+            [67] => ucfirst($str)
+            [68] => lcfirst($str)
+            [69] => ucwords($str,$delimiters)
+            [70] => strtr($str,$from,$to)
+            [71] => addslashes($str)
+            [72] => addcslashes($str,$charlist)
+            [73] => rtrim($str,$character_mask)
+            [74] => str_replace($search,$replace,$subject,$replace_count)
+            [75] => str_ireplace($search,$replace,$subject,$replace_count)
+            [76] => str_repeat($input,$mult)
+            [77] => count_chars($input,$mode)
+            [78] => chunk_split($str,$chunklen,$ending)
+            [79] => trim($str,$character_mask)
+            [80] => ltrim($str,$character_mask)
+            [81] => strip_tags($str,$allowable_tags)
+            [82] => similar_text($str1,$str2,$percent)
+            [83] => explode($separator,$str,$limit)
+            [84] => implode($glue,$pieces)
+            [85] => join($glue,$pieces)
+            [86] => setlocale($category,$locales)
+            [87] => localeconv()
+            [88] => nl_langinfo($item)
+            [89] => soundex($str)
+            [90] => levenshtein($str1,$str2,$cost_ins,$cost_rep,$cost_del)
+            [91] => chr($codepoint)
+            [92] => ord($character)
+            [93] => parse_str($encoded_string,$result)
+            [94] => str_getcsv($string,$delimiter,$enclosure,$escape)
+            [95] => str_pad($input,$pad_length,$pad_string,$pad_type)
+            [96] => chop($str,$character_mask)
+            [97] => strchr($haystack,$needle,$part)
+            [98] => sprintf($format,$args)
+            [99] => printf($format,$args)
+            [100] => vprintf($format,$args)
+            [101] => vsprintf($format,$args)
+            [102] => fprintf($stream,$format,$args)
+            [103] => vfprintf($stream,$format,$args)
+            [104] => sscanf($str,$format,$vars)
+            [105] => fscanf($stream,$format,$vars)
+            [106] => parse_url($url,$component)
+            [107] => urlencode($str)
+            [108] => urldecode($str)
+            [109] => rawurlencode($str)
+            [110] => rawurldecode($str)
+            [111] => http_build_query($formdata,$prefix,$arg_separator,$enc_type)
+            [112] => readlink($filename)
+            [113] => linkinfo($filename)
+            [114] => symlink($target,$link)
+            [115] => link($target,$link)
+            [116] => unlink($filename,$context)
+            [117] => exec($command,$output,$return_value)
+            [118] => system($command,$return_value)
+            [119] => escapeshellcmd($command)
+            [120] => escapeshellarg($arg)
+            [121] => passthru($command,$return_value)
+            [122] => shell_exec($cmd)
+            [123] => proc_open($command,$descriptorspec,$pipes,$cwd,$env,$other_options)
+            [124] => proc_close($process)
+            [125] => proc_terminate($process,$signal)
+            [126] => proc_get_status($process)
+            [127] => proc_nice($priority)
+            [128] => rand($min,$max)
+            [129] => srand($seed)
+            [130] => getrandmax()
+            [131] => mt_rand($min,$max)
+            [132] => mt_srand($seed)
+            [133] => mt_getrandmax()
+            [134] => getservbyname($service,$protocol)
+            [135] => getservbyport($port,$protocol)
+            [136] => getprotobyname($name)
+            [137] => getprotobynumber($proto)
+            [138] => getmyuid()
+            [139] => getmygid()
+            [140] => getmypid()
+            [141] => getmyinode()
+            [142] => getlastmod()
+            [143] => base64_decode($str,$strict)
+            [144] => base64_encode($str)
+            [145] => password_hash($password,$algo,$options)
+            [146] => password_get_info($hash)
+            [147] => password_needs_rehash($hash,$algo,$options)
+            [148] => password_verify($password,$hash)
+            [149] => convert_uuencode($data)
+            [150] => convert_uudecode($data)
+            [151] => abs($number)
+            [152] => ceil($number)
+            [153] => floor($number)
+            [154] => round($number,$precision,$mode)
+            [155] => sin($number)
+            [156] => cos($number)
+            [157] => tan($number)
+            [158] => asin($number)
+            [159] => acos($number)
+            [160] => atan($number)
+            [161] => atanh($number)
+            [162] => atan2($y,$x)
+            [163] => sinh($number)
+            [164] => cosh($number)
+            [165] => tanh($number)
+            [166] => asinh($number)
+            [167] => acosh($number)
+            [168] => expm1($number)
+            [169] => log1p($number)
+            [170] => pi()
+            [171] => is_finite($val)
+            [172] => is_nan($val)
+            [173] => is_infinite($val)
+            [174] => pow($base,$exponent)
+            [175] => exp($number)
+            [176] => log($number,$base)
+            [177] => log10($number)
+            [178] => sqrt($number)
+            [179] => hypot($num1,$num2)
+            [180] => deg2rad($number)
+            [181] => rad2deg($number)
+            [182] => bindec($binary_number)
+            [183] => hexdec($hexadecimal_number)
+            [184] => octdec($octal_number)
+            [185] => decbin($decimal_number)
+            [186] => decoct($decimal_number)
+            [187] => dechex($decimal_number)
+            [188] => base_convert($number,$frombase,$tobase)
+            [189] => number_format($number,$num_decimal_places,$dec_separator,$thousands_separator)
+            [190] => fmod($x,$y)
+            [191] => inet_ntop($in_addr)
+            [192] => inet_pton($ip_address)
+            [193] => ip2long($ip_address)
+            [194] => long2ip($proper_address)
+            [195] => getenv($varname)
+            [196] => putenv($setting)
+            [197] => getopt($options,$opts)
+            [198] => sys_getloadavg()
+            [199] => microtime($get_as_float)
+            [200] => gettimeofday($get_as_float)
+            [201] => getrusage($who)
+            [202] => uniqid($prefix,$more_entropy)
+            [203] => quoted_printable_decode($str)
+            [204] => quoted_printable_encode($str)
+            [205] => convert_cyr_string($str,$from,$to)
+            [206] => get_current_user()
+            [207] => set_time_limit($seconds)
+            [208] => header_register_callback($callback)
+            [209] => get_cfg_var($option_name)
+            [210] => magic_quotes_runtime($new_setting)
+            [211] => set_magic_quotes_runtime($new_setting)
+            [212] => get_magic_quotes_gpc()
+            [213] => get_magic_quotes_runtime()
+            [214] => error_log($message,$message_type,$destination,$extra_headers)
+            [215] => error_get_last()
+            [216] => call_user_func($function_name,$parameters)
+            [217] => call_user_func_array($function_name,$parameters)
+            [218] => call_user_method($method_name,$object,$parameters)
+            [219] => call_user_method_array($method_name,$object,$params)
+            [220] => forward_static_call($function_name,$parameters)
+            [221] => forward_static_call_array($function_name,$parameters)
+            [222] => serialize($var)
+            [223] => unserialize($variable_representation)
+            [224] => var_dump($vars)
+            [225] => var_export($var,$return)
+            [226] => debug_zval_dump($vars)
+            [227] => print_r($var,$return)
+            [228] => memory_get_usage($real_usage)
+            [229] => memory_get_peak_usage($real_usage)
+            [230] => register_shutdown_function($function_name,$parameters)
+            [231] => register_tick_function($function_name,$parameters)
+            [232] => unregister_tick_function($function_name)
+            [233] => highlight_file($file_name,$return)
+            [234] => show_source($file_name,$return)
+            [235] => highlight_string($string,$return)
+            [236] => php_strip_whitespace($file_name)
+            [237] => ini_get($varname)
+            [238] => ini_get_all($extension)
+            [239] => ini_set($varname,$newvalue)
+            [240] => ini_alter($varname,$newvalue)
+            [241] => ini_restore($varname)
+            [242] => get_include_path()
+            [243] => set_include_path($new_include_path)
+            [244] => restore_include_path()
+            [245] => setcookie($name,$value,$expires,$path,$domain,$secure,$httponly)
+            [246] => setrawcookie($name,$value,$expires,$path,$domain,$secure,$httponly)
+            [247] => header($header,$replace,$http_response_code)
+            [248] => header_remove($name)
+            [249] => headers_sent($file,$line)
+            [250] => headers_list()
+            [251] => http_response_code($response_code)
+            [252] => connection_aborted()
+            [253] => connection_status()
+            [254] => ignore_user_abort($value)
+            [255] => parse_ini_file($filename,$process_sections,$scanner_mode)
+            [256] => parse_ini_string($ini_string,$process_sections,$scanner_mode)
+            [257] => is_uploaded_file($path)
+            [258] => move_uploaded_file($path,$new_path)
+            [259] => gethostbyaddr($ip_address)
+            [260] => gethostbyname($hostname)
+            [261] => gethostbynamel($hostname)
+            [262] => gethostname()
+            [263] => dns_check_record($host,$type)
+            [264] => checkdnsrr($host,$type)
+            [265] => dns_get_mx($hostname,$mxhosts,$weight)
+            [266] => getmxrr($hostname,$mxhosts,$weight)
+            [267] => dns_get_record($hostname,$type,$authns,$addtl,$raw)
+            [268] => intval($var,$base)
+            [269] => floatval($var)
+            [270] => doubleval($var)
+            [271] => strval($var)
+            [272] => boolval($var)
+            [273] => gettype($var)
+            [274] => settype($var,$type)
+            [275] => is_null($var)
+            [276] => is_resource($var)
+            [277] => is_bool($var)
+            [278] => is_long($var)
+            [279] => is_float($var)
+            [280] => is_int($var)
+            [281] => is_integer($var)
+            [282] => is_double($var)
+            [283] => is_real($var)
+            [284] => is_numeric($value)
+            [285] => is_string($var)
+            [286] => is_array($var)
+            [287] => is_object($var)
+            [288] => is_scalar($value)
+            [289] => is_callable($var,$syntax_only,$callable_name)
+            [290] => pclose($fp)
+            [291] => popen($command,$mode)
+            [292] => readfile($filename,$flags,$context)
+            [293] => rewind($fp)
+            [294] => rmdir($dirname,$context)
+            [295] => umask($mask)
+            [296] => fclose($fp)
+            [297] => feof($fp)
+            [298] => fgetc($fp)
+            [299] => fgets($fp,$length)
+            [300] => fgetss($fp,$length,$allowable_tags)
+            [301] => fread($fp,$length)
+            [302] => fopen($filename,$mode,$use_include_path,$context)
+            [303] => fpassthru($fp)
+            [304] => ftruncate($fp,$size)
+            [305] => fstat($fp)
+            [306] => fseek($fp,$offset,$whence)
+            [307] => ftell($fp)
+            [308] => fflush($fp)
+            [309] => fwrite($fp,$str,$length)
+            [310] => fputs($fp,$str,$length)
+            [311] => mkdir($pathname,$mode,$recursive,$context)
+            [312] => rename($old_name,$new_name,$context)
+            [313] => copy($source_file,$destination_file,$context)
+            [314] => tempnam($dir,$prefix)
+            [315] => tmpfile()
+            [316] => file($filename,$flags,$context)
+            [317] => file_get_contents($filename,$flags,$context,$offset,$maxlen)
+            [318] => file_put_contents($filename,$data,$flags,$context)
+            [319] => stream_select($read_streams,$write_streams,$except_streams,$tv_sec,$tv_usec)
+            [320] => stream_context_create($options,$params)
+            [321] => stream_context_set_params($stream_or_context,$options)
+            [322] => stream_context_get_params($stream_or_context)
+            [323] => stream_context_set_option($stream_or_context,$wrappername,$optionname,$value)
+            [324] => stream_context_get_options($stream_or_context)
+            [325] => stream_context_get_default($options)
+            [326] => stream_context_set_default($options)
+            [327] => stream_filter_prepend($stream,$filtername,$read_write,$filterparams)
+            [328] => stream_filter_append($stream,$filtername,$read_write,$filterparams)
+            [329] => stream_filter_remove($stream_filter)
+            [330] => stream_socket_client($remoteaddress,$errcode,$errstring,$timeout,$flags,$context)
+            [331] => stream_socket_server($localaddress,$errcode,$errstring,$flags,$context)
+            [332] => stream_socket_accept($serverstream,$timeout,$peername)
+            [333] => stream_socket_get_name($stream,$want_peer)
+            [334] => stream_socket_recvfrom($stream,$amount,$flags,$remote_addr)
+            [335] => stream_socket_sendto($stream,$data,$flags,$target_addr)
+            [336] => stream_socket_enable_crypto($stream,$enable,$cryptokind,$sessionstream)
+            [337] => stream_socket_shutdown($stream,$how)
+            [338] => stream_socket_pair($domain,$type,$protocol)
+            [339] => stream_copy_to_stream($source,$dest,$maxlen,$pos)
+            [340] => stream_get_contents($source,$maxlen,$offset)
+            [341] => stream_supports_lock($stream)
+            [342] => fgetcsv($fp,$length,$delimiter,$enclosure,$escape)
+            [343] => fputcsv($fp,$fields,$delimiter,$enclosure)
+            [344] => flock($fp,$operation,$wouldblock)
+            [345] => get_meta_tags($filename,$use_include_path)
+            [346] => stream_set_read_buffer($fp,$buffer)
+            [347] => stream_set_write_buffer($fp,$buffer)
+            [348] => set_file_buffer($fp,$buffer)
+            [349] => stream_set_chunk_size($fp,$chunk_size)
+            [350] => set_socket_blocking($socket,$mode)
+            [351] => stream_set_blocking($socket,$mode)
+            [352] => socket_set_blocking($socket,$mode)
+            [353] => stream_get_meta_data($fp)
+            [354] => stream_get_line($stream,$maxlen,$ending)
+            [355] => stream_wrapper_register($protocol,$classname,$flags)
+            [356] => stream_register_wrapper($protocol,$classname,$flags)
+            [357] => stream_wrapper_unregister($protocol)
+            [358] => stream_wrapper_restore($protocol)
+            [359] => stream_get_wrappers()
+            [360] => stream_get_transports()
+            [361] => stream_resolve_include_path($filename)
+            [362] => stream_is_local($stream)
+            [363] => get_headers($url,$format)
+            [364] => stream_set_timeout($stream,$seconds,$microseconds)
+            [365] => socket_set_timeout($stream,$seconds,$microseconds)
+            [366] => socket_get_status($fp)
+            [367] => realpath($path)
+            [368] => fnmatch($pattern,$filename,$flags)
+            [369] => fsockopen($hostname,$port,$errno,$errstr,$timeout)
+            [370] => pfsockopen($hostname,$port,$errno,$errstr,$timeout)
+            [371] => pack($format,$args)
+            [372] => unpack($format,$input)
+            [373] => get_browser($browser_name,$return_array)
+            [374] => crypt($str,$salt)
+            [375] => opendir($path,$context)
+            [376] => closedir($dir_handle)
+            [377] => chdir($directory)
+            [378] => getcwd()
+            [379] => rewinddir($dir_handle)
+            [380] => readdir($dir_handle)
+            [381] => dir($directory,$context)
+            [382] => scandir($dir,$sorting_order,$context)
+            [383] => glob($pattern,$flags)
+            [384] => fileatime($filename)
+            [385] => filectime($filename)
+            [386] => filegroup($filename)
+            [387] => fileinode($filename)
+            [388] => filemtime($filename)
+            [389] => fileowner($filename)
+            [390] => fileperms($filename)
+            [391] => filesize($filename)
+            [392] => filetype($filename)
+            [393] => file_exists($filename)
+            [394] => is_writable($filename)
+            [395] => is_writeable($filename)
+            [396] => is_readable($filename)
+            [397] => is_executable($filename)
+            [398] => is_file($filename)
+            [399] => is_dir($filename)
+            [400] => is_link($filename)
+            [401] => stat($filename)
+            [402] => lstat($filename)
+            [403] => chown($filename,$user)
+            [404] => chgrp($filename,$group)
+            [405] => lchown($filename,$user)
+            [406] => lchgrp($filename,$group)
+            [407] => chmod($filename,$mode)
+            [408] => touch($filename,$time,$atime)
+            [409] => clearstatcache($clear_realpath_cache,$filename)
+            [410] => disk_total_space($path)
+            [411] => disk_free_space($path)
+            [412] => diskfreespace($path)
+            [413] => realpath_cache_size()
+            [414] => realpath_cache_get()
+            [415] => mail($to,$subject,$message,$additional_headers,$additional_parameters)
+            [416] => ezmlm_hash($addr)
+            [417] => openlog($ident,$option,$facility)
+            [418] => syslog($priority,$message)
+            [419] => closelog()
+            [420] => lcg_value()
+            [421] => metaphone($text,$phones)
+            [422] => ob_start($user_function,$chunk_size,$flags)
+            [423] => ob_flush()
+            [424] => ob_clean()
+            [425] => ob_end_flush()
+            [426] => ob_end_clean()
+            [427] => ob_get_flush()
+            [428] => ob_get_clean()
+            [429] => ob_get_length()
+            [430] => ob_get_level()
+            [431] => ob_get_status($full_status)
+            [432] => ob_get_contents()
+            [433] => ob_implicit_flush($flag)
+            [434] => ob_list_handlers()
+            [435] => ksort($arg,$sort_flags)
+            [436] => krsort($arg,$sort_flags)
+            [437] => natsort($arg)
+            [438] => natcasesort($arg)
+            [439] => asort($arg,$sort_flags)
+            [440] => arsort($arg,$sort_flags)
+            [441] => sort($arg,$sort_flags)
+            [442] => rsort($arg,$sort_flags)
+            [443] => usort($arg,$cmp_function)
+            [444] => uasort($arg,$cmp_function)
+            [445] => uksort($arg,$cmp_function)
+            [446] => shuffle($arg)
+            [447] => array_walk($input,$funcname,$userdata)
+            [448] => array_walk_recursive($input,$funcname,$userdata)
+            [449] => count($var,$mode)
+            [450] => end($arg)
+            [451] => prev($arg)
+            [452] => next($arg)
+            [453] => reset($arg)
+            [454] => current($arg)
+            [455] => key($arg)
+            [456] => min($args)
+            [457] => max($args)
+            [458] => in_array($needle,$haystack,$strict)
+            [459] => array_search($needle,$haystack,$strict)
+            [460] => extract($arg,$extract_type,$prefix)
+            [461] => compact($var_names)
+            [462] => array_fill($start_key,$num,$val)
+            [463] => array_fill_keys($keys,$val)
+            [464] => range($low,$high,$step)
+            [465] => array_multisort($arr1,$sort_order,$sort_flags,$arr2)
+            [466] => array_push($stack,$vars)
+            [467] => array_pop($stack)
+            [468] => array_shift($stack)
+            [469] => array_unshift($stack,$vars)
+            [470] => array_splice($arg,$offset,$length,$replacement)
+            [471] => array_slice($arg,$offset,$length,$preserve_keys)
+            [472] => array_merge($arr1,$arrays)
+            [473] => array_merge_recursive($arr1,$arrays)
+            [474] => array_replace($arr1,$arrays)
+            [475] => array_replace_recursive($arr1,$arrays)
+            [476] => array_keys($arg,$search_value,$strict)
+            [477] => array_values($arg)
+            [478] => array_count_values($arg)
+            [479] => array_column($arg,$column_key,$index_key)
+            [480] => array_reverse($input,$preserve_keys)
+            [481] => array_reduce($arg,$callback,$initial)
+            [482] => array_pad($arg,$pad_size,$pad_value)
+            [483] => array_flip($arg)
+            [484] => array_change_key_case($input,$case)
+            [485] => array_rand($arg,$num_req)
+            [486] => array_unique($arg,$flags)
+            [487] => array_intersect($arr1,$arrays)
+            [488] => array_intersect_key($arr1,$arrays)
+            [489] => array_intersect_ukey($arr1,$arr2,$callback_key_compare_func)
+            [490] => array_uintersect($arr1,$arr2,$callback_data_compare_func)
+            [491] => array_intersect_assoc($arr1,$arrays)
+            [492] => array_uintersect_assoc($arr1,$arr2,$callback_data_compare_func)
+            [493] => array_intersect_uassoc($arr1,$arr2,$callback_key_compare_func)
+            [494] => array_uintersect_uassoc($arr1,$arr2,$callback_data_compare_func,$callback_key_compare_func)
+            [495] => array_diff($arr1,$arrays)
+            [496] => array_diff_key($arr1,$arrays)
+            [497] => array_diff_ukey($arr1,$arr2,$callback_key_comp_func)
+            [498] => array_udiff($arr1,$arr2,$callback_data_comp_func)
+            [499] => array_diff_assoc($arr1,$arrays)
+            [500] => array_udiff_assoc($arr1,$arr2,$callback_key_comp_func)
+            [501] => array_diff_uassoc($arr1,$arr2,$callback_data_comp_func)
+            [502] => array_udiff_uassoc($arr1,$arr2,$callback_data_comp_func,$callback_key_comp_func)
+            [503] => array_sum($arg)
+            [504] => array_product($arg)
+            [505] => array_filter($arg,$callback,$use_keys)
+            [506] => array_map($callback,$arrays)
+            [507] => array_chunk($arg,$size,$preserve_keys)
+            [508] => array_combine($keys,$values)
+            [509] => array_key_exists($key,$search)
+            [510] => pos($arg)
+            [511] => sizeof($var,$mode)
+            [512] => key_exists($key,$search)
+            [513] => assert($assertion)
+            [514] => assert_options($what,$value)
+            [515] => version_compare($ver1,$ver2,$oper)
+            [516] => ftok($pathname,$proj)
+            [517] => str_rot13($str)
+            [518] => stream_get_filters()
+            [519] => stream_filter_register($filtername,$classname)
+            [520] => stream_bucket_make_writeable($brigade)
+            [521] => stream_bucket_prepend($brigade,$bucket)
+            [522] => stream_bucket_append($brigade,$bucket)
+            [523] => stream_bucket_new($stream,$buffer)
+            [524] => output_add_rewrite_var($name,$value)
+            [525] => output_reset_rewrite_vars()
+            [526] => sys_get_temp_dir()
+            [527] => dl($extension_filename)
+            [528] => cli_set_process_title($title)
+            [529] => cli_get_process_title()
+        )
+
+    [pcntl] => Array
+        (
+            [0] => pcntl_fork()
+            [1] => pcntl_waitpid($pid,$status,$options)
+            [2] => pcntl_wait($status,$options)
+            [3] => pcntl_signal($signo,$handler,$restart_syscalls)
+            [4] => pcntl_signal_dispatch()
+            [5] => pcntl_wifexited($status)
+            [6] => pcntl_wifstopped($status)
+            [7] => pcntl_wifsignaled($status)
+            [8] => pcntl_wexitstatus($status)
+            [9] => pcntl_wtermsig($status)
+            [10] => pcntl_wstopsig($status)
+            [11] => pcntl_exec($path,$args,$envs)
+            [12] => pcntl_alarm($seconds)
+            [13] => pcntl_get_last_error()
+            [14] => pcntl_errno()
+            [15] => pcntl_strerror($errno)
+            [16] => pcntl_getpriority($pid,$process_identifier)
+            [17] => pcntl_setpriority($priority,$pid,$process_identifier)
+            [18] => pcntl_sigprocmask($how,$set,$oldset)
+            [19] => pcntl_sigwaitinfo($set,$info)
+            [20] => pcntl_sigtimedwait($set,$info,$seconds,$nanoseconds)
+        )
+
+    [PDO] => Array
+        (
+            [0] => pdo_drivers()
+        )
+
+    [posix] => Array
+        (
+            [0] => posix_kill($pid,$sig)
+            [1] => posix_getpid()
+            [2] => posix_getppid()
+            [3] => posix_getuid()
+            [4] => posix_setuid($uid)
+            [5] => posix_geteuid()
+            [6] => posix_seteuid($uid)
+            [7] => posix_getgid()
+            [8] => posix_setgid($gid)
+            [9] => posix_getegid()
+            [10] => posix_setegid($gid)
+            [11] => posix_getgroups()
+            [12] => posix_getlogin()
+            [13] => posix_getpgrp()
+            [14] => posix_setsid()
+            [15] => posix_setpgid($pid,$pgid)
+            [16] => posix_getpgid($pid)
+            [17] => posix_getsid($pid)
+            [18] => posix_uname()
+            [19] => posix_times()
+            [20] => posix_ctermid()
+            [21] => posix_ttyname($fd)
+            [22] => posix_isatty($fd)
+            [23] => posix_getcwd()
+            [24] => posix_mkfifo($pathname,$mode)
+            [25] => posix_mknod($pathname,$mode,$major,$minor)
+            [26] => posix_access($file,$mode)
+            [27] => posix_getgrnam($name)
+            [28] => posix_getgrgid($gid)
+            [29] => posix_getpwnam($username)
+            [30] => posix_getpwuid($uid)
+            [31] => posix_getrlimit()
+            [32] => posix_get_last_error()
+            [33] => posix_errno()
+            [34] => posix_strerror($errno)
+            [35] => posix_initgroups($name,$base_group_id)
+        )
+
+    [mysql] => Array
+        (
+            [0] => mysql_connect($hostname,$username,$password,$new,$flags)
+            [1] => mysql_pconnect($hostname,$username,$password,$flags)
+            [2] => mysql_close($link_identifier)
+            [3] => mysql_select_db($database_name,$link_identifier)
+            [4] => mysql_query($query,$link_identifier)
+            [5] => mysql_unbuffered_query($query,$link_identifier)
+            [6] => mysql_db_query($database_name,$query,$link_identifier)
+            [7] => mysql_list_dbs($link_identifier)
+            [8] => mysql_list_tables($database_name,$link_identifier)
+            [9] => mysql_list_fields($database_name,$table_name,$link_identifier)
+            [10] => mysql_list_processes($link_identifier)
+            [11] => mysql_error($link_identifier)
+            [12] => mysql_errno($link_identifier)
+            [13] => mysql_affected_rows($link_identifier)
+            [14] => mysql_insert_id($link_identifier)
+            [15] => mysql_result($result,$row,$field)
+            [16] => mysql_num_rows($result)
+            [17] => mysql_num_fields($result)
+            [18] => mysql_fetch_row($result)
+            [19] => mysql_fetch_array($result,$result_type)
+            [20] => mysql_fetch_assoc($result)
+            [21] => mysql_fetch_object($result,$class_name,$ctor_params)
+            [22] => mysql_data_seek($result,$row_number)
+            [23] => mysql_fetch_lengths($result)
+            [24] => mysql_fetch_field($result,$field_offset)
+            [25] => mysql_field_seek($result,$field_offset)
+            [26] => mysql_free_result($result)
+            [27] => mysql_field_name($result,$field_index)
+            [28] => mysql_field_table($result,$field_offset)
+            [29] => mysql_field_len($result,$field_offset)
+            [30] => mysql_field_type($result,$field_offset)
+            [31] => mysql_field_flags($result,$field_offset)
+            [32] => mysql_escape_string($string)
+            [33] => mysql_real_escape_string($string,$link_identifier)
+            [34] => mysql_stat($link_identifier)
+            [35] => mysql_thread_id($link_identifier)
+            [36] => mysql_client_encoding($link_identifier)
+            [37] => mysql_ping($link_identifier)
+            [38] => mysql_get_client_info()
+            [39] => mysql_get_host_info($link_identifier)
+            [40] => mysql_get_proto_info($link_identifier)
+            [41] => mysql_get_server_info($link_identifier)
+            [42] => mysql_info($link_identifier)
+            [43] => mysql_set_charset($charset_name,$link_identifier)
+            [44] => mysql($database_name,$query,$link_identifier)
+            [45] => mysql_fieldname($result,$field_index)
+            [46] => mysql_fieldtable($result,$field_offset)
+            [47] => mysql_fieldlen($result,$field_offset)
+            [48] => mysql_fieldtype($result,$field_offset)
+            [49] => mysql_fieldflags($result,$field_offset)
+            [50] => mysql_selectdb($database_name,$link_identifier)
+            [51] => mysql_freeresult($result)
+            [52] => mysql_numfields($result)
+            [53] => mysql_numrows($result)
+            [54] => mysql_listdbs($link_identifier)
+            [55] => mysql_listtables($database_name,$link_identifier)
+            [56] => mysql_listfields($database_name,$table_name,$link_identifier)
+            [57] => mysql_db_name($result,$row,$field)
+            [58] => mysql_dbname($result,$row,$field)
+            [59] => mysql_tablename($result,$row,$field)
+            [60] => mysql_table_name($result,$row,$field)
+        )
+
+    [shmop] => Array
+        (
+            [0] => shmop_open($key,$flags,$mode,$size)
+            [1] => shmop_read($shmid,$start,$count)
+            [2] => shmop_close($shmid)
+            [3] => shmop_size($shmid)
+            [4] => shmop_write($shmid,$data,$offset)
+            [5] => shmop_delete($shmid)
+        )
+
+    [SimpleXML] => Array
+        (
+            [0] => simplexml_load_file($filename,$class_name,$options,$ns,$is_prefix)
+            [1] => simplexml_load_string($data,$class_name,$options,$ns,$is_prefix)
+            [2] => simplexml_import_dom($node,$class_name)
+        )
+
+    [soap] => Array
+        (
+            [0] => use_soap_error_handler($handler)
+            [1] => is_soap_fault($object)
+        )
+
+    [sockets] => Array
+        (
+            [0] => socket_select($read_fds,$write_fds,$except_fds,$tv_sec,$tv_usec)
+            [1] => socket_create($domain,$type,$protocol)
+            [2] => socket_create_listen($port,$backlog)
+            [3] => socket_create_pair($domain,$type,$protocol,$fd)
+            [4] => socket_accept($socket)
+            [5] => socket_set_nonblock($socket)
+            [6] => socket_set_block($socket)
+            [7] => socket_listen($socket,$backlog)
+            [8] => socket_close($socket)
+            [9] => socket_write($socket,$buf,$length)
+            [10] => socket_read($socket,$length,$type)
+            [11] => socket_getsockname($socket,$addr,$port)
+            [12] => socket_getpeername($socket,$addr,$port)
+            [13] => socket_connect($socket,$addr,$port)
+            [14] => socket_strerror($errno)
+            [15] => socket_bind($socket,$addr,$port)
+            [16] => socket_recv($socket,$buf,$len,$flags)
+            [17] => socket_send($socket,$buf,$len,$flags)
+            [18] => socket_recvfrom($socket,$buf,$len,$flags,$name,$port)
+            [19] => socket_sendto($socket,$buf,$len,$flags,$addr,$port)
+            [20] => socket_get_option($socket,$level,$optname)
+            [21] => socket_set_option($socket,$level,$optname,$optval)
+            [22] => socket_shutdown($socket,$how)
+            [23] => socket_last_error($socket)
+            [24] => socket_clear_error($socket)
+            [25] => socket_import_stream($stream)
+            [26] => socket_sendmsg($socket,$msghdr,$flags)
+            [27] => socket_recvmsg($socket,$msghdr,$flags)
+            [28] => socket_cmsg_space($level,$type)
+            [29] => socket_getopt($socket,$level,$optname)
+            [30] => socket_setopt($socket,$level,$optname,$optval)
+        )
+
+    [exif] => Array
+        (
+            [0] => exif_read_data($filename,$sections_needed,$sub_arrays,$read_thumbnail)
+            [1] => read_exif_data($filename,$sections_needed,$sub_arrays,$read_thumbnail)
+            [2] => exif_tagname($index)
+            [3] => exif_thumbnail($filename,$width,$height,$imagetype)
+            [4] => exif_imagetype($imagefile)
+        )
+
+    [sysvsem] => Array
+        (
+            [0] => sem_get($key,$max_acquire,$perm,$auto_release)
+            [1] => sem_acquire($sem_identifier,$nowait)
+            [2] => sem_release($sem_identifier)
+            [3] => sem_remove($sem_identifier)
+        )
+
+    [tidy] => Array
+        (
+            [0] => tidy_getopt($option)
+            [1] => tidy_parse_string($input,$config_options,$encoding)
+            [2] => tidy_parse_file($file,$config_options,$encoding,$use_include_path)
+            [3] => tidy_get_output()
+            [4] => tidy_get_error_buffer()
+            [5] => tidy_clean_repair()
+            [6] => tidy_repair_string($data,$config_file,$encoding)
+            [7] => tidy_repair_file($filename,$config_file,$encoding,$use_include_path)
+            [8] => tidy_diagnose()
+            [9] => tidy_get_release()
+            [10] => tidy_get_config()
+            [11] => tidy_get_status()
+            [12] => tidy_get_html_ver()
+            [13] => tidy_is_xhtml()
+            [14] => tidy_is_xml()
+            [15] => tidy_error_count()
+            [16] => tidy_warning_count()
+            [17] => tidy_access_count()
+            [18] => tidy_config_count()
+            [19] => tidy_get_opt_doc($resource,$optname)
+            [20] => tidy_get_root()
+            [21] => tidy_get_head()
+            [22] => tidy_get_html()
+            [23] => tidy_get_body($tidy)
+        )
+
+    [tokenizer] => Array
+        (
+            [0] => token_get_all($source)
+            [1] => token_name($token)
+        )
+
+    [xml] => Array
+        (
+            [0] => xml_parser_create($encoding)
+            [1] => xml_parser_create_ns($encoding,$sep)
+            [2] => xml_set_object($parser,$obj)
+            [3] => xml_set_element_handler($parser,$shdl,$ehdl)
+            [4] => xml_set_character_data_handler($parser,$hdl)
+            [5] => xml_set_processing_instruction_handler($parser,$hdl)
+            [6] => xml_set_default_handler($parser,$hdl)
+            [7] => xml_set_unparsed_entity_decl_handler($parser,$hdl)
+            [8] => xml_set_notation_decl_handler($parser,$hdl)
+            [9] => xml_set_external_entity_ref_handler($parser,$hdl)
+            [10] => xml_set_start_namespace_decl_handler($parser,$hdl)
+            [11] => xml_set_end_namespace_decl_handler($parser,$hdl)
+            [12] => xml_parse($parser,$data,$isfinal)
+            [13] => xml_parse_into_struct($parser,$data,$values,$index)
+            [14] => xml_get_error_code($parser)
+            [15] => xml_error_string($code)
+            [16] => xml_get_current_line_number($parser)
+            [17] => xml_get_current_column_number($parser)
+            [18] => xml_get_current_byte_index($parser)
+            [19] => xml_parser_free($parser)
+            [20] => xml_parser_set_option($parser,$option,$value)
+            [21] => xml_parser_get_option($parser,$option)
+            [22] => utf8_encode($data)
+            [23] => utf8_decode($data)
+        )
+
+    [xmlrpc] => Array
+        (
+            [0] => xmlrpc_encode($value)
+            [1] => xmlrpc_decode($value,$encoding)
+            [2] => xmlrpc_decode_request($xml,$method,$encoding)
+            [3] => xmlrpc_encode_request($method,$params,$output_options)
+            [4] => xmlrpc_get_type($value)
+            [5] => xmlrpc_set_type($value,$type)
+            [6] => xmlrpc_is_fault($arg)
+            [7] => xmlrpc_server_create()
+            [8] => xmlrpc_server_destroy($server)
+            [9] => xmlrpc_server_register_method($server,$method_name,$function)
+            [10] => xmlrpc_server_call_method($server,$xml,$user_data,$output_options)
+            [11] => xmlrpc_parse_method_descriptions($xml)
+            [12] => xmlrpc_server_add_introspection_data($server,$desc)
+            [13] => xmlrpc_server_register_introspection_callback($server,$function)
+        )
+
+    [xmlwriter] => Array
+        (
+            [0] => xmlwriter_open_uri($uri)
+            [1] => xmlwriter_open_memory()
+            [2] => xmlwriter_set_indent($xmlwriter,$indent)
+            [3] => xmlwriter_set_indent_string($xmlwriter,$indentString)
+            [4] => xmlwriter_start_comment($xmlwriter)
+            [5] => xmlwriter_end_comment($xmlwriter)
+            [6] => xmlwriter_start_attribute($xmlwriter,$name)
+            [7] => xmlwriter_end_attribute($xmlwriter)
+            [8] => xmlwriter_write_attribute($xmlwriter,$name,$value)
+            [9] => xmlwriter_start_attribute_ns($xmlwriter,$prefix,$name,$uri)
+            [10] => xmlwriter_write_attribute_ns($xmlwriter,$prefix,$name,$uri,$content)
+            [11] => xmlwriter_start_element($xmlwriter,$name)
+            [12] => xmlwriter_end_element($xmlwriter)
+            [13] => xmlwriter_full_end_element($xmlwriter)
+            [14] => xmlwriter_start_element_ns($xmlwriter,$prefix,$name,$uri)
+            [15] => xmlwriter_write_element($xmlwriter,$name,$content)
+            [16] => xmlwriter_write_element_ns($xmlwriter,$prefix,$name,$uri,$content)
+            [17] => xmlwriter_start_pi($xmlwriter,$target)
+            [18] => xmlwriter_end_pi($xmlwriter)
+            [19] => xmlwriter_write_pi($xmlwriter,$target,$content)
+            [20] => xmlwriter_start_cdata($xmlwriter)
+            [21] => xmlwriter_end_cdata($xmlwriter)
+            [22] => xmlwriter_write_cdata($xmlwriter,$content)
+            [23] => xmlwriter_text($xmlwriter,$content)
+            [24] => xmlwriter_write_raw($xmlwriter,$content)
+            [25] => xmlwriter_start_document($xmlwriter,$version,$encoding,$standalone)
+            [26] => xmlwriter_end_document($xmlwriter)
+            [27] => xmlwriter_write_comment($xmlwriter,$content)
+            [28] => xmlwriter_start_dtd($xmlwriter,$qualifiedName,$publicId,$systemId)
+            [29] => xmlwriter_end_dtd($xmlwriter)
+            [30] => xmlwriter_write_dtd($xmlwriter,$name,$publicId,$systemId,$subset)
+            [31] => xmlwriter_start_dtd_element($xmlwriter,$qualifiedName)
+            [32] => xmlwriter_end_dtd_element($xmlwriter)
+            [33] => xmlwriter_write_dtd_element($xmlwriter,$name,$content)
+            [34] => xmlwriter_start_dtd_attlist($xmlwriter,$name)
+            [35] => xmlwriter_end_dtd_attlist($xmlwriter)
+            [36] => xmlwriter_write_dtd_attlist($xmlwriter,$name,$content)
+            [37] => xmlwriter_start_dtd_entity($xmlwriter,$name,$isparam)
+            [38] => xmlwriter_end_dtd_entity($xmlwriter)
+            [39] => xmlwriter_write_dtd_entity($xmlwriter,$name,$content)
+            [40] => xmlwriter_output_memory($xmlwriter,$flush)
+            [41] => xmlwriter_flush($xmlwriter,$empty)
+        )
+
+    [zip] => Array
+        (
+            [0] => zip_open($filename)
+            [1] => zip_close($zip)
+            [2] => zip_read($zip)
+            [3] => zip_entry_open($zip_dp,$zip_entry,$mode)
+            [4] => zip_entry_close($zip_ent)
+            [5] => zip_entry_read($zip_entry,$len)
+            [6] => zip_entry_filesize($zip_entry)
+            [7] => zip_entry_name($zip_entry)
+            [8] => zip_entry_compressedsize($zip_entry)
+            [9] => zip_entry_compressionmethod($zip_entry)
+        )
+
+    [raphf] => Array
+        (
+            [0] => raphf\stat_persistent_handles()
+            [1] => raphf\clean_persistent_handles($name,$ident)
+        )
+
+    [apcu] => Array
+        (
+            [0] => apcu_cache_info($type,$limited)
+            [1] => apcu_clear_cache($cache)
+            [2] => apcu_sma_info($limited)
+            [3] => apcu_key_info($key)
+            [4] => apcu_enabled()
+            [5] => apcu_store($key,$var,$ttl)
+            [6] => apcu_fetch($key,$success)
+            [7] => apcu_delete($keys)
+            [8] => apcu_add($key,$var,$ttl)
+            [9] => apcu_inc($key,$step,$success)
+            [10] => apcu_dec($key,$step,$success)
+            [11] => apcu_cas($key,$old,$new)
+            [12] => apcu_exists($keys)
+            [13] => apcu_bin_dump($user_vars)
+            [14] => apcu_bin_load($data,$flags)
+            [15] => apcu_bin_dumpfile($user_vars,$filename,$flags,$context)
+            [16] => apcu_bin_loadfile($filename,$context,$flags)
+        )
+
+    [igbinary] => Array
+        (
+            [0] => igbinary_serialize($value)
+            [1] => igbinary_unserialize($str)
+        )
+
+    [scws] => Array
+        (
+            [0] => scws_open()
+            [1] => scws_new()
+            [2] => scws_close()
+            [3] => scws_set_charset()
+            [4] => scws_add_dict()
+            [5] => scws_set_dict()
+            [6] => scws_set_rule()
+            [7] => scws_set_ignore()
+            [8] => scws_set_multi()
+            [9] => scws_set_duality()
+            [10] => scws_send_text()
+            [11] => scws_get_result()
+            [12] => scws_get_tops()
+            [13] => scws_has_word()
+            [14] => scws_get_words()
+            [15] => scws_version()
+        )
+
+    [apc] => Array
+        (
+            [0] => apc_cache_info($type,$limited)
+            [1] => apc_clear_cache($cache)
+            [2] => apc_sma_info($limited)
+            [3] => apc_store($key,$var,$ttl)
+            [4] => apc_fetch($key,$success)
+            [5] => apc_delete($keys)
+            [6] => apc_add($key,$var,$ttl)
+            [7] => apc_inc($key,$step,$success)
+            [8] => apc_dec($key,$step,$success)
+            [9] => apc_cas($key,$old,$new)
+            [10] => apc_exists($keys)
+            [11] => apc_bin_dump($files,$user_vars)
+            [12] => apc_bin_dumpfile($files,$user_vars,$filename,$flags,$context)
+            [13] => apc_bin_load($data,$flags)
+            [14] => apc_bin_loadfile($filename,$context,$flags)
+        )
+
+    [Zend OPcache] => Array
+        (
+            [0] => opcache_reset()
+            [1] => opcache_invalidate($script,$force)
+            [2] => opcache_compile_file($file)
+            [3] => opcache_is_script_cached($script)
+            [4] => opcache_get_configuration()
+            [5] => opcache_get_status($fetch_scripts)
+        )
+
+    [xdebug] => Array
+        (
+            [0] => xdebug_get_stack_depth()
+            [1] => xdebug_get_function_stack()
+            [2] => xdebug_get_formatted_function_stack()
+            [3] => xdebug_print_function_stack($message,$options)
+            [4] => xdebug_get_declared_vars()
+            [5] => xdebug_call_class($depth)
+            [6] => xdebug_call_function($depth)
+            [7] => xdebug_call_file($depth)
+            [8] => xdebug_call_line($depth)
+            [9] => xdebug_var_dump($var)
+            [10] => xdebug_debug_zval($var)
+            [11] => xdebug_debug_zval_stdout($var)
+            [12] => xdebug_enable()
+            [13] => xdebug_disable()
+            [14] => xdebug_is_enabled()
+            [15] => xdebug_break()
+            [16] => xdebug_start_trace($fname,$options)
+            [17] => xdebug_stop_trace()
+            [18] => xdebug_get_tracefile_name()
+            [19] => xdebug_get_profiler_filename()
+            [20] => xdebug_dump_aggr_profiling_data($prefix)
+            [21] => xdebug_clear_aggr_profiling_data()
+            [22] => xdebug_memory_usage()
+            [23] => xdebug_peak_memory_usage()
+            [24] => xdebug_time_index()
+            [25] => xdebug_start_error_collection()
+            [26] => xdebug_stop_error_collection()
+            [27] => xdebug_get_collected_errors($clear)
+            [28] => xdebug_start_function_monitor($functions_to_monitor)
+            [29] => xdebug_stop_function_monitor()
+            [30] => xdebug_get_monitored_functions($clear)
+            [31] => xdebug_start_code_coverage($options)
+            [32] => xdebug_stop_code_coverage($cleanup)
+            [33] => xdebug_get_code_coverage()
+            [34] => xdebug_code_coverage_started()
+            [35] => xdebug_get_function_count()
+            [36] => xdebug_dump_superglobals()
+            [37] => xdebug_get_headers()
+        )
+
+)
+array(2) {
+  ["internal"]=>
+  array(1681) {
+    [0]=>
+    string(12) "zend_version"
+    [1]=>
+    string(13) "func_num_args"
+    [2]=>
+    string(12) "func_get_arg"
+    [3]=>
+    string(13) "func_get_args"
+    [4]=>
+    string(6) "strlen"
+    [5]=>
+    string(6) "strcmp"
+    [6]=>
+    string(7) "strncmp"
+    [7]=>
+    string(10) "strcasecmp"
+    [8]=>
+    string(11) "strncasecmp"
+    [9]=>
+    string(4) "each"
+    [10]=>
+    string(15) "error_reporting"
+    [11]=>
+    string(6) "define"
+    [12]=>
+    string(7) "defined"
+    [13]=>
+    string(9) "get_class"
+    [14]=>
+    string(16) "get_called_class"
+    [15]=>
+    string(16) "get_parent_class"
+    [16]=>
+    string(13) "method_exists"
+    [17]=>
+    string(15) "property_exists"
+    [18]=>
+    string(12) "class_exists"
+    [19]=>
+    string(16) "interface_exists"
+    [20]=>
+    string(12) "trait_exists"
+    [21]=>
+    string(15) "function_exists"
+    [22]=>
+    string(11) "class_alias"
+    [23]=>
+    string(18) "get_included_files"
+    [24]=>
+    string(18) "get_required_files"
+    [25]=>
+    string(14) "is_subclass_of"
+    [26]=>
+    string(4) "is_a"
+    [27]=>
+    string(14) "get_class_vars"
+    [28]=>
+    string(15) "get_object_vars"
+    [29]=>
+    string(17) "get_class_methods"
+    [30]=>
+    string(13) "trigger_error"
+    [31]=>
+    string(10) "user_error"
+    [32]=>
+    string(17) "set_error_handler"
+    [33]=>
+    string(21) "restore_error_handler"
+    [34]=>
+    string(21) "set_exception_handler"
+    [35]=>
+    string(25) "restore_exception_handler"
+    [36]=>
+    string(20) "get_declared_classes"
+    [37]=>
+    string(19) "get_declared_traits"
+    [38]=>
+    string(23) "get_declared_interfaces"
+    [39]=>
+    string(21) "get_defined_functions"
+    [40]=>
+    string(16) "get_defined_vars"
+    [41]=>
+    string(15) "create_function"
+    [42]=>
+    string(17) "get_resource_type"
+    [43]=>
+    string(21) "get_loaded_extensions"
+    [44]=>
+    string(16) "extension_loaded"
+    [45]=>
+    string(19) "get_extension_funcs"
+    [46]=>
+    string(21) "get_defined_constants"
+    [47]=>
+    string(15) "debug_backtrace"
+    [48]=>
+    string(21) "debug_print_backtrace"
+    [49]=>
+    string(17) "gc_collect_cycles"
+    [50]=>
+    string(10) "gc_enabled"
+    [51]=>
+    string(9) "gc_enable"
+    [52]=>
+    string(10) "gc_disable"
+    [53]=>
+    string(9) "strtotime"
+    [54]=>
+    string(4) "date"
+    [55]=>
+    string(5) "idate"
+    [56]=>
+    string(6) "gmdate"
+    [57]=>
+    string(6) "mktime"
+    [58]=>
+    string(8) "gmmktime"
+    [59]=>
+    string(9) "checkdate"
+    [60]=>
+    string(8) "strftime"
+    [61]=>
+    string(10) "gmstrftime"
+    [62]=>
+    string(4) "time"
+    [63]=>
+    string(9) "localtime"
+    [64]=>
+    string(7) "getdate"
+    [65]=>
+    string(11) "date_create"
+    [66]=>
+    string(21) "date_create_immutable"
+    [67]=>
+    string(23) "date_create_from_format"
+    [68]=>
+    string(33) "date_create_immutable_from_format"
+    [69]=>
+    string(10) "date_parse"
+    [70]=>
+    string(22) "date_parse_from_format"
+    [71]=>
+    string(20) "date_get_last_errors"
+    [72]=>
+    string(11) "date_format"
+    [73]=>
+    string(11) "date_modify"
+    [74]=>
+    string(8) "date_add"
+    [75]=>
+    string(8) "date_sub"
+    [76]=>
+    string(17) "date_timezone_get"
+    [77]=>
+    string(17) "date_timezone_set"
+    [78]=>
+    string(15) "date_offset_get"
+    [79]=>
+    string(9) "date_diff"
+    [80]=>
+    string(13) "date_time_set"
+    [81]=>
+    string(13) "date_date_set"
+    [82]=>
+    string(16) "date_isodate_set"
+    [83]=>
+    string(18) "date_timestamp_set"
+    [84]=>
+    string(18) "date_timestamp_get"
+    [85]=>
+    string(13) "timezone_open"
+    [86]=>
+    string(17) "timezone_name_get"
+    [87]=>
+    string(23) "timezone_name_from_abbr"
+    [88]=>
+    string(19) "timezone_offset_get"
+    [89]=>
+    string(24) "timezone_transitions_get"
+    [90]=>
+    string(21) "timezone_location_get"
+    [91]=>
+    string(25) "timezone_identifiers_list"
+    [92]=>
+    string(27) "timezone_abbreviations_list"
+    [93]=>
+    string(20) "timezone_version_get"
+    [94]=>
+    string(37) "date_interval_create_from_date_string"
+    [95]=>
+    string(20) "date_interval_format"
+    [96]=>
+    string(25) "date_default_timezone_set"
+    [97]=>
+    string(25) "date_default_timezone_get"
+    [98]=>
+    string(12) "date_sunrise"
+    [99]=>
+    string(11) "date_sunset"
+    [100]=>
+    string(13) "date_sun_info"
+    [101]=>
+    string(4) "ereg"
+    [102]=>
+    string(12) "ereg_replace"
+    [103]=>
+    string(5) "eregi"
+    [104]=>
+    string(13) "eregi_replace"
+    [105]=>
+    string(5) "split"
+    [106]=>
+    string(6) "spliti"
+    [107]=>
+    string(11) "sql_regcase"
+    [108]=>
+    string(26) "libxml_set_streams_context"
+    [109]=>
+    string(26) "libxml_use_internal_errors"
+    [110]=>
+    string(21) "libxml_get_last_error"
+    [111]=>
+    string(19) "libxml_clear_errors"
+    [112]=>
+    string(17) "libxml_get_errors"
+    [113]=>
+    string(28) "libxml_disable_entity_loader"
+    [114]=>
+    string(33) "libxml_set_external_entity_loader"
+    [115]=>
+    string(26) "openssl_get_cert_locations"
+    [116]=>
+    string(16) "openssl_spki_new"
+    [117]=>
+    string(19) "openssl_spki_verify"
+    [118]=>
+    string(19) "openssl_spki_export"
+    [119]=>
+    string(29) "openssl_spki_export_challenge"
+    [120]=>
+    string(17) "openssl_pkey_free"
+    [121]=>
+    string(16) "openssl_pkey_new"
+    [122]=>
+    string(19) "openssl_pkey_export"
+    [123]=>
+    string(27) "openssl_pkey_export_to_file"
+    [124]=>
+    string(24) "openssl_pkey_get_private"
+    [125]=>
+    string(23) "openssl_pkey_get_public"
+    [126]=>
+    string(24) "openssl_pkey_get_details"
+    [127]=>
+    string(16) "openssl_free_key"
+    [128]=>
+    string(22) "openssl_get_privatekey"
+    [129]=>
+    string(21) "openssl_get_publickey"
+    [130]=>
+    string(17) "openssl_x509_read"
+    [131]=>
+    string(17) "openssl_x509_free"
+    [132]=>
+    string(18) "openssl_x509_parse"
+    [133]=>
+    string(25) "openssl_x509_checkpurpose"
+    [134]=>
+    string(30) "openssl_x509_check_private_key"
+    [135]=>
+    string(19) "openssl_x509_export"
+    [136]=>
+    string(24) "openssl_x509_fingerprint"
+    [137]=>
+    string(27) "openssl_x509_export_to_file"
+    [138]=>
+    string(21) "openssl_pkcs12_export"
+    [139]=>
+    string(29) "openssl_pkcs12_export_to_file"
+    [140]=>
+    string(19) "openssl_pkcs12_read"
+    [141]=>
+    string(15) "openssl_csr_new"
+    [142]=>
+    string(18) "openssl_csr_export"
+    [143]=>
+    string(26) "openssl_csr_export_to_file"
+    [144]=>
+    string(16) "openssl_csr_sign"
+    [145]=>
+    string(23) "openssl_csr_get_subject"
+    [146]=>
+    string(26) "openssl_csr_get_public_key"
+    [147]=>
+    string(14) "openssl_digest"
+    [148]=>
+    string(15) "openssl_encrypt"
+    [149]=>
+    string(15) "openssl_decrypt"
+    [150]=>
+    string(24) "openssl_cipher_iv_length"
+    [151]=>
+    string(12) "openssl_sign"
+    [152]=>
+    string(14) "openssl_verify"
+    [153]=>
+    string(12) "openssl_seal"
+    [154]=>
+    string(12) "openssl_open"
+    [155]=>
+    string(14) "openssl_pbkdf2"
+    [156]=>
+    string(20) "openssl_pkcs7_verify"
+    [157]=>
+    string(21) "openssl_pkcs7_decrypt"
+    [158]=>
+    string(18) "openssl_pkcs7_sign"
+    [159]=>
+    string(21) "openssl_pkcs7_encrypt"
+    [160]=>
+    string(23) "openssl_private_encrypt"
+    [161]=>
+    string(23) "openssl_private_decrypt"
+    [162]=>
+    string(22) "openssl_public_encrypt"
+    [163]=>
+    string(22) "openssl_public_decrypt"
+    [164]=>
+    string(22) "openssl_get_md_methods"
+    [165]=>
+    string(26) "openssl_get_cipher_methods"
+    [166]=>
+    string(22) "openssl_dh_compute_key"
+    [167]=>
+    string(27) "openssl_random_pseudo_bytes"
+    [168]=>
+    string(20) "openssl_error_string"
+    [169]=>
+    string(10) "preg_match"
+    [170]=>
+    string(14) "preg_match_all"
+    [171]=>
+    string(12) "preg_replace"
+    [172]=>
+    string(21) "preg_replace_callback"
+    [173]=>
+    string(11) "preg_filter"
+    [174]=>
+    string(10) "preg_split"
+    [175]=>
+    string(10) "preg_quote"
+    [176]=>
+    string(9) "preg_grep"
+    [177]=>
+    string(15) "preg_last_error"
+    [178]=>
+    string(10) "readgzfile"
+    [179]=>
+    string(8) "gzrewind"
+    [180]=>
+    string(7) "gzclose"
+    [181]=>
+    string(5) "gzeof"
+    [182]=>
+    string(6) "gzgetc"
+    [183]=>
+    string(6) "gzgets"
+    [184]=>
+    string(7) "gzgetss"
+    [185]=>
+    string(6) "gzread"
+    [186]=>
+    string(6) "gzopen"
+    [187]=>
+    string(10) "gzpassthru"
+    [188]=>
+    string(6) "gzseek"
+    [189]=>
+    string(6) "gztell"
+    [190]=>
+    string(7) "gzwrite"
+    [191]=>
+    string(6) "gzputs"
+    [192]=>
+    string(6) "gzfile"
+    [193]=>
+    string(10) "gzcompress"
+    [194]=>
+    string(12) "gzuncompress"
+    [195]=>
+    string(9) "gzdeflate"
+    [196]=>
+    string(9) "gzinflate"
+    [197]=>
+    string(8) "gzencode"
+    [198]=>
+    string(8) "gzdecode"
+    [199]=>
+    string(11) "zlib_encode"
+    [200]=>
+    string(11) "zlib_decode"
+    [201]=>
+    string(20) "zlib_get_coding_type"
+    [202]=>
+    string(12) "ob_gzhandler"
+    [203]=>
+    string(5) "bcadd"
+    [204]=>
+    string(5) "bcsub"
+    [205]=>
+    string(5) "bcmul"
+    [206]=>
+    string(5) "bcdiv"
+    [207]=>
+    string(5) "bcmod"
+    [208]=>
+    string(5) "bcpow"
+    [209]=>
+    string(6) "bcsqrt"
+    [210]=>
+    string(7) "bcscale"
+    [211]=>
+    string(6) "bccomp"
+    [212]=>
+    string(8) "bcpowmod"
+    [213]=>
+    string(6) "bzopen"
+    [214]=>
+    string(6) "bzread"
+    [215]=>
+    string(7) "bzwrite"
+    [216]=>
+    string(7) "bzflush"
+    [217]=>
+    string(7) "bzclose"
+    [218]=>
+    string(7) "bzerrno"
+    [219]=>
+    string(8) "bzerrstr"
+    [220]=>
+    string(7) "bzerror"
+    [221]=>
+    string(10) "bzcompress"
+    [222]=>
+    string(12) "bzdecompress"
+    [223]=>
+    string(13) "jdtogregorian"
+    [224]=>
+    string(13) "gregoriantojd"
+    [225]=>
+    string(10) "jdtojulian"
+    [226]=>
+    string(10) "juliantojd"
+    [227]=>
+    string(10) "jdtojewish"
+    [228]=>
+    string(10) "jewishtojd"
+    [229]=>
+    string(10) "jdtofrench"
+    [230]=>
+    string(10) "frenchtojd"
+    [231]=>
+    string(11) "jddayofweek"
+    [232]=>
+    string(11) "jdmonthname"
+    [233]=>
+    string(11) "easter_date"
+    [234]=>
+    string(11) "easter_days"
+    [235]=>
+    string(8) "unixtojd"
+    [236]=>
+    string(8) "jdtounix"
+    [237]=>
+    string(9) "cal_to_jd"
+    [238]=>
+    string(11) "cal_from_jd"
+    [239]=>
+    string(17) "cal_days_in_month"
+    [240]=>
+    string(8) "cal_info"
+    [241]=>
+    string(11) "ctype_alnum"
+    [242]=>
+    string(11) "ctype_alpha"
+    [243]=>
+    string(11) "ctype_cntrl"
+    [244]=>
+    string(11) "ctype_digit"
+    [245]=>
+    string(11) "ctype_lower"
+    [246]=>
+    string(11) "ctype_graph"
+    [247]=>
+    string(11) "ctype_print"
+    [248]=>
+    string(11) "ctype_punct"
+    [249]=>
+    string(11) "ctype_space"
+    [250]=>
+    string(11) "ctype_upper"
+    [251]=>
+    string(12) "ctype_xdigit"
+    [252]=>
+    string(9) "curl_init"
+    [253]=>
+    string(16) "curl_copy_handle"
+    [254]=>
+    string(12) "curl_version"
+    [255]=>
+    string(11) "curl_setopt"
+    [256]=>
+    string(17) "curl_setopt_array"
+    [257]=>
+    string(9) "curl_exec"
+    [258]=>
+    string(12) "curl_getinfo"
+    [259]=>
+    string(10) "curl_error"
+    [260]=>
+    string(10) "curl_errno"
+    [261]=>
+    string(10) "curl_close"
+    [262]=>
+    string(13) "curl_strerror"
+    [263]=>
+    string(19) "curl_multi_strerror"
+    [264]=>
+    string(10) "curl_reset"
+    [265]=>
+    string(11) "curl_escape"
+    [266]=>
+    string(13) "curl_unescape"
+    [267]=>
+    string(10) "curl_pause"
+    [268]=>
+    string(15) "curl_multi_init"
+    [269]=>
+    string(21) "curl_multi_add_handle"
+    [270]=>
+    string(24) "curl_multi_remove_handle"
+    [271]=>
+    string(17) "curl_multi_select"
+    [272]=>
+    string(15) "curl_multi_exec"
+    [273]=>
+    string(21) "curl_multi_getcontent"
+    [274]=>
+    string(20) "curl_multi_info_read"
+    [275]=>
+    string(16) "curl_multi_close"
+    [276]=>
+    string(17) "curl_multi_setopt"
+    [277]=>
+    string(15) "curl_share_init"
+    [278]=>
+    string(16) "curl_share_close"
+    [279]=>
+    string(17) "curl_share_setopt"
+    [280]=>
+    string(16) "curl_file_create"
+    [281]=>
+    string(8) "dba_open"
+    [282]=>
+    string(9) "dba_popen"
+    [283]=>
+    string(9) "dba_close"
+    [284]=>
+    string(10) "dba_delete"
+    [285]=>
+    string(10) "dba_exists"
+    [286]=>
+    string(9) "dba_fetch"
+    [287]=>
+    string(10) "dba_insert"
+    [288]=>
+    string(11) "dba_replace"
+    [289]=>
+    string(12) "dba_firstkey"
+    [290]=>
+    string(11) "dba_nextkey"
+    [291]=>
+    string(12) "dba_optimize"
+    [292]=>
+    string(8) "dba_sync"
+    [293]=>
+    string(12) "dba_handlers"
+    [294]=>
+    string(8) "dba_list"
+    [295]=>
+    string(13) "dba_key_split"
+    [296]=>
+    string(20) "dom_import_simplexml"
+    [297]=>
+    string(14) "exif_read_data"
+    [298]=>
+    string(14) "read_exif_data"
+    [299]=>
+    string(12) "exif_tagname"
+    [300]=>
+    string(14) "exif_thumbnail"
+    [301]=>
+    string(14) "exif_imagetype"
+    [302]=>
+    string(10) "finfo_open"
+    [303]=>
+    string(11) "finfo_close"
+    [304]=>
+    string(15) "finfo_set_flags"
+    [305]=>
+    string(10) "finfo_file"
+    [306]=>
+    string(12) "finfo_buffer"
+    [307]=>
+    string(17) "mime_content_type"
+    [308]=>
+    string(12) "filter_input"
+    [309]=>
+    string(10) "filter_var"
+    [310]=>
+    string(18) "filter_input_array"
+    [311]=>
+    string(16) "filter_var_array"
+    [312]=>
+    string(11) "filter_list"
+    [313]=>
+    string(14) "filter_has_var"
+    [314]=>
+    string(9) "filter_id"
+    [315]=>
+    string(11) "ftp_connect"
+    [316]=>
+    string(15) "ftp_ssl_connect"
+    [317]=>
+    string(9) "ftp_login"
+    [318]=>
+    string(7) "ftp_pwd"
+    [319]=>
+    string(8) "ftp_cdup"
+    [320]=>
+    string(9) "ftp_chdir"
+    [321]=>
+    string(8) "ftp_exec"
+    [322]=>
+    string(7) "ftp_raw"
+    [323]=>
+    string(9) "ftp_mkdir"
+    [324]=>
+    string(9) "ftp_rmdir"
+    [325]=>
+    string(9) "ftp_chmod"
+    [326]=>
+    string(9) "ftp_alloc"
+    [327]=>
+    string(9) "ftp_nlist"
+    [328]=>
+    string(11) "ftp_rawlist"
+    [329]=>
+    string(11) "ftp_systype"
+    [330]=>
+    string(8) "ftp_pasv"
+    [331]=>
+    string(7) "ftp_get"
+    [332]=>
+    string(8) "ftp_fget"
+    [333]=>
+    string(7) "ftp_put"
+    [334]=>
+    string(8) "ftp_fput"
+    [335]=>
+    string(8) "ftp_size"
+    [336]=>
+    string(8) "ftp_mdtm"
+    [337]=>
+    string(10) "ftp_rename"
+    [338]=>
+    string(10) "ftp_delete"
+    [339]=>
+    string(8) "ftp_site"
+    [340]=>
+    string(9) "ftp_close"
+    [341]=>
+    string(14) "ftp_set_option"
+    [342]=>
+    string(14) "ftp_get_option"
+    [343]=>
+    string(11) "ftp_nb_fget"
+    [344]=>
+    string(10) "ftp_nb_get"
+    [345]=>
+    string(15) "ftp_nb_continue"
+    [346]=>
+    string(10) "ftp_nb_put"
+    [347]=>
+    string(11) "ftp_nb_fput"
+    [348]=>
+    string(8) "ftp_quit"
+    [349]=>
+    string(7) "gd_info"
+    [350]=>
+    string(8) "imagearc"
+    [351]=>
+    string(12) "imageellipse"
+    [352]=>
+    string(9) "imagechar"
+    [353]=>
+    string(11) "imagecharup"
+    [354]=>
+    string(12) "imagecolorat"
+    [355]=>
+    string(18) "imagecolorallocate"
+    [356]=>
+    string(16) "imagepalettecopy"
+    [357]=>
+    string(21) "imagecreatefromstring"
+    [358]=>
+    string(17) "imagecolorclosest"
+    [359]=>
+    string(20) "imagecolorclosesthwb"
+    [360]=>
+    string(20) "imagecolordeallocate"
+    [361]=>
+    string(17) "imagecolorresolve"
+    [362]=>
+    string(15) "imagecolorexact"
+    [363]=>
+    string(13) "imagecolorset"
+    [364]=>
+    string(21) "imagecolortransparent"
+    [365]=>
+    string(16) "imagecolorstotal"
+    [366]=>
+    string(19) "imagecolorsforindex"
+    [367]=>
+    string(9) "imagecopy"
+    [368]=>
+    string(14) "imagecopymerge"
+    [369]=>
+    string(18) "imagecopymergegray"
+    [370]=>
+    string(16) "imagecopyresized"
+    [371]=>
+    string(11) "imagecreate"
+    [372]=>
+    string(20) "imagecreatetruecolor"
+    [373]=>
+    string(16) "imageistruecolor"
+    [374]=>
+    string(23) "imagetruecolortopalette"
+    [375]=>
+    string(23) "imagepalettetotruecolor"
+    [376]=>
+    string(17) "imagesetthickness"
+    [377]=>
+    string(14) "imagefilledarc"
+    [378]=>
+    string(18) "imagefilledellipse"
+    [379]=>
+    string(18) "imagealphablending"
+    [380]=>
+    string(14) "imagesavealpha"
+    [381]=>
+    string(23) "imagecolorallocatealpha"
+    [382]=>
+    string(22) "imagecolorresolvealpha"
+    [383]=>
+    string(22) "imagecolorclosestalpha"
+    [384]=>
+    string(20) "imagecolorexactalpha"
+    [385]=>
+    string(18) "imagecopyresampled"
+    [386]=>
+    string(11) "imagerotate"
+    [387]=>
+    string(9) "imageflip"
+    [388]=>
+    string(14) "imageantialias"
+    [389]=>
+    string(9) "imagecrop"
+    [390]=>
+    string(13) "imagecropauto"
+    [391]=>
+    string(10) "imagescale"
+    [392]=>
+    string(11) "imageaffine"
+    [393]=>
+    string(23) "imageaffinematrixconcat"
+    [394]=>
+    string(20) "imageaffinematrixget"
+    [395]=>
+    string(21) "imagesetinterpolation"
+    [396]=>
+    string(12) "imagesettile"
+    [397]=>
+    string(13) "imagesetbrush"
+    [398]=>
+    string(13) "imagesetstyle"
+    [399]=>
+    string(18) "imagecreatefrompng"
+    [400]=>
+    string(18) "imagecreatefromgif"
+    [401]=>
+    string(19) "imagecreatefromjpeg"
+    [402]=>
+    string(19) "imagecreatefromwbmp"
+    [403]=>
+    string(18) "imagecreatefromxbm"
+    [404]=>
+    string(17) "imagecreatefromgd"
+    [405]=>
+    string(18) "imagecreatefromgd2"
+    [406]=>
+    string(22) "imagecreatefromgd2part"
+    [407]=>
+    string(8) "imagepng"
+    [408]=>
+    string(8) "imagegif"
+    [409]=>
+    string(9) "imagejpeg"
+    [410]=>
+    string(9) "imagewbmp"
+    [411]=>
+    string(7) "imagegd"
+    [412]=>
+    string(8) "imagegd2"
+    [413]=>
+    string(12) "imagedestroy"
+    [414]=>
+    string(17) "imagegammacorrect"
+    [415]=>
+    string(9) "imagefill"
+    [416]=>
+    string(18) "imagefilledpolygon"
+    [417]=>
+    string(20) "imagefilledrectangle"
+    [418]=>
+    string(17) "imagefilltoborder"
+    [419]=>
+    string(14) "imagefontwidth"
+    [420]=>
+    string(15) "imagefontheight"
+    [421]=>
+    string(14) "imageinterlace"
+    [422]=>
+    string(9) "imageline"
+    [423]=>
+    string(13) "imageloadfont"
+    [424]=>
+    string(12) "imagepolygon"
+    [425]=>
+    string(14) "imagerectangle"
+    [426]=>
+    string(13) "imagesetpixel"
+    [427]=>
+    string(11) "imagestring"
+    [428]=>
+    string(13) "imagestringup"
+    [429]=>
+    string(7) "imagesx"
+    [430]=>
+    string(7) "imagesy"
+    [431]=>
+    string(15) "imagedashedline"
+    [432]=>
+    string(10) "imagetypes"
+    [433]=>
+    string(9) "jpeg2wbmp"
+    [434]=>
+    string(8) "png2wbmp"
+    [435]=>
+    string(10) "image2wbmp"
+    [436]=>
+    string(16) "imagelayereffect"
+    [437]=>
+    string(8) "imagexbm"
+    [438]=>
+    string(15) "imagecolormatch"
+    [439]=>
+    string(11) "imagefilter"
+    [440]=>
+    string(16) "imageconvolution"
+    [441]=>
+    string(4) "hash"
+    [442]=>
+    string(9) "hash_file"
+    [443]=>
+    string(9) "hash_hmac"
+    [444]=>
+    string(14) "hash_hmac_file"
+    [445]=>
+    string(9) "hash_init"
+    [446]=>
+    string(11) "hash_update"
+    [447]=>
+    string(18) "hash_update_stream"
+    [448]=>
+    string(16) "hash_update_file"
+    [449]=>
+    string(10) "hash_final"
+    [450]=>
+    string(9) "hash_copy"
+    [451]=>
+    string(10) "hash_algos"
+    [452]=>
+    string(11) "hash_pbkdf2"
+    [453]=>
+    string(11) "hash_equals"
+    [454]=>
+    string(5) "iconv"
+    [455]=>
+    string(18) "iconv_get_encoding"
+    [456]=>
+    string(18) "iconv_set_encoding"
+    [457]=>
+    string(12) "iconv_strlen"
+    [458]=>
+    string(12) "iconv_substr"
+    [459]=>
+    string(12) "iconv_strpos"
+    [460]=>
+    string(13) "iconv_strrpos"
+    [461]=>
+    string(17) "iconv_mime_encode"
+    [462]=>
+    string(17) "iconv_mime_decode"
+    [463]=>
+    string(25) "iconv_mime_decode_headers"
+    [464]=>
+    string(11) "json_encode"
+    [465]=>
+    string(11) "json_decode"
+    [466]=>
+    string(15) "json_last_error"
+    [467]=>
+    string(19) "json_last_error_msg"
+    [468]=>
+    string(12) "ldap_connect"
+    [469]=>
+    string(10) "ldap_close"
+    [470]=>
+    string(9) "ldap_bind"
+    [471]=>
+    string(14) "ldap_sasl_bind"
+    [472]=>
+    string(11) "ldap_unbind"
+    [473]=>
+    string(9) "ldap_read"
+    [474]=>
+    string(9) "ldap_list"
+    [475]=>
+    string(11) "ldap_search"
+    [476]=>
+    string(16) "ldap_free_result"
+    [477]=>
+    string(18) "ldap_count_entries"
+    [478]=>
+    string(16) "ldap_first_entry"
+    [479]=>
+    string(15) "ldap_next_entry"
+    [480]=>
+    string(16) "ldap_get_entries"
+    [481]=>
+    string(20) "ldap_first_attribute"
+    [482]=>
+    string(19) "ldap_next_attribute"
+    [483]=>
+    string(19) "ldap_get_attributes"
+    [484]=>
+    string(15) "ldap_get_values"
+    [485]=>
+    string(19) "ldap_get_values_len"
+    [486]=>
+    string(11) "ldap_get_dn"
+    [487]=>
+    string(15) "ldap_explode_dn"
+    [488]=>
+    string(11) "ldap_dn2ufn"
+    [489]=>
+    string(8) "ldap_add"
+    [490]=>
+    string(11) "ldap_delete"
+    [491]=>
+    string(17) "ldap_modify_batch"
+    [492]=>
+    string(11) "ldap_modify"
+    [493]=>
+    string(12) "ldap_mod_add"
+    [494]=>
+    string(16) "ldap_mod_replace"
+    [495]=>
+    string(12) "ldap_mod_del"
+    [496]=>
+    string(10) "ldap_errno"
+    [497]=>
+    string(12) "ldap_err2str"
+    [498]=>
+    string(10) "ldap_error"
+    [499]=>
+    string(12) "ldap_compare"
+    [500]=>
+    string(9) "ldap_sort"
+    [501]=>
+    string(11) "ldap_rename"
+    [502]=>
+    string(15) "ldap_get_option"
+    [503]=>
+    string(15) "ldap_set_option"
+    [504]=>
+    string(20) "ldap_first_reference"
+    [505]=>
+    string(19) "ldap_next_reference"
+    [506]=>
+    string(20) "ldap_parse_reference"
+    [507]=>
+    string(17) "ldap_parse_result"
+    [508]=>
+    string(14) "ldap_start_tls"
+    [509]=>
+    string(20) "ldap_set_rebind_proc"
+    [510]=>
+    string(11) "ldap_escape"
+    [511]=>
+    string(25) "ldap_control_paged_result"
+    [512]=>
+    string(34) "ldap_control_paged_result_response"
+    [513]=>
+    string(15) "mb_convert_case"
+    [514]=>
+    string(13) "mb_strtoupper"
+    [515]=>
+    string(13) "mb_strtolower"
+    [516]=>
+    string(11) "mb_language"
+    [517]=>
+    string(20) "mb_internal_encoding"
+    [518]=>
+    string(13) "mb_http_input"
+    [519]=>
+    string(14) "mb_http_output"
+    [520]=>
+    string(15) "mb_detect_order"
+    [521]=>
+    string(23) "mb_substitute_character"
+    [522]=>
+    string(12) "mb_parse_str"
+    [523]=>
+    string(17) "mb_output_handler"
+    [524]=>
+    string(22) "mb_preferred_mime_name"
+    [525]=>
+    string(9) "mb_strlen"
+    [526]=>
+    string(9) "mb_strpos"
+    [527]=>
+    string(10) "mb_strrpos"
+    [528]=>
+    string(10) "mb_stripos"
+    [529]=>
+    string(11) "mb_strripos"
+    [530]=>
+    string(9) "mb_strstr"
+    [531]=>
+    string(10) "mb_strrchr"
+    [532]=>
+    string(10) "mb_stristr"
+    [533]=>
+    string(11) "mb_strrichr"
+    [534]=>
+    string(15) "mb_substr_count"
+    [535]=>
+    string(9) "mb_substr"
+    [536]=>
+    string(9) "mb_strcut"
+    [537]=>
+    string(11) "mb_strwidth"
+    [538]=>
+    string(13) "mb_strimwidth"
+    [539]=>
+    string(19) "mb_convert_encoding"
+    [540]=>
+    string(18) "mb_detect_encoding"
+    [541]=>
+    string(17) "mb_list_encodings"
+    [542]=>
+    string(19) "mb_encoding_aliases"
+    [543]=>
+    string(15) "mb_convert_kana"
+    [544]=>
+    string(20) "mb_encode_mimeheader"
+    [545]=>
+    string(20) "mb_decode_mimeheader"
+    [546]=>
+    string(20) "mb_convert_variables"
+    [547]=>
+    string(23) "mb_encode_numericentity"
+    [548]=>
+    string(23) "mb_decode_numericentity"
+    [549]=>
+    string(12) "mb_send_mail"
+    [550]=>
+    string(11) "mb_get_info"
+    [551]=>
+    string(17) "mb_check_encoding"
+    [552]=>
+    string(17) "mb_regex_encoding"
+    [553]=>
+    string(20) "mb_regex_set_options"
+    [554]=>
+    string(7) "mb_ereg"
+    [555]=>
+    string(8) "mb_eregi"
+    [556]=>
+    string(15) "mb_ereg_replace"
+    [557]=>
+    string(16) "mb_eregi_replace"
+    [558]=>
+    string(24) "mb_ereg_replace_callback"
+    [559]=>
+    string(8) "mb_split"
+    [560]=>
+    string(13) "mb_ereg_match"
+    [561]=>
+    string(14) "mb_ereg_search"
+    [562]=>
+    string(18) "mb_ereg_search_pos"
+    [563]=>
+    string(19) "mb_ereg_search_regs"
+    [564]=>
+    string(19) "mb_ereg_search_init"
+    [565]=>
+    string(22) "mb_ereg_search_getregs"
+    [566]=>
+    string(21) "mb_ereg_search_getpos"
+    [567]=>
+    string(21) "mb_ereg_search_setpos"
+    [568]=>
+    string(16) "mbregex_encoding"
+    [569]=>
+    string(6) "mbereg"
+    [570]=>
+    string(7) "mberegi"
+    [571]=>
+    string(14) "mbereg_replace"
+    [572]=>
+    string(15) "mberegi_replace"
+    [573]=>
+    string(7) "mbsplit"
+    [574]=>
+    string(12) "mbereg_match"
+    [575]=>
+    string(13) "mbereg_search"
+    [576]=>
+    string(17) "mbereg_search_pos"
+    [577]=>
+    string(18) "mbereg_search_regs"
+    [578]=>
+    string(18) "mbereg_search_init"
+    [579]=>
+    string(21) "mbereg_search_getregs"
+    [580]=>
+    string(20) "mbereg_search_getpos"
+    [581]=>
+    string(20) "mbereg_search_setpos"
+    [582]=>
+    string(13) "mysql_connect"
+    [583]=>
+    string(14) "mysql_pconnect"
+    [584]=>
+    string(11) "mysql_close"
+    [585]=>
+    string(15) "mysql_select_db"
+    [586]=>
+    string(11) "mysql_query"
+    [587]=>
+    string(22) "mysql_unbuffered_query"
+    [588]=>
+    string(14) "mysql_db_query"
+    [589]=>
+    string(14) "mysql_list_dbs"
+    [590]=>
+    string(17) "mysql_list_tables"
+    [591]=>
+    string(17) "mysql_list_fields"
+    [592]=>
+    string(20) "mysql_list_processes"
+    [593]=>
+    string(11) "mysql_error"
+    [594]=>
+    string(11) "mysql_errno"
+    [595]=>
+    string(19) "mysql_affected_rows"
+    [596]=>
+    string(15) "mysql_insert_id"
+    [597]=>
+    string(12) "mysql_result"
+    [598]=>
+    string(14) "mysql_num_rows"
+    [599]=>
+    string(16) "mysql_num_fields"
+    [600]=>
+    string(15) "mysql_fetch_row"
+    [601]=>
+    string(17) "mysql_fetch_array"
+    [602]=>
+    string(17) "mysql_fetch_assoc"
+    [603]=>
+    string(18) "mysql_fetch_object"
+    [604]=>
+    string(15) "mysql_data_seek"
+    [605]=>
+    string(19) "mysql_fetch_lengths"
+    [606]=>
+    string(17) "mysql_fetch_field"
+    [607]=>
+    string(16) "mysql_field_seek"
+    [608]=>
+    string(17) "mysql_free_result"
+    [609]=>
+    string(16) "mysql_field_name"
+    [610]=>
+    string(17) "mysql_field_table"
+    [611]=>
+    string(15) "mysql_field_len"
+    [612]=>
+    string(16) "mysql_field_type"
+    [613]=>
+    string(17) "mysql_field_flags"
+    [614]=>
+    string(19) "mysql_escape_string"
+    [615]=>
+    string(24) "mysql_real_escape_string"
+    [616]=>
+    string(10) "mysql_stat"
+    [617]=>
+    string(15) "mysql_thread_id"
+    [618]=>
+    string(21) "mysql_client_encoding"
+    [619]=>
+    string(10) "mysql_ping"
+    [620]=>
+    string(21) "mysql_get_client_info"
+    [621]=>
+    string(19) "mysql_get_host_info"
+    [622]=>
+    string(20) "mysql_get_proto_info"
+    [623]=>
+    string(21) "mysql_get_server_info"
+    [624]=>
+    string(10) "mysql_info"
+    [625]=>
+    string(17) "mysql_set_charset"
+    [626]=>
+    string(5) "mysql"
+    [627]=>
+    string(15) "mysql_fieldname"
+    [628]=>
+    string(16) "mysql_fieldtable"
+    [629]=>
+    string(14) "mysql_fieldlen"
+    [630]=>
+    string(15) "mysql_fieldtype"
+    [631]=>
+    string(16) "mysql_fieldflags"
+    [632]=>
+    string(14) "mysql_selectdb"
+    [633]=>
+    string(16) "mysql_freeresult"
+    [634]=>
+    string(15) "mysql_numfields"
+    [635]=>
+    string(13) "mysql_numrows"
+    [636]=>
+    string(13) "mysql_listdbs"
+    [637]=>
+    string(16) "mysql_listtables"
+    [638]=>
+    string(16) "mysql_listfields"
+    [639]=>
+    string(13) "mysql_db_name"
+    [640]=>
+    string(12) "mysql_dbname"
+    [641]=>
+    string(15) "mysql_tablename"
+    [642]=>
+    string(16) "mysql_table_name"
+    [643]=>
+    string(20) "mysqli_affected_rows"
+    [644]=>
+    string(17) "mysqli_autocommit"
+    [645]=>
+    string(24) "mysqli_begin_transaction"
+    [646]=>
+    string(18) "mysqli_change_user"
+    [647]=>
+    string(25) "mysqli_character_set_name"
+    [648]=>
+    string(12) "mysqli_close"
+    [649]=>
+    string(13) "mysqli_commit"
+    [650]=>
+    string(14) "mysqli_connect"
+    [651]=>
+    string(20) "mysqli_connect_errno"
+    [652]=>
+    string(20) "mysqli_connect_error"
+    [653]=>
+    string(16) "mysqli_data_seek"
+    [654]=>
+    string(22) "mysqli_dump_debug_info"
+    [655]=>
+    string(12) "mysqli_debug"
+    [656]=>
+    string(12) "mysqli_errno"
+    [657]=>
+    string(12) "mysqli_error"
+    [658]=>
+    string(17) "mysqli_error_list"
+    [659]=>
+    string(19) "mysqli_stmt_execute"
+    [660]=>
+    string(14) "mysqli_execute"
+    [661]=>
+    string(18) "mysqli_fetch_field"
+    [662]=>
+    string(19) "mysqli_fetch_fields"
+    [663]=>
+    string(25) "mysqli_fetch_field_direct"
+    [664]=>
+    string(20) "mysqli_fetch_lengths"
+    [665]=>
+    string(16) "mysqli_fetch_all"
+    [666]=>
+    string(18) "mysqli_fetch_array"
+    [667]=>
+    string(18) "mysqli_fetch_assoc"
+    [668]=>
+    string(19) "mysqli_fetch_object"
+    [669]=>
+    string(16) "mysqli_fetch_row"
+    [670]=>
+    string(18) "mysqli_field_count"
+    [671]=>
+    string(17) "mysqli_field_seek"
+    [672]=>
+    string(17) "mysqli_field_tell"
+    [673]=>
+    string(18) "mysqli_free_result"
+    [674]=>
+    string(27) "mysqli_get_connection_stats"
+    [675]=>
+    string(23) "mysqli_get_client_stats"
+    [676]=>
+    string(18) "mysqli_get_charset"
+    [677]=>
+    string(22) "mysqli_get_client_info"
+    [678]=>
+    string(25) "mysqli_get_client_version"
+    [679]=>
+    string(22) "mysqli_get_links_stats"
+    [680]=>
+    string(20) "mysqli_get_host_info"
+    [681]=>
+    string(21) "mysqli_get_proto_info"
+    [682]=>
+    string(22) "mysqli_get_server_info"
+    [683]=>
+    string(25) "mysqli_get_server_version"
+    [684]=>
+    string(19) "mysqli_get_warnings"
+    [685]=>
+    string(11) "mysqli_init"
+    [686]=>
+    string(11) "mysqli_info"
+    [687]=>
+    string(16) "mysqli_insert_id"
+    [688]=>
+    string(11) "mysqli_kill"
+    [689]=>
+    string(19) "mysqli_more_results"
+    [690]=>
+    string(18) "mysqli_multi_query"
+    [691]=>
+    string(18) "mysqli_next_result"
+    [692]=>
+    string(17) "mysqli_num_fields"
+    [693]=>
+    string(15) "mysqli_num_rows"
+    [694]=>
+    string(14) "mysqli_options"
+    [695]=>
+    string(11) "mysqli_ping"
+    [696]=>
+    string(11) "mysqli_poll"
+    [697]=>
+    string(14) "mysqli_prepare"
+    [698]=>
+    string(13) "mysqli_report"
+    [699]=>
+    string(12) "mysqli_query"
+    [700]=>
+    string(19) "mysqli_real_connect"
+    [701]=>
+    string(25) "mysqli_real_escape_string"
+    [702]=>
+    string(17) "mysqli_real_query"
+    [703]=>
+    string(23) "mysqli_reap_async_query"
+    [704]=>
+    string(24) "mysqli_release_savepoint"
+    [705]=>
+    string(15) "mysqli_rollback"
+    [706]=>
+    string(16) "mysqli_savepoint"
+    [707]=>
+    string(16) "mysqli_select_db"
+    [708]=>
+    string(18) "mysqli_set_charset"
+    [709]=>
+    string(25) "mysqli_stmt_affected_rows"
+    [710]=>
+    string(20) "mysqli_stmt_attr_get"
+    [711]=>
+    string(20) "mysqli_stmt_attr_set"
+    [712]=>
+    string(22) "mysqli_stmt_bind_param"
+    [713]=>
+    string(23) "mysqli_stmt_bind_result"
+    [714]=>
+    string(17) "mysqli_stmt_close"
+    [715]=>
+    string(21) "mysqli_stmt_data_seek"
+    [716]=>
+    string(17) "mysqli_stmt_errno"
+    [717]=>
+    string(17) "mysqli_stmt_error"
+    [718]=>
+    string(22) "mysqli_stmt_error_list"
+    [719]=>
+    string(17) "mysqli_stmt_fetch"
+    [720]=>
+    string(23) "mysqli_stmt_field_count"
+    [721]=>
+    string(23) "mysqli_stmt_free_result"
+    [722]=>
+    string(22) "mysqli_stmt_get_result"
+    [723]=>
+    string(24) "mysqli_stmt_get_warnings"
+    [724]=>
+    string(16) "mysqli_stmt_init"
+    [725]=>
+    string(21) "mysqli_stmt_insert_id"
+    [726]=>
+    string(24) "mysqli_stmt_more_results"
+    [727]=>
+    string(23) "mysqli_stmt_next_result"
+    [728]=>
+    string(20) "mysqli_stmt_num_rows"
+    [729]=>
+    string(23) "mysqli_stmt_param_count"
+    [730]=>
+    string(19) "mysqli_stmt_prepare"
+    [731]=>
+    string(17) "mysqli_stmt_reset"
+    [732]=>
+    string(27) "mysqli_stmt_result_metadata"
+    [733]=>
+    string(26) "mysqli_stmt_send_long_data"
+    [734]=>
+    string(24) "mysqli_stmt_store_result"
+    [735]=>
+    string(20) "mysqli_stmt_sqlstate"
+    [736]=>
+    string(15) "mysqli_sqlstate"
+    [737]=>
+    string(14) "mysqli_ssl_set"
+    [738]=>
+    string(11) "mysqli_stat"
+    [739]=>
+    string(19) "mysqli_store_result"
+    [740]=>
+    string(16) "mysqli_thread_id"
+    [741]=>
+    string(18) "mysqli_thread_safe"
+    [742]=>
+    string(17) "mysqli_use_result"
+    [743]=>
+    string(20) "mysqli_warning_count"
+    [744]=>
+    string(14) "mysqli_refresh"
+    [745]=>
+    string(20) "mysqli_escape_string"
+    [746]=>
+    string(14) "mysqli_set_opt"
+    [747]=>
+    string(11) "spl_classes"
+    [748]=>
+    string(12) "spl_autoload"
+    [749]=>
+    string(23) "spl_autoload_extensions"
+    [750]=>
+    string(21) "spl_autoload_register"
+    [751]=>
+    string(23) "spl_autoload_unregister"
+    [752]=>
+    string(22) "spl_autoload_functions"
+    [753]=>
+    string(17) "spl_autoload_call"
+    [754]=>
+    string(13) "class_parents"
+    [755]=>
+    string(16) "class_implements"
+    [756]=>
+    string(10) "class_uses"
+    [757]=>
+    string(15) "spl_object_hash"
+    [758]=>
+    string(17) "iterator_to_array"
+    [759]=>
+    string(14) "iterator_count"
+    [760]=>
+    string(14) "iterator_apply"
+    [761]=>
+    string(11) "pdo_drivers"
+    [762]=>
+    string(10) "pg_connect"
+    [763]=>
+    string(11) "pg_pconnect"
+    [764]=>
+    string(15) "pg_connect_poll"
+    [765]=>
+    string(8) "pg_close"
+    [766]=>
+    string(20) "pg_connection_status"
+    [767]=>
+    string(18) "pg_connection_busy"
+    [768]=>
+    string(19) "pg_connection_reset"
+    [769]=>
+    string(7) "pg_host"
+    [770]=>
+    string(9) "pg_dbname"
+    [771]=>
+    string(7) "pg_port"
+    [772]=>
+    string(6) "pg_tty"
+    [773]=>
+    string(10) "pg_options"
+    [774]=>
+    string(10) "pg_version"
+    [775]=>
+    string(7) "pg_ping"
+    [776]=>
+    string(19) "pg_parameter_status"
+    [777]=>
+    string(21) "pg_transaction_status"
+    [778]=>
+    string(8) "pg_query"
+    [779]=>
+    string(15) "pg_query_params"
+    [780]=>
+    string(10) "pg_prepare"
+    [781]=>
+    string(10) "pg_execute"
+    [782]=>
+    string(13) "pg_send_query"
+    [783]=>
+    string(20) "pg_send_query_params"
+    [784]=>
+    string(15) "pg_send_prepare"
+    [785]=>
+    string(15) "pg_send_execute"
+    [786]=>
+    string(15) "pg_cancel_query"
+    [787]=>
+    string(15) "pg_fetch_result"
+    [788]=>
+    string(12) "pg_fetch_row"
+    [789]=>
+    string(14) "pg_fetch_assoc"
+    [790]=>
+    string(14) "pg_fetch_array"
+    [791]=>
+    string(15) "pg_fetch_object"
+    [792]=>
+    string(12) "pg_fetch_all"
+    [793]=>
+    string(20) "pg_fetch_all_columns"
+    [794]=>
+    string(16) "pg_affected_rows"
+    [795]=>
+    string(13) "pg_get_result"
+    [796]=>
+    string(14) "pg_result_seek"
+    [797]=>
+    string(16) "pg_result_status"
+    [798]=>
+    string(14) "pg_free_result"
+    [799]=>
+    string(11) "pg_last_oid"
+    [800]=>
+    string(11) "pg_num_rows"
+    [801]=>
+    string(13) "pg_num_fields"
+    [802]=>
+    string(13) "pg_field_name"
+    [803]=>
+    string(12) "pg_field_num"
+    [804]=>
+    string(13) "pg_field_size"
+    [805]=>
+    string(13) "pg_field_type"
+    [806]=>
+    string(17) "pg_field_type_oid"
+    [807]=>
+    string(15) "pg_field_prtlen"
+    [808]=>
+    string(16) "pg_field_is_null"
+    [809]=>
+    string(14) "pg_field_table"
+    [810]=>
+    string(13) "pg_get_notify"
+    [811]=>
+    string(9) "pg_socket"
+    [812]=>
+    string(16) "pg_consume_input"
+    [813]=>
+    string(8) "pg_flush"
+    [814]=>
+    string(10) "pg_get_pid"
+    [815]=>
+    string(15) "pg_result_error"
+    [816]=>
+    string(21) "pg_result_error_field"
+    [817]=>
+    string(13) "pg_last_error"
+    [818]=>
+    string(14) "pg_last_notice"
+    [819]=>
+    string(11) "pg_put_line"
+    [820]=>
+    string(11) "pg_end_copy"
+    [821]=>
+    string(10) "pg_copy_to"
+    [822]=>
+    string(12) "pg_copy_from"
+    [823]=>
+    string(8) "pg_trace"
+    [824]=>
+    string(10) "pg_untrace"
+    [825]=>
+    string(12) "pg_lo_create"
+    [826]=>
+    string(12) "pg_lo_unlink"
+    [827]=>
+    string(10) "pg_lo_open"
+    [828]=>
+    string(11) "pg_lo_close"
+    [829]=>
+    string(10) "pg_lo_read"
+    [830]=>
+    string(11) "pg_lo_write"
+    [831]=>
+    string(14) "pg_lo_read_all"
+    [832]=>
+    string(12) "pg_lo_import"
+    [833]=>
+    string(12) "pg_lo_export"
+    [834]=>
+    string(10) "pg_lo_seek"
+    [835]=>
+    string(10) "pg_lo_tell"
+    [836]=>
+    string(14) "pg_lo_truncate"
+    [837]=>
+    string(16) "pg_escape_string"
+    [838]=>
+    string(15) "pg_escape_bytea"
+    [839]=>
+    string(17) "pg_unescape_bytea"
+    [840]=>
+    string(17) "pg_escape_literal"
+    [841]=>
+    string(20) "pg_escape_identifier"
+    [842]=>
+    string(22) "pg_set_error_verbosity"
+    [843]=>
+    string(18) "pg_client_encoding"
+    [844]=>
+    string(22) "pg_set_client_encoding"
+    [845]=>
+    string(12) "pg_meta_data"
+    [846]=>
+    string(10) "pg_convert"
+    [847]=>
+    string(9) "pg_insert"
+    [848]=>
+    string(9) "pg_update"
+    [849]=>
+    string(9) "pg_delete"
+    [850]=>
+    string(9) "pg_select"
+    [851]=>
+    string(7) "pg_exec"
+    [852]=>
+    string(13) "pg_getlastoid"
+    [853]=>
+    string(12) "pg_cmdtuples"
+    [854]=>
+    string(15) "pg_errormessage"
+    [855]=>
+    string(10) "pg_numrows"
+    [856]=>
+    string(12) "pg_numfields"
+    [857]=>
+    string(12) "pg_fieldname"
+    [858]=>
+    string(12) "pg_fieldsize"
+    [859]=>
+    string(12) "pg_fieldtype"
+    [860]=>
+    string(11) "pg_fieldnum"
+    [861]=>
+    string(14) "pg_fieldprtlen"
+    [862]=>
+    string(14) "pg_fieldisnull"
+    [863]=>
+    string(13) "pg_freeresult"
+    [864]=>
+    string(9) "pg_result"
+    [865]=>
+    string(12) "pg_loreadall"
+    [866]=>
+    string(11) "pg_locreate"
+    [867]=>
+    string(11) "pg_lounlink"
+    [868]=>
+    string(9) "pg_loopen"
+    [869]=>
+    string(10) "pg_loclose"
+    [870]=>
+    string(9) "pg_loread"
+    [871]=>
+    string(10) "pg_lowrite"
+    [872]=>
+    string(11) "pg_loimport"
+    [873]=>
+    string(11) "pg_loexport"
+    [874]=>
+    string(17) "pg_clientencoding"
+    [875]=>
+    string(20) "pg_setclientencoding"
+    [876]=>
+    string(10) "posix_kill"
+    [877]=>
+    string(12) "posix_getpid"
+    [878]=>
+    string(13) "posix_getppid"
+    [879]=>
+    string(12) "posix_getuid"
+    [880]=>
+    string(12) "posix_setuid"
+    [881]=>
+    string(13) "posix_geteuid"
+    [882]=>
+    string(13) "posix_seteuid"
+    [883]=>
+    string(12) "posix_getgid"
+    [884]=>
+    string(12) "posix_setgid"
+    [885]=>
+    string(13) "posix_getegid"
+    [886]=>
+    string(13) "posix_setegid"
+    [887]=>
+    string(15) "posix_getgroups"
+    [888]=>
+    string(14) "posix_getlogin"
+    [889]=>
+    string(13) "posix_getpgrp"
+    [890]=>
+    string(12) "posix_setsid"
+    [891]=>
+    string(13) "posix_setpgid"
+    [892]=>
+    string(13) "posix_getpgid"
+    [893]=>
+    string(12) "posix_getsid"
+    [894]=>
+    string(11) "posix_uname"
+    [895]=>
+    string(11) "posix_times"
+    [896]=>
+    string(13) "posix_ctermid"
+    [897]=>
+    string(13) "posix_ttyname"
+    [898]=>
+    string(12) "posix_isatty"
+    [899]=>
+    string(12) "posix_getcwd"
+    [900]=>
+    string(12) "posix_mkfifo"
+    [901]=>
+    string(11) "posix_mknod"
+    [902]=>
+    string(12) "posix_access"
+    [903]=>
+    string(14) "posix_getgrnam"
+    [904]=>
+    string(14) "posix_getgrgid"
+    [905]=>
+    string(14) "posix_getpwnam"
+    [906]=>
+    string(14) "posix_getpwuid"
+    [907]=>
+    string(15) "posix_getrlimit"
+    [908]=>
+    string(20) "posix_get_last_error"
+    [909]=>
+    string(11) "posix_errno"
+    [910]=>
+    string(14) "posix_strerror"
+    [911]=>
+    string(16) "posix_initgroups"
+    [912]=>
+    string(8) "readline"
+    [913]=>
+    string(13) "readline_info"
+    [914]=>
+    string(20) "readline_add_history"
+    [915]=>
+    string(22) "readline_clear_history"
+    [916]=>
+    string(21) "readline_read_history"
+    [917]=>
+    string(22) "readline_write_history"
+    [918]=>
+    string(28) "readline_completion_function"
+    [919]=>
+    string(33) "readline_callback_handler_install"
+    [920]=>
+    string(27) "readline_callback_read_char"
+    [921]=>
+    string(32) "readline_callback_handler_remove"
+    [922]=>
+    string(18) "readline_redisplay"
+    [923]=>
+    string(20) "readline_on_new_line"
+    [924]=>
+    string(12) "session_name"
+    [925]=>
+    string(19) "session_module_name"
+    [926]=>
+    string(17) "session_save_path"
+    [927]=>
+    string(10) "session_id"
+    [928]=>
+    string(21) "session_regenerate_id"
+    [929]=>
+    string(14) "session_decode"
+    [930]=>
+    string(14) "session_encode"
+    [931]=>
+    string(13) "session_start"
+    [932]=>
+    string(15) "session_destroy"
+    [933]=>
+    string(13) "session_unset"
+    [934]=>
+    string(24) "session_set_save_handler"
+    [935]=>
+    string(21) "session_cache_limiter"
+    [936]=>
+    string(20) "session_cache_expire"
+    [937]=>
+    string(25) "session_set_cookie_params"
+    [938]=>
+    string(25) "session_get_cookie_params"
+    [939]=>
+    string(19) "session_write_close"
+    [940]=>
+    string(13) "session_abort"
+    [941]=>
+    string(13) "session_reset"
+    [942]=>
+    string(14) "session_status"
+    [943]=>
+    string(25) "session_register_shutdown"
+    [944]=>
+    string(14) "session_commit"
+    [945]=>
+    string(10) "shmop_open"
+    [946]=>
+    string(10) "shmop_read"
+    [947]=>
+    string(11) "shmop_close"
+    [948]=>
+    string(10) "shmop_size"
+    [949]=>
+    string(11) "shmop_write"
+    [950]=>
+    string(12) "shmop_delete"
+    [951]=>
+    string(19) "simplexml_load_file"
+    [952]=>
+    string(21) "simplexml_load_string"
+    [953]=>
+    string(20) "simplexml_import_dom"
+    [954]=>
+    string(7) "snmpget"
+    [955]=>
+    string(11) "snmpgetnext"
+    [956]=>
+    string(8) "snmpwalk"
+    [957]=>
+    string(12) "snmprealwalk"
+    [958]=>
+    string(11) "snmpwalkoid"
+    [959]=>
+    string(7) "snmpset"
+    [960]=>
+    string(20) "snmp_get_quick_print"
+    [961]=>
+    string(20) "snmp_set_quick_print"
+    [962]=>
+    string(19) "snmp_set_enum_print"
+    [963]=>
+    string(26) "snmp_set_oid_output_format"
+    [964]=>
+    string(26) "snmp_set_oid_numeric_print"
+    [965]=>
+    string(9) "snmp2_get"
+    [966]=>
+    string(13) "snmp2_getnext"
+    [967]=>
+    string(10) "snmp2_walk"
+    [968]=>
+    string(15) "snmp2_real_walk"
+    [969]=>
+    string(9) "snmp2_set"
+    [970]=>
+    string(9) "snmp3_get"
+    [971]=>
+    string(13) "snmp3_getnext"
+    [972]=>
+    string(10) "snmp3_walk"
+    [973]=>
+    string(15) "snmp3_real_walk"
+    [974]=>
+    string(9) "snmp3_set"
+    [975]=>
+    string(23) "snmp_set_valueretrieval"
+    [976]=>
+    string(23) "snmp_get_valueretrieval"
+    [977]=>
+    string(13) "snmp_read_mib"
+    [978]=>
+    string(22) "use_soap_error_handler"
+    [979]=>
+    string(13) "is_soap_fault"
+    [980]=>
+    string(13) "socket_select"
+    [981]=>
+    string(13) "socket_create"
+    [982]=>
+    string(20) "socket_create_listen"
+    [983]=>
+    string(18) "socket_create_pair"
+    [984]=>
+    string(13) "socket_accept"
+    [985]=>
+    string(19) "socket_set_nonblock"
+    [986]=>
+    string(16) "socket_set_block"
+    [987]=>
+    string(13) "socket_listen"
+    [988]=>
+    string(12) "socket_close"
+    [989]=>
+    string(12) "socket_write"
+    [990]=>
+    string(11) "socket_read"
+    [991]=>
+    string(18) "socket_getsockname"
+    [992]=>
+    string(18) "socket_getpeername"
+    [993]=>
+    string(14) "socket_connect"
+    [994]=>
+    string(15) "socket_strerror"
+    [995]=>
+    string(11) "socket_bind"
+    [996]=>
+    string(11) "socket_recv"
+    [997]=>
+    string(11) "socket_send"
+    [998]=>
+    string(15) "socket_recvfrom"
+    [999]=>
+    string(13) "socket_sendto"
+    [1000]=>
+    string(17) "socket_get_option"
+    [1001]=>
+    string(17) "socket_set_option"
+    [1002]=>
+    string(15) "socket_shutdown"
+    [1003]=>
+    string(17) "socket_last_error"
+    [1004]=>
+    string(18) "socket_clear_error"
+    [1005]=>
+    string(20) "socket_import_stream"
+    [1006]=>
+    string(14) "socket_sendmsg"
+    [1007]=>
+    string(14) "socket_recvmsg"
+    [1008]=>
+    string(17) "socket_cmsg_space"
+    [1009]=>
+    string(13) "socket_getopt"
+    [1010]=>
+    string(13) "socket_setopt"
+    [1011]=>
+    string(8) "constant"
+    [1012]=>
+    string(7) "bin2hex"
+    [1013]=>
+    string(7) "hex2bin"
+    [1014]=>
+    string(5) "sleep"
+    [1015]=>
+    string(6) "usleep"
+    [1016]=>
+    string(14) "time_nanosleep"
+    [1017]=>
+    string(16) "time_sleep_until"
+    [1018]=>
+    string(8) "strptime"
+    [1019]=>
+    string(5) "flush"
+    [1020]=>
+    string(8) "wordwrap"
+    [1021]=>
+    string(16) "htmlspecialchars"
+    [1022]=>
+    string(12) "htmlentities"
+    [1023]=>
+    string(18) "html_entity_decode"
+    [1024]=>
+    string(23) "htmlspecialchars_decode"
+    [1025]=>
+    string(26) "get_html_translation_table"
+    [1026]=>
+    string(4) "sha1"
+    [1027]=>
+    string(9) "sha1_file"
+    [1028]=>
+    string(3) "md5"
+    [1029]=>
+    string(8) "md5_file"
+    [1030]=>
+    string(5) "crc32"
+    [1031]=>
+    string(9) "iptcparse"
+    [1032]=>
+    string(9) "iptcembed"
+    [1033]=>
+    string(12) "getimagesize"
+    [1034]=>
+    string(22) "getimagesizefromstring"
+    [1035]=>
+    string(23) "image_type_to_mime_type"
+    [1036]=>
+    string(23) "image_type_to_extension"
+    [1037]=>
+    string(7) "phpinfo"
+    [1038]=>
+    string(10) "phpversion"
+    [1039]=>
+    string(10) "phpcredits"
+    [1040]=>
+    string(13) "php_sapi_name"
+    [1041]=>
+    string(9) "php_uname"
+    [1042]=>
+    string(21) "php_ini_scanned_files"
+    [1043]=>
+    string(19) "php_ini_loaded_file"
+    [1044]=>
+    string(9) "strnatcmp"
+    [1045]=>
+    string(13) "strnatcasecmp"
+    [1046]=>
+    string(12) "substr_count"
+    [1047]=>
+    string(6) "strspn"
+    [1048]=>
+    string(7) "strcspn"
+    [1049]=>
+    string(6) "strtok"
+    [1050]=>
+    string(10) "strtoupper"
+    [1051]=>
+    string(10) "strtolower"
+    [1052]=>
+    string(6) "strpos"
+    [1053]=>
+    string(7) "stripos"
+    [1054]=>
+    string(7) "strrpos"
+    [1055]=>
+    string(8) "strripos"
+    [1056]=>
+    string(6) "strrev"
+    [1057]=>
+    string(6) "hebrev"
+    [1058]=>
+    string(7) "hebrevc"
+    [1059]=>
+    string(5) "nl2br"
+    [1060]=>
+    string(8) "basename"
+    [1061]=>
+    string(7) "dirname"
+    [1062]=>
+    string(8) "pathinfo"
+    [1063]=>
+    string(12) "stripslashes"
+    [1064]=>
+    string(13) "stripcslashes"
+    [1065]=>
+    string(6) "strstr"
+    [1066]=>
+    string(7) "stristr"
+    [1067]=>
+    string(7) "strrchr"
+    [1068]=>
+    string(11) "str_shuffle"
+    [1069]=>
+    string(14) "str_word_count"
+    [1070]=>
+    string(9) "str_split"
+    [1071]=>
+    string(7) "strpbrk"
+    [1072]=>
+    string(14) "substr_compare"
+    [1073]=>
+    string(7) "strcoll"
+    [1074]=>
+    string(12) "money_format"
+    [1075]=>
+    string(6) "substr"
+    [1076]=>
+    string(14) "substr_replace"
+    [1077]=>
+    string(9) "quotemeta"
+    [1078]=>
+    string(7) "ucfirst"
+    [1079]=>
+    string(7) "lcfirst"
+    [1080]=>
+    string(7) "ucwords"
+    [1081]=>
+    string(5) "strtr"
+    [1082]=>
+    string(10) "addslashes"
+    [1083]=>
+    string(11) "addcslashes"
+    [1084]=>
+    string(5) "rtrim"
+    [1085]=>
+    string(11) "str_replace"
+    [1086]=>
+    string(12) "str_ireplace"
+    [1087]=>
+    string(10) "str_repeat"
+    [1088]=>
+    string(11) "count_chars"
+    [1089]=>
+    string(11) "chunk_split"
+    [1090]=>
+    string(4) "trim"
+    [1091]=>
+    string(5) "ltrim"
+    [1092]=>
+    string(10) "strip_tags"
+    [1093]=>
+    string(12) "similar_text"
+    [1094]=>
+    string(7) "explode"
+    [1095]=>
+    string(7) "implode"
+    [1096]=>
+    string(4) "join"
+    [1097]=>
+    string(9) "setlocale"
+    [1098]=>
+    string(10) "localeconv"
+    [1099]=>
+    string(11) "nl_langinfo"
+    [1100]=>
+    string(7) "soundex"
+    [1101]=>
+    string(11) "levenshtein"
+    [1102]=>
+    string(3) "chr"
+    [1103]=>
+    string(3) "ord"
+    [1104]=>
+    string(9) "parse_str"
+    [1105]=>
+    string(10) "str_getcsv"
+    [1106]=>
+    string(7) "str_pad"
+    [1107]=>
+    string(4) "chop"
+    [1108]=>
+    string(6) "strchr"
+    [1109]=>
+    string(7) "sprintf"
+    [1110]=>
+    string(6) "printf"
+    [1111]=>
+    string(7) "vprintf"
+    [1112]=>
+    string(8) "vsprintf"
+    [1113]=>
+    string(7) "fprintf"
+    [1114]=>
+    string(8) "vfprintf"
+    [1115]=>
+    string(6) "sscanf"
+    [1116]=>
+    string(6) "fscanf"
+    [1117]=>
+    string(9) "parse_url"
+    [1118]=>
+    string(9) "urlencode"
+    [1119]=>
+    string(9) "urldecode"
+    [1120]=>
+    string(12) "rawurlencode"
+    [1121]=>
+    string(12) "rawurldecode"
+    [1122]=>
+    string(16) "http_build_query"
+    [1123]=>
+    string(8) "readlink"
+    [1124]=>
+    string(8) "linkinfo"
+    [1125]=>
+    string(7) "symlink"
+    [1126]=>
+    string(4) "link"
+    [1127]=>
+    string(6) "unlink"
+    [1128]=>
+    string(4) "exec"
+    [1129]=>
+    string(6) "system"
+    [1130]=>
+    string(14) "escapeshellcmd"
+    [1131]=>
+    string(14) "escapeshellarg"
+    [1132]=>
+    string(8) "passthru"
+    [1133]=>
+    string(10) "shell_exec"
+    [1134]=>
+    string(9) "proc_open"
+    [1135]=>
+    string(10) "proc_close"
+    [1136]=>
+    string(14) "proc_terminate"
+    [1137]=>
+    string(15) "proc_get_status"
+    [1138]=>
+    string(9) "proc_nice"
+    [1139]=>
+    string(4) "rand"
+    [1140]=>
+    string(5) "srand"
+    [1141]=>
+    string(10) "getrandmax"
+    [1142]=>
+    string(7) "mt_rand"
+    [1143]=>
+    string(8) "mt_srand"
+    [1144]=>
+    string(13) "mt_getrandmax"
+    [1145]=>
+    string(13) "getservbyname"
+    [1146]=>
+    string(13) "getservbyport"
+    [1147]=>
+    string(14) "getprotobyname"
+    [1148]=>
+    string(16) "getprotobynumber"
+    [1149]=>
+    string(8) "getmyuid"
+    [1150]=>
+    string(8) "getmygid"
+    [1151]=>
+    string(8) "getmypid"
+    [1152]=>
+    string(10) "getmyinode"
+    [1153]=>
+    string(10) "getlastmod"
+    [1154]=>
+    string(13) "base64_decode"
+    [1155]=>
+    string(13) "base64_encode"
+    [1156]=>
+    string(13) "password_hash"
+    [1157]=>
+    string(17) "password_get_info"
+    [1158]=>
+    string(21) "password_needs_rehash"
+    [1159]=>
+    string(15) "password_verify"
+    [1160]=>
+    string(16) "convert_uuencode"
+    [1161]=>
+    string(16) "convert_uudecode"
+    [1162]=>
+    string(3) "abs"
+    [1163]=>
+    string(4) "ceil"
+    [1164]=>
+    string(5) "floor"
+    [1165]=>
+    string(5) "round"
+    [1166]=>
+    string(3) "sin"
+    [1167]=>
+    string(3) "cos"
+    [1168]=>
+    string(3) "tan"
+    [1169]=>
+    string(4) "asin"
+    [1170]=>
+    string(4) "acos"
+    [1171]=>
+    string(4) "atan"
+    [1172]=>
+    string(5) "atanh"
+    [1173]=>
+    string(5) "atan2"
+    [1174]=>
+    string(4) "sinh"
+    [1175]=>
+    string(4) "cosh"
+    [1176]=>
+    string(4) "tanh"
+    [1177]=>
+    string(5) "asinh"
+    [1178]=>
+    string(5) "acosh"
+    [1179]=>
+    string(5) "expm1"
+    [1180]=>
+    string(5) "log1p"
+    [1181]=>
+    string(2) "pi"
+    [1182]=>
+    string(9) "is_finite"
+    [1183]=>
+    string(6) "is_nan"
+    [1184]=>
+    string(11) "is_infinite"
+    [1185]=>
+    string(3) "pow"
+    [1186]=>
+    string(3) "exp"
+    [1187]=>
+    string(3) "log"
+    [1188]=>
+    string(5) "log10"
+    [1189]=>
+    string(4) "sqrt"
+    [1190]=>
+    string(5) "hypot"
+    [1191]=>
+    string(7) "deg2rad"
+    [1192]=>
+    string(7) "rad2deg"
+    [1193]=>
+    string(6) "bindec"
+    [1194]=>
+    string(6) "hexdec"
+    [1195]=>
+    string(6) "octdec"
+    [1196]=>
+    string(6) "decbin"
+    [1197]=>
+    string(6) "decoct"
+    [1198]=>
+    string(6) "dechex"
+    [1199]=>
+    string(12) "base_convert"
+    [1200]=>
+    string(13) "number_format"
+    [1201]=>
+    string(4) "fmod"
+    [1202]=>
+    string(9) "inet_ntop"
+    [1203]=>
+    string(9) "inet_pton"
+    [1204]=>
+    string(7) "ip2long"
+    [1205]=>
+    string(7) "long2ip"
+    [1206]=>
+    string(6) "getenv"
+    [1207]=>
+    string(6) "putenv"
+    [1208]=>
+    string(6) "getopt"
+    [1209]=>
+    string(14) "sys_getloadavg"
+    [1210]=>
+    string(9) "microtime"
+    [1211]=>
+    string(12) "gettimeofday"
+    [1212]=>
+    string(9) "getrusage"
+    [1213]=>
+    string(6) "uniqid"
+    [1214]=>
+    string(23) "quoted_printable_decode"
+    [1215]=>
+    string(23) "quoted_printable_encode"
+    [1216]=>
+    string(18) "convert_cyr_string"
+    [1217]=>
+    string(16) "get_current_user"
+    [1218]=>
+    string(14) "set_time_limit"
+    [1219]=>
+    string(24) "header_register_callback"
+    [1220]=>
+    string(11) "get_cfg_var"
+    [1221]=>
+    string(20) "magic_quotes_runtime"
+    [1222]=>
+    string(24) "set_magic_quotes_runtime"
+    [1223]=>
+    string(20) "get_magic_quotes_gpc"
+    [1224]=>
+    string(24) "get_magic_quotes_runtime"
+    [1225]=>
+    string(9) "error_log"
+    [1226]=>
+    string(14) "error_get_last"
+    [1227]=>
+    string(14) "call_user_func"
+    [1228]=>
+    string(20) "call_user_func_array"
+    [1229]=>
+    string(16) "call_user_method"
+    [1230]=>
+    string(22) "call_user_method_array"
+    [1231]=>
+    string(19) "forward_static_call"
+    [1232]=>
+    string(25) "forward_static_call_array"
+    [1233]=>
+    string(9) "serialize"
+    [1234]=>
+    string(11) "unserialize"
+    [1235]=>
+    string(8) "var_dump"
+    [1236]=>
+    string(10) "var_export"
+    [1237]=>
+    string(15) "debug_zval_dump"
+    [1238]=>
+    string(7) "print_r"
+    [1239]=>
+    string(16) "memory_get_usage"
+    [1240]=>
+    string(21) "memory_get_peak_usage"
+    [1241]=>
+    string(26) "register_shutdown_function"
+    [1242]=>
+    string(22) "register_tick_function"
+    [1243]=>
+    string(24) "unregister_tick_function"
+    [1244]=>
+    string(14) "highlight_file"
+    [1245]=>
+    string(11) "show_source"
+    [1246]=>
+    string(16) "highlight_string"
+    [1247]=>
+    string(20) "php_strip_whitespace"
+    [1248]=>
+    string(7) "ini_get"
+    [1249]=>
+    string(11) "ini_get_all"
+    [1250]=>
+    string(7) "ini_set"
+    [1251]=>
+    string(9) "ini_alter"
+    [1252]=>
+    string(11) "ini_restore"
+    [1253]=>
+    string(16) "get_include_path"
+    [1254]=>
+    string(16) "set_include_path"
+    [1255]=>
+    string(20) "restore_include_path"
+    [1256]=>
+    string(9) "setcookie"
+    [1257]=>
+    string(12) "setrawcookie"
+    [1258]=>
+    string(6) "header"
+    [1259]=>
+    string(13) "header_remove"
+    [1260]=>
+    string(12) "headers_sent"
+    [1261]=>
+    string(12) "headers_list"
+    [1262]=>
+    string(18) "http_response_code"
+    [1263]=>
+    string(18) "connection_aborted"
+    [1264]=>
+    string(17) "connection_status"
+    [1265]=>
+    string(17) "ignore_user_abort"
+    [1266]=>
+    string(14) "parse_ini_file"
+    [1267]=>
+    string(16) "parse_ini_string"
+    [1268]=>
+    string(16) "is_uploaded_file"
+    [1269]=>
+    string(18) "move_uploaded_file"
+    [1270]=>
+    string(13) "gethostbyaddr"
+    [1271]=>
+    string(13) "gethostbyname"
+    [1272]=>
+    string(14) "gethostbynamel"
+    [1273]=>
+    string(11) "gethostname"
+    [1274]=>
+    string(16) "dns_check_record"
+    [1275]=>
+    string(10) "checkdnsrr"
+    [1276]=>
+    string(10) "dns_get_mx"
+    [1277]=>
+    string(7) "getmxrr"
+    [1278]=>
+    string(14) "dns_get_record"
+    [1279]=>
+    string(6) "intval"
+    [1280]=>
+    string(8) "floatval"
+    [1281]=>
+    string(9) "doubleval"
+    [1282]=>
+    string(6) "strval"
+    [1283]=>
+    string(7) "boolval"
+    [1284]=>
+    string(7) "gettype"
+    [1285]=>
+    string(7) "settype"
+    [1286]=>
+    string(7) "is_null"
+    [1287]=>
+    string(11) "is_resource"
+    [1288]=>
+    string(7) "is_bool"
+    [1289]=>
+    string(7) "is_long"
+    [1290]=>
+    string(8) "is_float"
+    [1291]=>
+    string(6) "is_int"
+    [1292]=>
+    string(10) "is_integer"
+    [1293]=>
+    string(9) "is_double"
+    [1294]=>
+    string(7) "is_real"
+    [1295]=>
+    string(10) "is_numeric"
+    [1296]=>
+    string(9) "is_string"
+    [1297]=>
+    string(8) "is_array"
+    [1298]=>
+    string(9) "is_object"
+    [1299]=>
+    string(9) "is_scalar"
+    [1300]=>
+    string(11) "is_callable"
+    [1301]=>
+    string(6) "pclose"
+    [1302]=>
+    string(5) "popen"
+    [1303]=>
+    string(8) "readfile"
+    [1304]=>
+    string(6) "rewind"
+    [1305]=>
+    string(5) "rmdir"
+    [1306]=>
+    string(5) "umask"
+    [1307]=>
+    string(6) "fclose"
+    [1308]=>
+    string(4) "feof"
+    [1309]=>
+    string(5) "fgetc"
+    [1310]=>
+    string(5) "fgets"
+    [1311]=>
+    string(6) "fgetss"
+    [1312]=>
+    string(5) "fread"
+    [1313]=>
+    string(5) "fopen"
+    [1314]=>
+    string(9) "fpassthru"
+    [1315]=>
+    string(9) "ftruncate"
+    [1316]=>
+    string(5) "fstat"
+    [1317]=>
+    string(5) "fseek"
+    [1318]=>
+    string(5) "ftell"
+    [1319]=>
+    string(6) "fflush"
+    [1320]=>
+    string(6) "fwrite"
+    [1321]=>
+    string(5) "fputs"
+    [1322]=>
+    string(5) "mkdir"
+    [1323]=>
+    string(6) "rename"
+    [1324]=>
+    string(4) "copy"
+    [1325]=>
+    string(7) "tempnam"
+    [1326]=>
+    string(7) "tmpfile"
+    [1327]=>
+    string(4) "file"
+    [1328]=>
+    string(17) "file_get_contents"
+    [1329]=>
+    string(17) "file_put_contents"
+    [1330]=>
+    string(13) "stream_select"
+    [1331]=>
+    string(21) "stream_context_create"
+    [1332]=>
+    string(25) "stream_context_set_params"
+    [1333]=>
+    string(25) "stream_context_get_params"
+    [1334]=>
+    string(25) "stream_context_set_option"
+    [1335]=>
+    string(26) "stream_context_get_options"
+    [1336]=>
+    string(26) "stream_context_get_default"
+    [1337]=>
+    string(26) "stream_context_set_default"
+    [1338]=>
+    string(21) "stream_filter_prepend"
+    [1339]=>
+    string(20) "stream_filter_append"
+    [1340]=>
+    string(20) "stream_filter_remove"
+    [1341]=>
+    string(20) "stream_socket_client"
+    [1342]=>
+    string(20) "stream_socket_server"
+    [1343]=>
+    string(20) "stream_socket_accept"
+    [1344]=>
+    string(22) "stream_socket_get_name"
+    [1345]=>
+    string(22) "stream_socket_recvfrom"
+    [1346]=>
+    string(20) "stream_socket_sendto"
+    [1347]=>
+    string(27) "stream_socket_enable_crypto"
+    [1348]=>
+    string(22) "stream_socket_shutdown"
+    [1349]=>
+    string(18) "stream_socket_pair"
+    [1350]=>
+    string(21) "stream_copy_to_stream"
+    [1351]=>
+    string(19) "stream_get_contents"
+    [1352]=>
+    string(20) "stream_supports_lock"
+    [1353]=>
+    string(7) "fgetcsv"
+    [1354]=>
+    string(7) "fputcsv"
+    [1355]=>
+    string(5) "flock"
+    [1356]=>
+    string(13) "get_meta_tags"
+    [1357]=>
+    string(22) "stream_set_read_buffer"
+    [1358]=>
+    string(23) "stream_set_write_buffer"
+    [1359]=>
+    string(15) "set_file_buffer"
+    [1360]=>
+    string(21) "stream_set_chunk_size"
+    [1361]=>
+    string(19) "set_socket_blocking"
+    [1362]=>
+    string(19) "stream_set_blocking"
+    [1363]=>
+    string(19) "socket_set_blocking"
+    [1364]=>
+    string(20) "stream_get_meta_data"
+    [1365]=>
+    string(15) "stream_get_line"
+    [1366]=>
+    string(23) "stream_wrapper_register"
+    [1367]=>
+    string(23) "stream_register_wrapper"
+    [1368]=>
+    string(25) "stream_wrapper_unregister"
+    [1369]=>
+    string(22) "stream_wrapper_restore"
+    [1370]=>
+    string(19) "stream_get_wrappers"
+    [1371]=>
+    string(21) "stream_get_transports"
+    [1372]=>
+    string(27) "stream_resolve_include_path"
+    [1373]=>
+    string(15) "stream_is_local"
+    [1374]=>
+    string(11) "get_headers"
+    [1375]=>
+    string(18) "stream_set_timeout"
+    [1376]=>
+    string(18) "socket_set_timeout"
+    [1377]=>
+    string(17) "socket_get_status"
+    [1378]=>
+    string(8) "realpath"
+    [1379]=>
+    string(7) "fnmatch"
+    [1380]=>
+    string(9) "fsockopen"
+    [1381]=>
+    string(10) "pfsockopen"
+    [1382]=>
+    string(4) "pack"
+    [1383]=>
+    string(6) "unpack"
+    [1384]=>
+    string(11) "get_browser"
+    [1385]=>
+    string(5) "crypt"
+    [1386]=>
+    string(7) "opendir"
+    [1387]=>
+    string(8) "closedir"
+    [1388]=>
+    string(5) "chdir"
+    [1389]=>
+    string(6) "getcwd"
+    [1390]=>
+    string(9) "rewinddir"
+    [1391]=>
+    string(7) "readdir"
+    [1392]=>
+    string(3) "dir"
+    [1393]=>
+    string(7) "scandir"
+    [1394]=>
+    string(4) "glob"
+    [1395]=>
+    string(9) "fileatime"
+    [1396]=>
+    string(9) "filectime"
+    [1397]=>
+    string(9) "filegroup"
+    [1398]=>
+    string(9) "fileinode"
+    [1399]=>
+    string(9) "filemtime"
+    [1400]=>
+    string(9) "fileowner"
+    [1401]=>
+    string(9) "fileperms"
+    [1402]=>
+    string(8) "filesize"
+    [1403]=>
+    string(8) "filetype"
+    [1404]=>
+    string(11) "file_exists"
+    [1405]=>
+    string(11) "is_writable"
+    [1406]=>
+    string(12) "is_writeable"
+    [1407]=>
+    string(11) "is_readable"
+    [1408]=>
+    string(13) "is_executable"
+    [1409]=>
+    string(7) "is_file"
+    [1410]=>
+    string(6) "is_dir"
+    [1411]=>
+    string(7) "is_link"
+    [1412]=>
+    string(4) "stat"
+    [1413]=>
+    string(5) "lstat"
+    [1414]=>
+    string(5) "chown"
+    [1415]=>
+    string(5) "chgrp"
+    [1416]=>
+    string(6) "lchown"
+    [1417]=>
+    string(6) "lchgrp"
+    [1418]=>
+    string(5) "chmod"
+    [1419]=>
+    string(5) "touch"
+    [1420]=>
+    string(14) "clearstatcache"
+    [1421]=>
+    string(16) "disk_total_space"
+    [1422]=>
+    string(15) "disk_free_space"
+    [1423]=>
+    string(13) "diskfreespace"
+    [1424]=>
+    string(19) "realpath_cache_size"
+    [1425]=>
+    string(18) "realpath_cache_get"
+    [1426]=>
+    string(4) "mail"
+    [1427]=>
+    string(10) "ezmlm_hash"
+    [1428]=>
+    string(7) "openlog"
+    [1429]=>
+    string(6) "syslog"
+    [1430]=>
+    string(8) "closelog"
+    [1431]=>
+    string(9) "lcg_value"
+    [1432]=>
+    string(9) "metaphone"
+    [1433]=>
+    string(8) "ob_start"
+    [1434]=>
+    string(8) "ob_flush"
+    [1435]=>
+    string(8) "ob_clean"
+    [1436]=>
+    string(12) "ob_end_flush"
+    [1437]=>
+    string(12) "ob_end_clean"
+    [1438]=>
+    string(12) "ob_get_flush"
+    [1439]=>
+    string(12) "ob_get_clean"
+    [1440]=>
+    string(13) "ob_get_length"
+    [1441]=>
+    string(12) "ob_get_level"
+    [1442]=>
+    string(13) "ob_get_status"
+    [1443]=>
+    string(15) "ob_get_contents"
+    [1444]=>
+    string(17) "ob_implicit_flush"
+    [1445]=>
+    string(16) "ob_list_handlers"
+    [1446]=>
+    string(5) "ksort"
+    [1447]=>
+    string(6) "krsort"
+    [1448]=>
+    string(7) "natsort"
+    [1449]=>
+    string(11) "natcasesort"
+    [1450]=>
+    string(5) "asort"
+    [1451]=>
+    string(6) "arsort"
+    [1452]=>
+    string(4) "sort"
+    [1453]=>
+    string(5) "rsort"
+    [1454]=>
+    string(5) "usort"
+    [1455]=>
+    string(6) "uasort"
+    [1456]=>
+    string(6) "uksort"
+    [1457]=>
+    string(7) "shuffle"
+    [1458]=>
+    string(10) "array_walk"
+    [1459]=>
+    string(20) "array_walk_recursive"
+    [1460]=>
+    string(5) "count"
+    [1461]=>
+    string(3) "end"
+    [1462]=>
+    string(4) "prev"
+    [1463]=>
+    string(4) "next"
+    [1464]=>
+    string(5) "reset"
+    [1465]=>
+    string(7) "current"
+    [1466]=>
+    string(3) "key"
+    [1467]=>
+    string(3) "min"
+    [1468]=>
+    string(3) "max"
+    [1469]=>
+    string(8) "in_array"
+    [1470]=>
+    string(12) "array_search"
+    [1471]=>
+    string(7) "extract"
+    [1472]=>
+    string(7) "compact"
+    [1473]=>
+    string(10) "array_fill"
+    [1474]=>
+    string(15) "array_fill_keys"
+    [1475]=>
+    string(5) "range"
+    [1476]=>
+    string(15) "array_multisort"
+    [1477]=>
+    string(10) "array_push"
+    [1478]=>
+    string(9) "array_pop"
+    [1479]=>
+    string(11) "array_shift"
+    [1480]=>
+    string(13) "array_unshift"
+    [1481]=>
+    string(12) "array_splice"
+    [1482]=>
+    string(11) "array_slice"
+    [1483]=>
+    string(11) "array_merge"
+    [1484]=>
+    string(21) "array_merge_recursive"
+    [1485]=>
+    string(13) "array_replace"
+    [1486]=>
+    string(23) "array_replace_recursive"
+    [1487]=>
+    string(10) "array_keys"
+    [1488]=>
+    string(12) "array_values"
+    [1489]=>
+    string(18) "array_count_values"
+    [1490]=>
+    string(12) "array_column"
+    [1491]=>
+    string(13) "array_reverse"
+    [1492]=>
+    string(12) "array_reduce"
+    [1493]=>
+    string(9) "array_pad"
+    [1494]=>
+    string(10) "array_flip"
+    [1495]=>
+    string(21) "array_change_key_case"
+    [1496]=>
+    string(10) "array_rand"
+    [1497]=>
+    string(12) "array_unique"
+    [1498]=>
+    string(15) "array_intersect"
+    [1499]=>
+    string(19) "array_intersect_key"
+    [1500]=>
+    string(20) "array_intersect_ukey"
+    [1501]=>
+    string(16) "array_uintersect"
+    [1502]=>
+    string(21) "array_intersect_assoc"
+    [1503]=>
+    string(22) "array_uintersect_assoc"
+    [1504]=>
+    string(22) "array_intersect_uassoc"
+    [1505]=>
+    string(23) "array_uintersect_uassoc"
+    [1506]=>
+    string(10) "array_diff"
+    [1507]=>
+    string(14) "array_diff_key"
+    [1508]=>
+    string(15) "array_diff_ukey"
+    [1509]=>
+    string(11) "array_udiff"
+    [1510]=>
+    string(16) "array_diff_assoc"
+    [1511]=>
+    string(17) "array_udiff_assoc"
+    [1512]=>
+    string(17) "array_diff_uassoc"
+    [1513]=>
+    string(18) "array_udiff_uassoc"
+    [1514]=>
+    string(9) "array_sum"
+    [1515]=>
+    string(13) "array_product"
+    [1516]=>
+    string(12) "array_filter"
+    [1517]=>
+    string(9) "array_map"
+    [1518]=>
+    string(11) "array_chunk"
+    [1519]=>
+    string(13) "array_combine"
+    [1520]=>
+    string(16) "array_key_exists"
+    [1521]=>
+    string(3) "pos"
+    [1522]=>
+    string(6) "sizeof"
+    [1523]=>
+    string(10) "key_exists"
+    [1524]=>
+    string(6) "assert"
+    [1525]=>
+    string(14) "assert_options"
+    [1526]=>
+    string(15) "version_compare"
+    [1527]=>
+    string(4) "ftok"
+    [1528]=>
+    string(9) "str_rot13"
+    [1529]=>
+    string(18) "stream_get_filters"
+    [1530]=>
+    string(22) "stream_filter_register"
+    [1531]=>
+    string(28) "stream_bucket_make_writeable"
+    [1532]=>
+    string(21) "stream_bucket_prepend"
+    [1533]=>
+    string(20) "stream_bucket_append"
+    [1534]=>
+    string(17) "stream_bucket_new"
+    [1535]=>
+    string(22) "output_add_rewrite_var"
+    [1536]=>
+    string(25) "output_reset_rewrite_vars"
+    [1537]=>
+    string(16) "sys_get_temp_dir"
+    [1538]=>
+    string(13) "msg_get_queue"
+    [1539]=>
+    string(8) "msg_send"
+    [1540]=>
+    string(11) "msg_receive"
+    [1541]=>
+    string(16) "msg_remove_queue"
+    [1542]=>
+    string(14) "msg_stat_queue"
+    [1543]=>
+    string(13) "msg_set_queue"
+    [1544]=>
+    string(16) "msg_queue_exists"
+    [1545]=>
+    string(7) "sem_get"
+    [1546]=>
+    string(11) "sem_acquire"
+    [1547]=>
+    string(11) "sem_release"
+    [1548]=>
+    string(10) "sem_remove"
+    [1549]=>
+    string(10) "shm_attach"
+    [1550]=>
+    string(10) "shm_remove"
+    [1551]=>
+    string(10) "shm_detach"
+    [1552]=>
+    string(11) "shm_put_var"
+    [1553]=>
+    string(11) "shm_has_var"
+    [1554]=>
+    string(11) "shm_get_var"
+    [1555]=>
+    string(14) "shm_remove_var"
+    [1556]=>
+    string(11) "tidy_getopt"
+    [1557]=>
+    string(17) "tidy_parse_string"
+    [1558]=>
+    string(15) "tidy_parse_file"
+    [1559]=>
+    string(15) "tidy_get_output"
+    [1560]=>
+    string(21) "tidy_get_error_buffer"
+    [1561]=>
+    string(17) "tidy_clean_repair"
+    [1562]=>
+    string(18) "tidy_repair_string"
+    [1563]=>
+    string(16) "tidy_repair_file"
+    [1564]=>
+    string(13) "tidy_diagnose"
+    [1565]=>
+    string(16) "tidy_get_release"
+    [1566]=>
+    string(15) "tidy_get_config"
+    [1567]=>
+    string(15) "tidy_get_status"
+    [1568]=>
+    string(17) "tidy_get_html_ver"
+    [1569]=>
+    string(13) "tidy_is_xhtml"
+    [1570]=>
+    string(11) "tidy_is_xml"
+    [1571]=>
+    string(16) "tidy_error_count"
+    [1572]=>
+    string(18) "tidy_warning_count"
+    [1573]=>
+    string(17) "tidy_access_count"
+    [1574]=>
+    string(17) "tidy_config_count"
+    [1575]=>
+    string(16) "tidy_get_opt_doc"
+    [1576]=>
+    string(13) "tidy_get_root"
+    [1577]=>
+    string(13) "tidy_get_head"
+    [1578]=>
+    string(13) "tidy_get_html"
+    [1579]=>
+    string(13) "tidy_get_body"
+    [1580]=>
+    string(13) "token_get_all"
+    [1581]=>
+    string(10) "token_name"
+    [1582]=>
+    string(20) "wddx_serialize_value"
+    [1583]=>
+    string(19) "wddx_serialize_vars"
+    [1584]=>
+    string(17) "wddx_packet_start"
+    [1585]=>
+    string(15) "wddx_packet_end"
+    [1586]=>
+    string(13) "wddx_add_vars"
+    [1587]=>
+    string(16) "wddx_deserialize"
+    [1588]=>
+    string(17) "xml_parser_create"
+    [1589]=>
+    string(20) "xml_parser_create_ns"
+    [1590]=>
+    string(14) "xml_set_object"
+    [1591]=>
+    string(23) "xml_set_element_handler"
+    [1592]=>
+    string(30) "xml_set_character_data_handler"
+    [1593]=>
+    string(38) "xml_set_processing_instruction_handler"
+    [1594]=>
+    string(23) "xml_set_default_handler"
+    [1595]=>
+    string(36) "xml_set_unparsed_entity_decl_handler"
+    [1596]=>
+    string(29) "xml_set_notation_decl_handler"
+    [1597]=>
+    string(35) "xml_set_external_entity_ref_handler"
+    [1598]=>
+    string(36) "xml_set_start_namespace_decl_handler"
+    [1599]=>
+    string(34) "xml_set_end_namespace_decl_handler"
+    [1600]=>
+    string(9) "xml_parse"
+    [1601]=>
+    string(21) "xml_parse_into_struct"
+    [1602]=>
+    string(18) "xml_get_error_code"
+    [1603]=>
+    string(16) "xml_error_string"
+    [1604]=>
+    string(27) "xml_get_current_line_number"
+    [1605]=>
+    string(29) "xml_get_current_column_number"
+    [1606]=>
+    string(26) "xml_get_current_byte_index"
+    [1607]=>
+    string(15) "xml_parser_free"
+    [1608]=>
+    string(21) "xml_parser_set_option"
+    [1609]=>
+    string(21) "xml_parser_get_option"
+    [1610]=>
+    string(11) "utf8_encode"
+    [1611]=>
+    string(11) "utf8_decode"
+    [1612]=>
+    string(13) "xmlrpc_encode"
+    [1613]=>
+    string(13) "xmlrpc_decode"
+    [1614]=>
+    string(21) "xmlrpc_decode_request"
+    [1615]=>
+    string(21) "xmlrpc_encode_request"
+    [1616]=>
+    string(15) "xmlrpc_get_type"
+    [1617]=>
+    string(15) "xmlrpc_set_type"
+    [1618]=>
+    string(15) "xmlrpc_is_fault"
+    [1619]=>
+    string(20) "xmlrpc_server_create"
+    [1620]=>
+    string(21) "xmlrpc_server_destroy"
+    [1621]=>
+    string(29) "xmlrpc_server_register_method"
+    [1622]=>
+    string(25) "xmlrpc_server_call_method"
+    [1623]=>
+    string(32) "xmlrpc_parse_method_descriptions"
+    [1624]=>
+    string(36) "xmlrpc_server_add_introspection_data"
+    [1625]=>
+    string(45) "xmlrpc_server_register_introspection_callback"
+    [1626]=>
+    string(18) "xmlwriter_open_uri"
+    [1627]=>
+    string(21) "xmlwriter_open_memory"
+    [1628]=>
+    string(20) "xmlwriter_set_indent"
+    [1629]=>
+    string(27) "xmlwriter_set_indent_string"
+    [1630]=>
+    string(23) "xmlwriter_start_comment"
+    [1631]=>
+    string(21) "xmlwriter_end_comment"
+    [1632]=>
+    string(25) "xmlwriter_start_attribute"
+    [1633]=>
+    string(23) "xmlwriter_end_attribute"
+    [1634]=>
+    string(25) "xmlwriter_write_attribute"
+    [1635]=>
+    string(28) "xmlwriter_start_attribute_ns"
+    [1636]=>
+    string(28) "xmlwriter_write_attribute_ns"
+    [1637]=>
+    string(23) "xmlwriter_start_element"
+    [1638]=>
+    string(21) "xmlwriter_end_element"
+    [1639]=>
+    string(26) "xmlwriter_full_end_element"
+    [1640]=>
+    string(26) "xmlwriter_start_element_ns"
+    [1641]=>
+    string(23) "xmlwriter_write_element"
+    [1642]=>
+    string(26) "xmlwriter_write_element_ns"
+    [1643]=>
+    string(18) "xmlwriter_start_pi"
+    [1644]=>
+    string(16) "xmlwriter_end_pi"
+    [1645]=>
+    string(18) "xmlwriter_write_pi"
+    [1646]=>
+    string(21) "xmlwriter_start_cdata"
+    [1647]=>
+    string(19) "xmlwriter_end_cdata"
+    [1648]=>
+    string(21) "xmlwriter_write_cdata"
+    [1649]=>
+    string(14) "xmlwriter_text"
+    [1650]=>
+    string(19) "xmlwriter_write_raw"
+    [1651]=>
+    string(24) "xmlwriter_start_document"
+    [1652]=>
+    string(22) "xmlwriter_end_document"
+    [1653]=>
+    string(23) "xmlwriter_write_comment"
+    [1654]=>
+    string(19) "xmlwriter_start_dtd"
+    [1655]=>
+    string(17) "xmlwriter_end_dtd"
+    [1656]=>
+    string(19) "xmlwriter_write_dtd"
+    [1657]=>
+    string(27) "xmlwriter_start_dtd_element"
+    [1658]=>
+    string(25) "xmlwriter_end_dtd_element"
+    [1659]=>
+    string(27) "xmlwriter_write_dtd_element"
+    [1660]=>
+    string(27) "xmlwriter_start_dtd_attlist"
+    [1661]=>
+    string(25) "xmlwriter_end_dtd_attlist"
+    [1662]=>
+    string(27) "xmlwriter_write_dtd_attlist"
+    [1663]=>
+    string(26) "xmlwriter_start_dtd_entity"
+    [1664]=>
+    string(24) "xmlwriter_end_dtd_entity"
+    [1665]=>
+    string(26) "xmlwriter_write_dtd_entity"
+    [1666]=>
+    string(23) "xmlwriter_output_memory"
+    [1667]=>
+    string(15) "xmlwriter_flush"
+    [1668]=>
+    string(8) "zip_open"
+    [1669]=>
+    string(9) "zip_close"
+    [1670]=>
+    string(8) "zip_read"
+    [1671]=>
+    string(14) "zip_entry_open"
+    [1672]=>
+    string(15) "zip_entry_close"
+    [1673]=>
+    string(14) "zip_entry_read"
+    [1674]=>
+    string(18) "zip_entry_filesize"
+    [1675]=>
+    string(14) "zip_entry_name"
+    [1676]=>
+    string(24) "zip_entry_compressedsize"
+    [1677]=>
+    string(27) "zip_entry_compressionmethod"
+    [1678]=>
+    string(2) "dl"
+    [1679]=>
+    string(21) "cli_set_process_title"
+    [1680]=>
+    string(21) "cli_get_process_title"
+  }
+  ["user"]=>
+  array(0) {
+  }
+}
+
+array(9) {
+  '_GET' =>
+  array(0) {
+  }
+  '_POST' =>
+  array(0) {
+  }
+  '_COOKIE' =>
+  array(0) {
+  }
+  '_FILES' =>
+  array(0) {
+  }
+  'argv' =>
+  array(1) {
+    [0] =>
+    string(1) "-"
+  }
+  'argc' =>
+  int(1)
+  '_ENV' =>
+  array(0) {
+  }
+  '_REQUEST' =>
+  array(0) {
+  }
+  '_SERVER' =>
+  array(37) {
+    'USER' =>
+    string(7) "vagrant"
+    'LOGNAME' =>
+    string(7) "vagrant"
+    'HOME' =>
+    string(13) "/home/vagrant"
+    'PATH' =>
+    string(132) "/usr/local/bin:/usr/bin:/home/vagrant/bin:/usr/local/sbin:/usr/sbin:/home/vagrant/.local/bin:/home/vagrant/bin:/opt/web/phpc/php/bin"
+    'MAIL' =>
+    string(23) "/var/spool/mail/vagrant"
+    'SHELL' =>
+    string(8) "/bin/zsh"
+    'SSH_CLIENT' =>
+    string(21) "172.16.144.1 65189 22"
+    'SSH_CONNECTION' =>
+    string(36) "172.16.144.1 65189 172.16.144.130 22"
+    'SSH_TTY' =>
+    string(10) "/dev/pts/0"
+    'TERM' =>
+    string(14) "xterm-256color"
+    'XDG_SESSION_ID' =>
+    string(3) "402"
+    'XDG_RUNTIME_DIR' =>
+    string(14) "/run/user/1000"
+    'SHLVL' =>
+    string(1) "1"
+    'PWD' =>
+    string(13) "/home/vagrant"
+    'OLDPWD' =>
+    string(13) "/home/vagrant"
+    'HISTCONTROL' =>
+    string(10) "ignoredups"
+    'HOSTNAME' =>
+    string(5) "bogon"
+    'HISTSIZE' =>
+    string(5) "10000"
+    'LS_COLORS' =>
+    string(1709) "rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;"...
+    'LANG' =>
+    string(11) "en_US.UTF-8"
+    'LESSOPEN' =>
+    string(25) "||/usr/bin/lesspipe.sh %s"
+    'ZSH' =>
+    string(24) "/home/vagrant/.oh-my-zsh"
+    'PAGER' =>
+    string(4) "less"
+    'LESS' =>
+    string(2) "-R"
+    'LC_CTYPE' =>
+    string(11) "en_US.UTF-8"
+    'LSCOLORS' =>
+    string(22) "Gxfxcxdxbxegedabagacad"
+    'LD_LIBRARY_PATH' =>
+    string(21) "/opt/web/phpc/php/lib"
+    '_' =>
+    string(25) "/opt/web/phpc/php/bin/php"
+    'PHP_SELF' =>
+    string(1) "-"
+    'SCRIPT_NAME' =>
+    string(1) "-"
+    'SCRIPT_FILENAME' =>
+    string(0) ""
+    'PATH_TRANSLATED' =>
+    string(0) ""
+    'DOCUMENT_ROOT' =>
+    string(0) ""
+    'REQUEST_TIME_FLOAT' =>
+    double(1507864734.4044)
+    'REQUEST_TIME' =>
+    int(1507864734)
+    'argv' =>
+    array(1) {
+      [0] =>
+      string(1) "-"
+    }
+    'argc' =>
+    int(1)
+  }
+}

@@ -65,6 +65,7 @@ colorscheme monokai " colerscheme
 nmap <leader>w :w!<cr>
 nmap <leader>f :find<cr>
 
+" 插入时，智能匹配
 set completeopt=preview,menu " code complate
 set clipboard+=unnamed " share clipboard
 
@@ -148,10 +149,18 @@ set backspace=2             " 设置退格键可用
 " set mouse=a                 " 鼠标可用
 set ve=block                " 光标可以定位在没有实际字符的地方
 
-" 插入时，智能匹配
-set completeopt=longest,menu
-
 " 再次打开文件，光标定位在上次退出的位置
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
+
+" 解决高版本 python YCM 报错问题
+let ycm_server_python_interpreter='/usr/bin/python'
+
+" 补全字典
+" php file
+au FileType php call AddPHPWordList()
+function AddPHPWordList()
+    set dictionary-=$HOME/.vim/dict/php_wordlist.txt dictionary+=$HOME/.vim/dict/php_wordlist.txt
+    set complete-=k complete+=k
+endfunction
