@@ -28,6 +28,15 @@ vim
 * Plugin 'ctrlpvim/ctrlp.vim' " search file
 * Plugin 'vim-syntastic/syntastic' " code synstatic
 * Plugin 'vim-scripts/taglist.vim' " function list
+* Plugin 'Valloric/YouCompleteMe' " auto to complete
+* Plugin 'vim-scripts/DoxygenToolkit.vim' " auto to complete
+* Plugin 'will133/vim-dirdiff' " dir diff
+* Plugin 'Yggdroot/LeaderF', { 'do': './install.sh' } " Fuzzy search file
+* Plugin 'artur-shaik/vim-javacomplete2' " java package auto complement
 
 ## SyntaxCheck Support
 * PHP
+* Java
+
+## Other functions
+* `()` `{}` `[]` `''` `""` auto complement

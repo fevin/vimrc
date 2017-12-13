@@ -22,6 +22,9 @@ Plugin 'vim-syntastic/syntastic' " code synstatic
 Plugin 'vim-scripts/taglist.vim' " function list
 Plugin 'Valloric/YouCompleteMe' " auto to complete
 Plugin 'vim-scripts/DoxygenToolkit.vim' " auto to complete
+Plugin 'will133/vim-dirdiff' " dir diff for commond-mode eg:DirDiff
+Plugin 'Yggdroot/LeaderF', { 'do': './install.sh' } " Fuzzy search file
+Plugin 'artur-shaik/vim-javacomplete2' "  java package auto complement
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
@@ -40,7 +43,8 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
-" filetype plugin on
+filetype plugin on
+set nocp
 "
 " Brief help
 " :PluginList       - lists configured plugins
@@ -64,9 +68,10 @@ colorscheme monokai " colerscheme
 " keyboard
 nmap <leader>w :w!<cr>
 nmap <leader>f :find<cr>
+nmap <leader>ff :LeaderfFile<cr>
 
 " 插入时，智能匹配
-set completeopt=preview,menu " code complate
+set completeopt=menu " code complate
 set clipboard+=unnamed " share clipboard
 
 set tabstop=4 " tab 4
@@ -158,9 +163,37 @@ endif
 let ycm_server_python_interpreter='/usr/bin/python'
 
 " 补全字典
+set dictionary-=./tags dictionary+=./tags
+
 " php file
 au FileType php call AddPHPWordList()
 function AddPHPWordList()
     set dictionary-=$HOME/.vim/dict/php_wordlist.txt dictionary+=$HOME/.vim/dict/php_wordlist.txt
     set complete-=k complete+=k
+endfunction
+
+" dir diff config
+let g:DirDiffExcludes = "tags,.*.swp"
+
+" gf file-ext use commond:gf or CTRL_W_N to edit file
+set suffixesadd+=.class.php
+
+" java
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
+
+" auto complement () {} [] ...
+inoremap ( ()<ESC>i
+inoremap ) <c-r>=ClosePair(')')<CR>
+inoremap { {<CR>}<ESC>O
+inoremap } <c-r>=ClosePair('}')<CR>
+inoremap [ []<ESC>i
+inoremap ] <c-r>=ClosePair(']')<CR>
+inoremap " ""<ESC>i
+inoremap ' ''<ESC>i
+function! ClosePair(char)
+    if getline('.')[col('.') - 1] == a:char
+                return "\<Right>"
+    else
+                return a:char
+    endif
 endfunction
