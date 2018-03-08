@@ -1,0 +1,1390 @@
+
+chdir(/usr/local/share/vim)
+fchdir() to previous dir
+could not source "$VIM/vimrc"
+chdir(/usr/local/share/vim/vim80)
+fchdir() to previous dir
+could not source "$VIMRUNTIME/macmap.vim"
+chdir(/Users/javin)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+Searching for "ftoff.vim" in "/Users/javin/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after"
+Searching for "/Users/javin/.vim/ftoff.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftoff.vim"
+Searching for "/usr/local/share/vim/vim80/ftoff.vim"
+chdir(/usr/local/share/vim/vim80)
+fchdir() to previous dir
+line 2: sourcing "/usr/local/share/vim/vim80/ftoff.vim"
+Error detected while processing /usr/local/Cellar/vim/8.0.1050/share/vim/vim80/ftoff.vim:
+line   11:
+E216: No such group or event: filetypedetect *
+finished sourcing /usr/local/share/vim/vim80/ftoff.vim
+continuing in /Users/javin/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/ftoff.vim"
+Searching for "/Users/javin/.vim/after/ftoff.vim"
+Searching for "autoload/plug.vim" in "/Users/javin/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/plug.vim"
+chdir(/Users/javin/.vim/autoload)
+fchdir() to previous dir
+line 6: sourcing "/Users/javin/.vim/autoload/plug.vim"
+finished sourcing /Users/javin/.vim/autoload/plug.vim
+continuing in /Users/javin/.vimrc
+Searching for "filetype.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/filetype.vim"
+Searching for "/usr/local/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/local/share/vim/vim80/filetype.vim"
+chdir(/usr/local/share/vim/vim80)
+fchdir() to previous dir
+line 83: sourcing "/usr/local/share/vim/vim80/filetype.vim"
+Searching for "ftdetect/*.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vim80/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/after/ftdetect/*.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/local/share/vim/vim80/filetype.vim
+continuing in function plug#end
+Searching for "/usr/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/javin/.vim/after/filetype.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/filetype.vim"
+Searching for "ftplugin.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/ftplugin.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/local/share/vim/vim80/ftplugin.vim"
+chdir(/usr/local/share/vim/vim80)
+fchdir() to previous dir
+line 83: sourcing "/usr/local/share/vim/vim80/ftplugin.vim"
+finished sourcing /usr/local/share/vim/vim80/ftplugin.vim
+continuing in function plug#end
+Searching for "/usr/local/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/Users/javin/.vim/after/ftplugin.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/ftplugin.vim"
+Searching for "indent.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/indent.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/indent.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/indent.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/indent.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/indent.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/indent.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/indent.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/indent.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/indent.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/indent.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/indent.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/indent.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/indent.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/indent.vim"
+Searching for "/usr/local/share/vim/vimfiles/indent.vim"
+Searching for "/usr/local/share/vim/vim80/indent.vim"
+chdir(/usr/local/share/vim/vim80)
+fchdir() to previous dir
+line 83: sourcing "/usr/local/share/vim/vim80/indent.vim"
+finished sourcing /usr/local/share/vim/vim80/indent.vim
+continuing in function plug#end
+Searching for "/usr/local/share/vim/vimfiles/after/indent.vim"
+Searching for "/Users/javin/.vim/after/indent.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/indent.vim"
+chdir(/usr/local/share/vim/vim80/syntax)
+fchdir() to previous dir
+line 86: sourcing "/usr/local/share/vim/vim80/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/syntax/synload.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/local/share/vim/vim80/syntax/synload.vim"
+chdir(/usr/local/share/vim/vim80/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/local/share/vim/vim80/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vim80/syntax/syncolor.vim"
+chdir(/usr/local/share/vim/vim80/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/local/share/vim/vim80/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim80/syntax/syncolor.vim
+continuing in /usr/local/Cellar/vim/8.0.1050/share/vim/vim80/syntax/synload.vim
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/after/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim80/syntax/synload.vim
+continuing in /usr/local/Cellar/vim/8.0.1050/share/vim/vim80/syntax/syntax.vim
+finished sourcing /usr/local/share/vim/vim80/syntax/syntax.vim
+continuing in function plug#end
+Searching for "filetype.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/filetype.vim"
+Searching for "/usr/local/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/local/share/vim/vim80/filetype.vim"
+chdir(/usr/local/share/vim/vim80)
+fchdir() to previous dir
+line 48: sourcing "/usr/local/share/vim/vim80/filetype.vim"
+finished sourcing /usr/local/share/vim/vim80/filetype.vim
+continuing in /Users/javin/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/javin/.vim/after/filetype.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/filetype.vim"
+Searching for "ftplugin.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/ftplugin.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/local/share/vim/vim80/ftplugin.vim"
+chdir(/usr/local/share/vim/vim80)
+fchdir() to previous dir
+line 48: sourcing "/usr/local/share/vim/vim80/ftplugin.vim"
+finished sourcing /usr/local/share/vim/vim80/ftplugin.vim
+continuing in /Users/javin/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/Users/javin/.vim/after/ftplugin.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/ftplugin.vim"
+Searching for "indent.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/indent.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/indent.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/indent.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/indent.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/indent.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/indent.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/indent.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/indent.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/indent.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/indent.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/indent.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/indent.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/indent.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/indent.vim"
+Searching for "/usr/local/share/vim/vimfiles/indent.vim"
+Searching for "/usr/local/share/vim/vim80/indent.vim"
+chdir(/usr/local/share/vim/vim80)
+fchdir() to previous dir
+line 48: sourcing "/usr/local/share/vim/vim80/indent.vim"
+finished sourcing /usr/local/share/vim/vim80/indent.vim
+continuing in /Users/javin/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/indent.vim"
+Searching for "/Users/javin/.vim/after/indent.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/indent.vim"
+Searching for "filetype.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/filetype.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/filetype.vim"
+Searching for "/usr/local/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/local/share/vim/vim80/filetype.vim"
+chdir(/usr/local/share/vim/vim80)
+fchdir() to previous dir
+line 50: sourcing "/usr/local/share/vim/vim80/filetype.vim"
+finished sourcing /usr/local/share/vim/vim80/filetype.vim
+continuing in /Users/javin/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/javin/.vim/after/filetype.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/filetype.vim"
+Searching for "ftplugin.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/ftplugin.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/ftplugin.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/local/share/vim/vim80/ftplugin.vim"
+chdir(/usr/local/share/vim/vim80)
+fchdir() to previous dir
+line 50: sourcing "/usr/local/share/vim/vim80/ftplugin.vim"
+finished sourcing /usr/local/share/vim/vim80/ftplugin.vim
+continuing in /Users/javin/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/Users/javin/.vim/after/ftplugin.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/ftplugin.vim"
+chdir(/usr/local/share/vim/vim80/syntax)
+fchdir() to previous dir
+line 62: sourcing "/usr/local/share/vim/vim80/syntax/syntax.vim"
+chdir(/usr/local/Cellar/vim/8.0.1050/share/vim/vim80/syntax)
+fchdir() to previous dir
+line 15: sourcing "/usr/local/Cellar/vim/8.0.1050/share/vim/vim80/syntax/nosyntax.vim"
+finished sourcing /usr/local/Cellar/vim/8.0.1050/share/vim/vim80/syntax/nosyntax.vim
+continuing in /usr/local/Cellar/vim/8.0.1050/share/vim/vim80/syntax/syntax.vim
+Searching for "syntax/synload.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/syntax/synload.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/syntax/synload.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/local/share/vim/vim80/syntax/synload.vim"
+chdir(/usr/local/share/vim/vim80/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/local/share/vim/vim80/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vim80/syntax/syncolor.vim"
+chdir(/usr/local/share/vim/vim80/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/local/share/vim/vim80/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim80/syntax/syncolor.vim
+continuing in /usr/local/Cellar/vim/8.0.1050/share/vim/vim80/syntax/synload.vim
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/after/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim80/syntax/synload.vim
+continuing in /usr/local/Cellar/vim/8.0.1050/share/vim/vim80/syntax/syntax.vim
+finished sourcing /usr/local/share/vim/vim80/syntax/syntax.vim
+continuing in /Users/javin/.vimrc
+Searching for "colors/monokai.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/colors/monokai.vim"
+chdir(/Users/javin/.vim/colors)
+fchdir() to previous dir
+line 70: sourcing "/Users/javin/.vim/colors/monokai.vim"
+Searching for "syntax/syncolor.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vim80/syntax/syncolor.vim"
+chdir(/usr/local/share/vim/vim80/syntax)
+fchdir() to previous dir
+line 4: sourcing "/usr/local/share/vim/vim80/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim80/syntax/syncolor.vim
+continuing in /Users/javin/github/vimrc/.vim/colors/monokai.vim
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/after/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vim80/syntax/syncolor.vim"
+chdir(/usr/local/share/vim/vim80/syntax)
+fchdir() to previous dir
+line 5: sourcing "/usr/local/share/vim/vim80/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim80/syntax/syncolor.vim
+continuing in /Users/javin/github/vimrc/.vim/colors/monokai.vim
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/after/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vim80/syntax/syncolor.vim"
+chdir(/usr/local/share/vim/vim80/syntax)
+fchdir() to previous dir
+line 8: sourcing "/usr/local/share/vim/vim80/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim80/syntax/syncolor.vim
+continuing in /Users/javin/github/vimrc/.vim/colors/monokai.vim
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/after/syntax/syncolor.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+finished sourcing /Users/javin/.vim/colors/monokai.vim
+continuing in /Users/javin/.vimrc
+finished sourcing $HOME/.vimrc
+Searching for "pack/*/start/*" in "/Users/javin/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after"
+Searching for "/Users/javin/.vim/pack/*/start/*"
+Searching for "/usr/local/share/vim/vimfiles/pack/*/start/*"
+Searching for "/usr/local/share/vim/vim80/pack/*/start/*"
+Searching for "/usr/local/share/vim/vimfiles/after/pack/*/start/*"
+Searching for "/Users/javin/.vim/after/pack/*/start/*"
+not found in 'packpath': "pack/*/start/*"
+Searching for "plugin/**/*.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugin/phpcheck.vim"
+finished sourcing /Users/javin/.vim/plugin/phpcheck.vim
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/vim-fugitive/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/vim-fugitive/plugin/fugitive.vim"
+Searching for "autoload/fugitive.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/autoload/fugitive.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/fugitive.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/fugitive.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/after/autoload/fugitive.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/autoload/fugitive.vim"
+not found in 'runtimepath': "autoload/fugitive.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-fugitive/plugin/fugitive.vim
+Searching for "/Users/javin/.vim/plugged/vim-airline/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/vim-airline/plugin/airline.vim"
+Searching for "autoload/airline.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload)
+fchdir() to previous dir
+line 70: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/vim-airline/plugin/airline.vim
+Searching for "autoload/airline/init.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/init.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/init.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/init.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline)
+fchdir() to previous dir
+line 155: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/init.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/init.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/vim-airline/plugin/airline.vim
+Searching for "autoload/airline/parts.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/parts.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/parts.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/parts.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline)
+fchdir() to previous dir
+line 112: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/parts.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/parts.vim
+continuing in function airline#init#bootstrap
+No matching autocommands
+finished sourcing /Users/javin/.vim/plugged/vim-airline/plugin/airline.vim
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline-themes/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/vim-airline-themes/plugin/airline-themes.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline-themes/plugin/airline-themes.vim
+Searching for "/Users/javin/.vim/plugged/nerdtree/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/nerdtree/plugin/NERD_tree.vim"
+Searching for "autoload/nerdtree.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/nerdtree.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/nerdtree.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/nerdtree.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/nerdtree.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/nerdtree.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/autoload)
+fchdir() to previous dir
+line 72: sourcing "/Users/javin/.vim/plugged/nerdtree/autoload/nerdtree.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/autoload/nerdtree.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/nerdtree/plugin/NERD_tree.vim
+Searching for "lib/nerdtree/path.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/path.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/path.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/path.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/path.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/path.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 1: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/path.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/path.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/menu_controller.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/menu_controller.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/menu_controller.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/menu_controller.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/menu_controller.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/menu_controller.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 2: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/menu_controller.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/menu_controller.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/menu_item.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/menu_item.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/menu_item.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/menu_item.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/menu_item.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/menu_item.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 3: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/menu_item.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/menu_item.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/key_map.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/key_map.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/key_map.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/key_map.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/key_map.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 4: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/bookmark.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/bookmark.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/bookmark.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/bookmark.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/bookmark.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/bookmark.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 5: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/bookmark.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/bookmark.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/tree_file_node.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/tree_file_node.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/tree_file_node.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/tree_file_node.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/tree_file_node.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/tree_file_node.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 6: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/tree_file_node.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/tree_file_node.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/tree_dir_node.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/tree_dir_node.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/tree_dir_node.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/tree_dir_node.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/tree_dir_node.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/tree_dir_node.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 7: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/tree_dir_node.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/tree_dir_node.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/opener.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/opener.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/opener.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/opener.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/opener.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/opener.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 8: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/opener.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/opener.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/creator.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/creator.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/creator.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/creator.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/creator.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/creator.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 9: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/creator.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/creator.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/flag_set.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/flag_set.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/flag_set.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/flag_set.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/flag_set.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/flag_set.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 10: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/flag_set.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/flag_set.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/nerdtree.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/nerdtree.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/nerdtree.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/nerdtree.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/nerdtree.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/nerdtree.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 11: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/nerdtree.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/nerdtree.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/ui.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/ui.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/ui.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/ui.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/ui.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/ui.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 12: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/ui.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/ui.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/event.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/event.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/event.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/event.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/event.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/event.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 13: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/event.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/event.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/notifier.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/lib/nerdtree/notifier.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/lib/nerdtree/notifier.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/lib/nerdtree/notifier.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/lib/nerdtree/notifier.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/notifier.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 14: sourcing "/Users/javin/.vim/plugged/nerdtree/lib/nerdtree/notifier.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/lib/nerdtree/notifier.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "autoload/nerdtree/ui_glue.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/nerdtree/ui_glue.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/nerdtree/ui_glue.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/nerdtree/ui_glue.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/nerdtree/ui_glue.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/nerdtree/ui_glue.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/autoload/nerdtree)
+fchdir() to previous dir
+line 158: sourcing "/Users/javin/.vim/plugged/nerdtree/autoload/nerdtree/ui_glue.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/autoload/nerdtree/ui_glue.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/nerdtree/plugin/NERD_tree.vim
+Searching for "nerdtree_plugin/**/*.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/nerdtree_plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/nerdtree/nerdtree_plugin)
+fchdir() to previous dir
+line 5: sourcing "/Users/javin/.vim/plugged/nerdtree/nerdtree_plugin/exec_menuitem.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/nerdtree_plugin/exec_menuitem.vim
+continuing in function nerdtree#postSourceActions
+chdir(/Users/javin/.vim/plugged/nerdtree/nerdtree_plugin)
+fchdir() to previous dir
+line 5: sourcing "/Users/javin/.vim/plugged/nerdtree/nerdtree_plugin/fs_menu.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/nerdtree_plugin/fs_menu.vim
+continuing in function nerdtree#postSourceActions
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/nerdtree_plugin/**/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/nerdtree_plugin/**/*.vim"
+Searching for "/usr/local/share/vim/vim80/nerdtree_plugin/**/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/nerdtree_plugin/**/*.vim"
+finished sourcing /Users/javin/.vim/plugged/nerdtree/plugin/NERD_tree.vim
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/ctrlp.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/ctrlp.vim/plugin/ctrlp.vim"
+Searching for "autoload/ctrlp/mrufiles.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/autoload/ctrlp/mrufiles.vim"
+chdir(/Users/javin/.vim/plugged/ctrlp.vim/autoload/ctrlp)
+fchdir() to previous dir
+line 43: sourcing "/Users/javin/.vim/plugged/ctrlp.vim/autoload/ctrlp/mrufiles.vim"
+finished sourcing /Users/javin/.vim/plugged/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/ctrlp.vim/plugin/ctrlp.vim
+finished sourcing /Users/javin/.vim/plugged/ctrlp.vim/plugin/ctrlp.vim
+Searching for "/Users/javin/.vim/plugged/syntastic/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/autoloclist.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/autoloclist.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/balloons.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/balloons.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/checker.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/checker.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/cursor.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/cursor.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/highlighting.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/highlighting.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/loclist.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/loclist.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/modemap.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/modemap.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/notifiers.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/notifiers.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/registry.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/registry.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/signs.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/signs.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic.vim"
+Searching for "autoload/syntastic/util.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/syntastic/util.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/syntastic/util.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/syntastic/util.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/syntastic/util.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/syntastic/util.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/autoload/syntastic/util.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/autoload/syntastic/util.vim"
+chdir(/Users/javin/.vim/plugged/syntastic/autoload/syntastic)
+fchdir() to previous dir
+line 48: sourcing "/Users/javin/.vim/plugged/syntastic/autoload/syntastic/util.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/autoload/syntastic/util.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/syntastic/plugin/syntastic.vim
+Calling shell to execute: "(uname) > /var/folders/1y/64z8vg8n6sb5lg89m503h11m0000gn/T/vKcbZin/0"
+Searching for "plugin/syntastic/*.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/*.vim"
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 176: sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/autoloclist.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/autoloclist.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/syntastic/plugin/syntastic.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 176: sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/balloons.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/balloons.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/syntastic/plugin/syntastic.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 176: sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/checker.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/checker.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/syntastic/plugin/syntastic.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 176: sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/cursor.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/cursor.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/syntastic/plugin/syntastic.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 176: sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/highlighting.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/highlighting.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/syntastic/plugin/syntastic.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 176: sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/loclist.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/loclist.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/syntastic/plugin/syntastic.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 176: sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/modemap.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/modemap.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/syntastic/plugin/syntastic.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 176: sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/notifiers.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/notifiers.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/syntastic/plugin/syntastic.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 176: sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/registry.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/registry.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/syntastic/plugin/syntastic.vim
+chdir(/Users/javin/.vim/plugged/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 176: sourcing "/Users/javin/.vim/plugged/syntastic/plugin/syntastic/signs.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic/signs.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/syntastic/plugin/syntastic.vim
+Searching for "/Users/javin/.vim/plugged/taglist.vim/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/plugin/syntastic/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/plugin/syntastic/*.vim"
+Searching for "/usr/local/share/vim/vim80/plugin/syntastic/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/after/plugin/syntastic/*.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/plugin/syntastic/*.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/plugin/syntastic.vim
+Searching for "/Users/javin/.vim/plugged/taglist.vim/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/taglist.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/taglist.vim/plugin/taglist.vim"
+finished sourcing /Users/javin/.vim/plugged/taglist.vim/plugin/taglist.vim
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/YouCompleteMe/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/YouCompleteMe/plugin/youcompleteme.vim"
+finished sourcing /Users/javin/.vim/plugged/YouCompleteMe/plugin/youcompleteme.vim
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/DoxygenToolkit.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/DoxygenToolkit.vim/plugin/DoxygenToolkit.vim"
+finished sourcing /Users/javin/.vim/plugged/DoxygenToolkit.vim/plugin/DoxygenToolkit.vim
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/vim-dirdiff/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/vim-dirdiff/plugin/dirdiff.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-dirdiff/plugin/dirdiff.vim
+Searching for "/Users/javin/.vim/plugged/LeaderF/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/LeaderF/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/LeaderF/plugin/leaderf.vim"
+finished sourcing /Users/javin/.vim/plugged/LeaderF/plugin/leaderf.vim
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/plugin/**/*.vim"
+chdir(/Users/javin/.vim/plugged/vim-javacomplete2/plugin)
+fchdir() to previous dir
+sourcing "/Users/javin/.vim/plugged/vim-javacomplete2/plugin/javacomplete.vim"
+Searching for "autoload/javacomplete/util.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/autoload/javacomplete/util.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/autoload/javacomplete/util.vim"
+chdir(/Users/javin/.vim/plugged/vim-javacomplete2/autoload/javacomplete)
+fchdir() to previous dir
+line 13: sourcing "/Users/javin/.vim/plugged/vim-javacomplete2/autoload/javacomplete/util.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-javacomplete2/autoload/javacomplete/util.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/vim-javacomplete2/plugin/javacomplete.vim
+finished sourcing /Users/javin/.vim/plugged/vim-javacomplete2/plugin/javacomplete.vim
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/plugin/**/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/plugin/**/*.vim"
+Searching for "/usr/local/share/vim/vim80/plugin/**/*.vim"
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/getscriptPlugin.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/getscriptPlugin.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/gzip.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/gzip.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/logiPat.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/logiPat.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/manpager.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/manpager.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/matchparen.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/matchparen.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/netrwPlugin.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/netrwPlugin.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/rrhelper.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/rrhelper.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/spellfile.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/spellfile.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/tarPlugin.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/tarPlugin.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/tohtml.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/tohtml.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/vimballPlugin.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/vimballPlugin.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/zipPlugin.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/zipPlugin.vim
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/plugin/**/*.vim"
+Searching for "pack/*/start/*" in "/Users/javin/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after"
+Searching for "/Users/javin/.vim/pack/*/start/*"
+Searching for "/usr/local/share/vim/vimfiles/pack/*/start/*"
+Searching for "/usr/local/share/vim/vim80/pack/*/start/*"
+Searching for "/usr/local/share/vim/vimfiles/after/pack/*/start/*"
+Searching for "/Users/javin/.vim/after/pack/*/start/*"
+not found in 'packpath': "pack/*/start/*"
+Searching for "plugin/**/*.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/Users/javin/.vim/after/plugin/**/*.vim"
+not found in 'runtimepath': "plugin/**/*.vim"
+Reading viminfo file "/Users/javin/.viminfo" info oldfiles
+Executing BufWinEnter Auto commands for "*"
+autocommand if s:can_diffoff(+expand('<abuf>')) && s:diff_window_count() == 1 |   call s:diffoff() | endif
+
+Executing BufWinEnter Auto commands for "*"
+autocommand call <sid>on_window_changed()
+
+Searching for "autoload/airline/extensions.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/extensions.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/extensions.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline)
+fchdir() to previous dir
+line 6: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init
+Searching for "autoload/airline/extensions/quickfix.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/extensions/quickfix.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/extensions/quickfix.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/quickfix.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+line 16: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/quickfix.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/quickfix.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[6]..airline#extensions#load
+Searching for "autoload/airline/extensions/netrw.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/extensions/netrw.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/extensions/netrw.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/netrw.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+line 30: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/netrw.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/netrw.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[6]..airline#extensions#load
+Searching for "autoload/airline/extensions/term.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/extensions/term.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/extensions/term.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/term.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+line 35: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/term.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/term.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[6]..airline#extensions#load
+Searching for "autoload/airline/extensions/ctrlp.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/extensions/ctrlp.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/extensions/ctrlp.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/ctrlp.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+line 49: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/ctrlp.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/ctrlp.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[6]..airline#extensions#load
+Searching for "autoload/airline/extensions/branch.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/extensions/branch.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/extensions/branch.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/branch.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+line 100: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/branch.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/branch.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[6]..airline#extensions#load
+Searching for "autoload/airline/extensions/syntastic.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/extensions/syntastic.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/extensions/syntastic.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/syntastic.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+line 122: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/syntastic.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/syntastic.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[6]..airline#extensions#load
+Searching for "autoload/airline/extensions/whitespace.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/extensions/whitespace.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/extensions/whitespace.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/whitespace.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+line 132: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/whitespace.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/whitespace.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[6]..airline#extensions#load
+Searching for "autoload/airline/extensions/wordcount.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/extensions/wordcount.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/extensions/wordcount.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/wordcount.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+line 147: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/wordcount.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/wordcount.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[6]..airline#extensions#load
+Searching for "autoload/airline/extensions/keymap.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/extensions/keymap.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/extensions/keymap.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/keymap.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+line 187: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/keymap.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/keymap.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[6]..airline#extensions#load
+Searching for "autoload/vimtex.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/autoload/vimtex.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/vimtex.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/vimtex.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/after/autoload/vimtex.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/autoload/vimtex.vim"
+not found in 'runtimepath': "autoload/vimtex.vim"
+Searching for "autoload/airline/section.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/section.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/section.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/section.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline)
+fchdir() to previous dir
+line 3: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/section.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/section.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[7]..airline#init#sections
+Searching for "autoload/airline/highlighter.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/highlighter.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/highlighter.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/highlighter.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline)
+fchdir() to previous dir
+line 2: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/highlighter.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/highlighter.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[7]..airline#init#sections[3]..airline#section#create_left[1]..<SNR>81_create[51]..<SNR>81_wrap_accent
+Searching for "autoload/airline/themes/monokai.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/vim-javacomplete2/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/plugged/sparkup/vim/autoload/airline/themes/monokai.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/airline/themes/monokai.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/airline/themes/monokai.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/after/autoload/airline/themes/monokai.vim"
+Searching for "/Users/javin/.vim/bundle/Vundle.vim/autoload/airline/themes/monokai.vim"
+not found in 'runtimepath': "autoload/airline/themes/monokai.vim"
+Searching for "autoload/airline/themes/molokai.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/themes/molokai.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/themes/molokai.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/themes/molokai.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/airline/themes/molokai.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline-themes/autoload/airline/themes)
+fchdir() to previous dir
+line 12: sourcing "/Users/javin/.vim/plugged/vim-airline-themes/autoload/airline/themes/molokai.vim"
+Searching for "autoload/airline/themes.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/themes.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/themes.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/themes.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline)
+fchdir() to previous dir
+line 13: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/themes.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/themes.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/vim-airline-themes/autoload/airline/themes/molokai.vim
+finished sourcing /Users/javin/.vim/plugged/vim-airline-themes/autoload/airline/themes/molokai.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[20]..<SNR>14_on_colorscheme_changed[6]..airline#switch_matching_theme
+Searching for "autoload/airline/util.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/util.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/util.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/util.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline)
+fchdir() to previous dir
+line 1: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/util.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/util.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[20]..<SNR>14_on_colorscheme_changed[6]..airline#switch_matching_theme[13]..airline#switch_theme[14]..airline#load_theme[14]..airline#extensions#load_theme
+Searching for "autoload/airline/builder.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/builder.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/builder.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/builder.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline)
+fchdir() to previous dir
+line 1: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/builder.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/builder.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[20]..<SNR>14_on_colorscheme_changed[6]..airline#switch_matching_theme[13]..airline#switch_theme[14]..airline#load_theme[15]..airline#update_statusline[18]..<SNR>15_invoke_funcrefs
+Searching for "autoload/airline/extensions/default.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/airline/extensions/default.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/airline/extensions/default.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/default.vim"
+chdir(/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+line 2: sourcing "/Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/default.vim"
+finished sourcing /Users/javin/.vim/plugged/vim-airline/autoload/airline/extensions/default.vim
+continuing in function <SNR>14_on_window_changed[15]..<SNR>14_init[20]..<SNR>14_on_colorscheme_changed[6]..airline#switch_matching_theme[13]..airline#switch_theme[14]..airline#load_theme[15]..airline#update_statusline[18]..<SNR>15_invoke_funcrefs[2]..airline#util#exec_funcrefs
+No matching autocommands
+No matching autocommands
+Executing BufWinEnter Auto commands for "*"
+autocommand cal s:record(expand('<abuf>', 1))
+
+Executing BufWinEnter Auto commands for "*"
+autocommand call s:BufWinEnterHook(expand('<afile>', 1))
+
+chdir(^~/github)
+fchdir() to previous dir
+chdir(^~/github)
+fchdir() to previous dir
+chdir(^/Users/javin/github/vimrc)
+fchdir() to previous dir
+chdir(/Users/javin/github/vimrc)
+fchdir() to previous dir
+Searching for "autoload/syntastic/log.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/syntastic/log.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/syntastic/log.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/syntastic/log.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/syntastic/log.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/syntastic/log.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/autoload/syntastic/log.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/autoload/syntastic/log.vim"
+chdir(/Users/javin/.vim/plugged/syntastic/autoload/syntastic)
+fchdir() to previous dir
+line 2: sourcing "/Users/javin/.vim/plugged/syntastic/autoload/syntastic/log.vim"
+finished sourcing /Users/javin/.vim/plugged/syntastic/autoload/syntastic/log.vim
+continuing in function <SNR>50_BufWinEnterHook
+Executing BufEnter Auto commands for "*"
+autocommand call nerdtree#checkForBrowse(expand("<amatch>"))
+
+Executing BufEnter Auto commands for "*"
+autocommand call s:BufEnterHook(expand('<afile>', 1))
+
+chdir(^~/github)
+fchdir() to previous dir
+chdir(^~/github)
+fchdir() to previous dir
+chdir(^/Users/javin/github/vimrc)
+fchdir() to previous dir
+chdir(/Users/javin/github/vimrc)
+fchdir() to previous dir
+Executing BufEnter Auto commands for "*"
+autocommand call s:Tlist_Refresh()
+
+Executing FuncUndefined Auto commands for "*52_Tlist_*"
+autocommand source /Users/javin/github/vimrc/.vim/plugged/taglist.vim/plugin/taglist.vim
+
+chdir(/Users/javin/github/vimrc/.vim/plugged/taglist.vim/plugin)
+fchdir() to previous dir
+line 0: sourcing "/Users/javin/github/vimrc/.vim/plugged/taglist.vim/plugin/taglist.vim"
+finished sourcing /Users/javin/github/vimrc/.vim/plugged/taglist.vim/plugin/taglist.vim
+continuing in FuncUndefined Auto commands for "*52_Tlist_*"
+autocommand call lfMru#record(expand('<afile>:p')) | call lfMru#recordBuffer(expand('<abuf>'))
+
+Searching for "autoload/lfMru.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/lfMru.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/lfMru.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/lfMru.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/lfMru.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/lfMru.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/autoload/lfMru.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/autoload/lfMru.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/autoload/lfMru.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/autoload/lfMru.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/autoload/lfMru.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/autoload/lfMru.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/autoload/lfMru.vim"
+chdir(/Users/javin/.vim/plugged/LeaderF/autoload)
+fchdir() to previous dir
+line 0: sourcing "/Users/javin/.vim/plugged/LeaderF/autoload/lfMru.vim"
+Searching for "autoload/leaderf.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/leaderf.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/leaderf.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/leaderf.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/leaderf.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/leaderf.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/autoload/leaderf.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/autoload/leaderf.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/autoload/leaderf.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/autoload/leaderf.vim"
+Searching for "/Users/javin/.vim/plugged/DoxygenToolkit.vim/autoload/leaderf.vim"
+Searching for "/Users/javin/.vim/plugged/vim-dirdiff/autoload/leaderf.vim"
+Searching for "/Users/javin/.vim/plugged/LeaderF/autoload/leaderf.vim"
+chdir(/Users/javin/.vim/plugged/LeaderF/autoload)
+fchdir() to previous dir
+line 10: sourcing "/Users/javin/.vim/plugged/LeaderF/autoload/leaderf.vim"
+finished sourcing /Users/javin/.vim/plugged/LeaderF/autoload/leaderf.vim
+continuing in /Users/javin/github/vimrc/.vim/plugged/LeaderF/autoload/lfMru.vim
+finished sourcing /Users/javin/.vim/plugged/LeaderF/autoload/lfMru.vim
+continuing in BufEnter Auto commands for "*"
+Executing BufEnter Auto commands for "*"
+autocommand sil call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand if expand('<amatch>')==''|call fugitive#detect(getcwd())|endif
+
+chdir(.)
+/Users/javin/github/vimrc
+Executing User Auto commands for "Fugitive"
+autocommand if s:buffer().commit() =~# '^0\=$' | exe "command! -buffer -bar -bang -nargs=1 -complete=customlist,s:MoveComplete Gmove :execute s:Move(<bang>0,<q-args>)" | exe "command! -buffer -bar -bang Gremove :execute s:Remove('edit',<bang>0)" | exe "command! -buffer -bar -bang Gdelete :execute s:Remove('bdelete',<bang>0)" | endif
+
+Executing User Auto commands for "Fugitive"
+autocommand if s:buffer().type('file', 'blob') | exe "command! -buffer -bar -bang -range=0 -nargs=* Gblame :execute s:Blame(<bang>0,<line1>,<line2>,<count>,[<f-args>])" | endif
+
+Executing User Auto commands for "Fugitive"
+autocommand if &filetype =~# '^git\%(commit\)\=$' && &foldtext ==# 'foldtext()' |    set foldtext=fugitive#foldtext() | endif
+
+Executing VimEnter Auto commands for "*"
+autocommand call <sid>on_window_changed()
+
+Executing VimEnter Auto commands for "*"
+autocommand silent! autocmd! FileExplorer
+
+autocommand call nerdtree#checkForBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand call s:VimEnterHook()
+
+Executing VimEnter Auto commands for "*"
+autocommand call youcompleteme#Enable()
+
+Searching for "autoload/youcompleteme.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/youcompleteme.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/youcompleteme.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/youcompleteme.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/youcompleteme.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/youcompleteme.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/autoload/youcompleteme.vim"
+Searching for "/Users/javin/.vim/plugged/syntastic/autoload/youcompleteme.vim"
+Searching for "/Users/javin/.vim/plugged/taglist.vim/autoload/youcompleteme.vim"
+Searching for "/Users/javin/.vim/plugged/YouCompleteMe/autoload/youcompleteme.vim"
+chdir(/Users/javin/.vim/plugged/YouCompleteMe/autoload)
+fchdir() to previous dir
+line 0: sourcing "/Users/javin/.vim/plugged/YouCompleteMe/autoload/youcompleteme.vim"
+finished sourcing /Users/javin/.vim/plugged/YouCompleteMe/autoload/youcompleteme.vim
+continuing in VimEnter Auto commands for "*"
+Executing CursorMoved Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Auto commands for "*"
+autocommand call <sid>sync_active_winnr()
+
+autocommand call s:wordcount_update()
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:OnCursorMovedNormalMode()
+
+
+Executing QuitPre Auto commands for "*"
+autocommand call s:QuitPreHook(expand('<afile>', 1))
+
+chdir(^~/github)
+fchdir() to previous dir
+chdir(^~/github)
+fchdir() to previous dir
+chdir(^/Users/javin/github/vimrc)
+fchdir() to previous dir
+chdir(/Users/javin/github/vimrc)
+fchdir() to previous dir
+Executing BufWinLeave Auto commands for "*"
+autocommand execute getwinvar(+bufwinnr(+expand('<abuf>')), 'fugitive_leave')
+
+Executing BufWinLeave Auto commands for "*"
+autocommand if s:can_diffoff(+expand('<abuf>')) && s:diff_window_count() == 2 |   call s:diffoff_all(getbufvar(+expand('<abuf>'), 'git_dir')) | endif
+
+Executing BufWinLeave Auto commands for "*"
+autocommand cal s:record(expand('<abuf>', 1))
+
+Executing BufUnload Auto commands for "*"
+autocommand call <sid>on_window_changed()
+
+Executing BufUnload Auto commands for "*"
+autocommand call s:OnBufferUnload()
+
+Executing VimLeavePre Auto commands for "*"
+autocommand cal s:savetofile(s:mergelists())
+
+Searching for "autoload/ctrlp/utils.vim" in "/Users/javin/.vim,/Users/javin/.vim/plugged/vim-fugitive/,/Users/javin/.vim/plugged/vim-airline/,/Users/javin/.vim/plugged/vim-airline-themes/,/Users/javin/.vim/plugged/nerdtree/,/Users/javin/.vim/plugged/ctrlp.vim/,/Users/javin/.vim/plugged/syntastic/,/Users/javin/.vim/plugged/taglist.vim/,/Users/javin/.vim/plugged/YouCompleteMe/,/Users/javin/.vim/plugged/DoxygenToolkit.vim/,/Users/javin/.vim/plugged/vim-dirdiff/,/Users/javin/.vim/plugged/LeaderF/,/Users/javin/.vim/plugged/vim-javacomplete2/,/Users/javin/.vim/plugged/sparkup/vim/,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/javin/.vim/after,/Users/javin/.vim/bundle/Vundle.vim"
+Searching for "/Users/javin/.vim/autoload/ctrlp/utils.vim"
+Searching for "/Users/javin/.vim/plugged/vim-fugitive/autoload/ctrlp/utils.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline/autoload/ctrlp/utils.vim"
+Searching for "/Users/javin/.vim/plugged/vim-airline-themes/autoload/ctrlp/utils.vim"
+Searching for "/Users/javin/.vim/plugged/nerdtree/autoload/ctrlp/utils.vim"
+Searching for "/Users/javin/.vim/plugged/ctrlp.vim/autoload/ctrlp/utils.vim"
+chdir(/Users/javin/.vim/plugged/ctrlp.vim/autoload/ctrlp)
+fchdir() to previous dir
+line 2: sourcing "/Users/javin/.vim/plugged/ctrlp.vim/autoload/ctrlp/utils.vim"
+finished sourcing /Users/javin/.vim/plugged/ctrlp.vim/autoload/ctrlp/utils.vim
+continuing in function <SNR>39_mergelists[1]..ctrlp#mrufiles#cachefile
+Writing viminfo file "/Users/javin/.viminfo"
+Executing VimLeave Auto commands for "*"
+autocommand call leaderf#cleanup()
+
+Executing VimLeave Auto commands for "*"
+autocommand call s:OnVimLeave()

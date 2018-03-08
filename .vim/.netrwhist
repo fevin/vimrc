@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/javin/Desktop/58/workspace/hbg_php_housetrade/hbg_php_housetrade_4-0-1_BRANCH/phpapps/housetrade/appmodules/order'
+let g:netrw_dirhist_2='/Users/javin/Desktop/58/workspace/hbg_php_housetrade/hbg_php_housetrade_4-0-1_BRANCH/config'
+let g:netrw_dirhist_3='/Users/javin/Desktop/58/workspace/hbg_php_housetrade/hbg_php_housetrade_4-0-1_BRANCH/phpapps/housetrade/appmodules/order'
+let g:netrw_dirhist_4='/Users/javin/Desktop/58/workspace/hbg_php_gongyu/php-gongyu_4-0-3_BRANCH'
+let g:netrw_dirhist_5='/Users/javin/Desktop/58/workspace/hbg_php_housetrade/hbg_php_housetrade_4-0-0_BRANCH/phpapps/housetrade/appmodules/order'

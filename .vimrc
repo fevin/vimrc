@@ -3,57 +3,57 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+call plug#begin('~/.vim/plugged') " https://github.com/junegunn/vim-plug
+Plug 'vim-airline/vim-airline' " buttom status line
+Plug 'vim-airline/vim-airline-themes'
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+" NERDTree
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
+map <silent> en :NERDTreeTabsToggle<CR>
+let NERDTreeShowBookmarks=1 " 默认显示书签
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
-Plugin 'vim-airline/vim-airline' " buttom status line
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'scrooloose/nerdtree' " tree
-Plugin 'ctrlpvim/ctrlp.vim' " search file
-Plugin 'vim-syntastic/syntastic' " code synstatic
-Plugin 'vim-scripts/taglist.vim' " function list
-Plugin 'Valloric/YouCompleteMe' " auto to complete
-Plugin 'vim-scripts/DoxygenToolkit.vim' " auto to complete
-Plugin 'will133/vim-dirdiff' " dir diff for commond-mode eg:DirDiff
-Plugin 'Yggdroot/LeaderF', { 'do': './install.sh' } " Fuzzy search file
-Plugin 'artur-shaik/vim-javacomplete2' "  java package auto complement
+Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeTabsToggle' }
+Plug 'vim-syntastic/syntastic' " code synstatic
 
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
-" Git plugin not hosted on GitHub
-" Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-" Plugin 'file:///home/gmarik/path/to/plugin'
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
+" tagbar
+Plug 'majutsushi/tagbar'
+map <silent> em :TagbarToggle<CR>
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
+Plug 'Valloric/YouCompleteMe' " auto to complete
+Plug 'vim-scripts/DoxygenToolkit.vim' " auto to complete
+Plug 'Yggdroot/LeaderF', { 'do': './install.sh' } " Fuzzy search file
+" Plug 'ctrlpvim/ctrlp.vim' " search file in global
+Plug 'artur-shaik/vim-javacomplete2' "  java package auto complement
+" Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
+
+" go
+Plug 'fatih/vim-go'
+
+call plug#end()
+
+" {{{ vundle
+" call vundle#begin()
+" Plugin 'VundleVim/Vundle.vim'
+" Plugin 'tpope/vim-fugitive'
+" Plugin 'vim-airline/vim-airline' " buttom status line
+" Plugin 'vim-airline/vim-airline-themes'
+" Plugin 'scrooloose/nerdtree' " tree
+" Plugin 'ctrlpvim/ctrlp.vim' " search file
+" Plugin 'vim-syntastic/syntastic' " code synstatic
+" Plugin 'vim-scripts/taglist.vim' " function list
+" Plugin 'Valloric/YouCompleteMe' " auto to complete
+" Plugin 'vim-scripts/DoxygenToolkit.vim' " auto to complete
+" Plugin 'will133/vim-dirdiff' " dir diff for commond-mode eg:DirDiff
+" Plugin 'Yggdroot/LeaderF', { 'do': './install.sh' } " Fuzzy search file
+" Plugin 'artur-shaik/vim-javacomplete2' "  java package auto complement
+" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" call vundle#end()            " required
+" }}}
+
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 filetype plugin on
 set nocp
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
 
 syntax on " syn light
 set nu " line num
@@ -81,16 +81,6 @@ set incsearch " search light word
 set enc=utf-8
 
 let g:ackprg = 'ag --nogroup --nocolor --column' " ag searcher
-
-" NERDTree
-map <silent> en :NERDTreeToggle<CR>
-let NERDTreeShowBookmarks=1 " 默认显示书签
-
-" taglist
-map <silent> em :TlistToggle<CR>
-let Tlist_Show_One_File = 1  " 不同时显示多个文件的tag，只显示当前文件的
-let Tlist_Exit_OnlyWindow = 1  " 如果taglist窗口是最后一个窗口，则退出vim
-let Tlist_Use_Right_Window = 1  " 在右侧窗口中显示taglist窗口
 
 " 设置 find/sfind 查找路径
 set path=$PWD/**
@@ -197,3 +187,32 @@ function! ClosePair(char)
                 return a:char
     endif
 endfunction
+
+" go tarbar
+let g:tagbar_type_go = {
+    \ 'ctagstype' : 'go',
+    \ 'kinds'     : [
+        \ 'p:package',
+        \ 'i:imports:1',
+        \ 'c:constants',
+        \ 'v:variables',
+        \ 't:types',
+        \ 'n:interfaces',
+        \ 'w:fields',
+        \ 'e:embedded',
+        \ 'm:methods',
+        \ 'r:constructor',
+        \ 'f:functions'
+    \ ],
+    \ 'sro' : '.',
+    \ 'kind2scope' : {
+        \ 't' : 'ctype',
+        \ 'n' : 'ntype'
+    \ },
+    \ 'scope2kind' : {
+        \ 'ctype' : 't',
+        \ 'ntype' : 'n'
+    \ },
+    \ 'ctagsbin'  : 'gotags',
+    \ 'ctagsargs' : '-sort -silent'
+\ }
