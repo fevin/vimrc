@@ -9,17 +9,15 @@ Plug 'vim-airline/vim-airline-themes'
 
 " NERDTree
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
-map <silent> en :NERDTreeTabsToggle<CR>
-let NERDTreeShowBookmarks=1 " 默认显示书签
 
 Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeTabsToggle' }
 Plug 'vim-syntastic/syntastic' " code synstatic
 
 " tagbar
 Plug 'majutsushi/tagbar'
-map <silent> em :TagbarToggle<CR>
 
 Plug 'Valloric/YouCompleteMe' " auto to complete
+
 Plug 'vim-scripts/DoxygenToolkit.vim' " auto to complete
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' } " Fuzzy search file
 " Plug 'ctrlpvim/ctrlp.vim' " search file in global
@@ -121,9 +119,11 @@ let Tlist_Process_File_Always = 1
 let Tlist_Display_Prototype = 0
 let Tlist_Compact_Format = 1
 let Tlist_Use_Right_Window = 1
-let tlist_php_settings = 'php;c:classes;i:interfaces;d:const;f:func'
+let Tlist_php_settings = 'php;c:classes;i:interfaces;d:const;f:func'
 " taglist 默认跳转到第一个匹配项的问题
 map <c-]> g<c-]>
+map <silent> en :NERDTreeTabsToggle<CR>
+map <silent> em :TagbarToggle<CR>
 
 " unix
 set fileformats=unix,dos
@@ -131,6 +131,7 @@ set fileformats=unix,dos
 " 高亮多余的空白字符及 Tab
 " highlight RedundantSpaces ctermbg=red guibg=red " 多余空白符背景色
 " match RedundantSpaces /\s\+$\| \+\ze\t\|\t/
+
 set list                     " 显示Tab符，
 set listchars=tab:>-,trail:- " Tab 符号 显示为 >--
 
@@ -169,7 +170,7 @@ let g:DirDiffExcludes = "tags,.*.swp"
 set suffixesadd+=.class.php
 
 " java
-autocmd FileType java setlocal omnifunc=javacomplete#Complete
+au FileType java setlocal omnifunc=javacomplete#Complete
 
 " auto complement () {} [] ...
 inoremap ( ()<ESC>i
@@ -216,3 +217,11 @@ let g:tagbar_type_go = {
     \ 'ctagsbin'  : 'gotags',
     \ 'ctagsargs' : '-sort -silent'
 \ }
+
+au FileType go set nolist                     " 显示Tab符，
+
+" C++
+let g:ycm_server_python_interpreter = '/usr/local/bin/python3.6'
+let g:ycm_enable_diagnostic_highlighting = 0
+
+let NERDTreeShowBookmarks=1 " 默认显示书签
