@@ -1,7 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/javin/shumei/project/main-interface/src/code.aliyun.com/nextdata/gracefulserver'
-let g:netrw_dirhist_2='/Users/javin/shumei/project/data-sync-client/bin'
-let g:netrw_dirhist_3='/Users/javin/shumei/project/data-sync-client/src'
-let g:netrw_dirhist_4='/Users/javin/shumei/project/data-sync-client/src/shumei'
-let g:netrw_dirhist_5='/Users/javin/shumei/project/data-sync-client/src/shumei/gracehttp'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/javin/temp'

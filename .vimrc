@@ -19,6 +19,7 @@ Plug 'majutsushi/tagbar'
 Plug 'Valloric/YouCompleteMe' " auto to complete
 
 Plug 'vim-scripts/DoxygenToolkit.vim' " auto to complete
+Plug 'vim-scripts/gtags.vim' " auto to complete
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' } " Fuzzy search file
 " Plug 'ctrlpvim/ctrlp.vim' " search file in global
 Plug 'artur-shaik/vim-javacomplete2' "  java package auto complement
@@ -26,6 +27,9 @@ Plug 'artur-shaik/vim-javacomplete2' "  java package auto complement
 
 " go
 Plug 'fatih/vim-go'
+Plug 'leafgarland/typescript-vim'
+
+Plug 'elzr/vim-json'
 
 call plug#end()
 
@@ -217,11 +221,22 @@ let g:tagbar_type_go = {
     \ 'ctagsbin'  : 'gotags',
     \ 'ctagsargs' : '-sort -silent'
 \ }
+" go func def info 显示声明信息
+map <silent> [d :GoInfo<CR>
 
 au FileType go set nolist                     " 显示Tab符，
 
 " C++
-let g:ycm_server_python_interpreter = '/usr/local/bin/python3.6'
+let g:ycm_server_python_interpreter = '/usr/local/bin/python3.7'
 let g:ycm_enable_diagnostic_highlighting = 0
+let g:ycm_global_ycm_extra_conf = '~/.vim/conf/.ycm_extra_conf.py'
 
 let NERDTreeShowBookmarks=1 " 默认显示书签
+
+au BufRead,BufNewFile *.json.* set filetype=json " 扩展 json 文件识别方式
+
+" temporary fix
+" https://github.com/vim/vim/issues/3117
+if has('python3')
+  silent! python3 1
+endif
