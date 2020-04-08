@@ -240,3 +240,6 @@ au BufRead,BufNewFile *.json.* set filetype=json " 扩展 json 文件识别方�
 if has('python3')
   silent! python3 1
 endif
+
+" format json
+map <F4> <Esc>:%!python -m json.tool<CR>

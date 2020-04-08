@@ -1,3 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/javin/temp'
+let g:netrw_dirhist_2='/Users/javin/shumei/project/be-profile/conf/conf-7000'
+let g:netrw_dirhist_3='/Users/javin/shumei/project/be-profile/bin'
+let g:netrw_dirhist_4='/Users/javin/shumei/project/guardian/src/arbiter/conf/sh-audio'
+let g:netrw_dirhist_5='/Users/javin/shumei/project/ae-arbiter/bin'
+let g:netrw_dirhist_6='/Users/javin/shumei/project/be-counter/bin'
+let g:netrw_dirhist_7='/Users/javin/github/kingso/src'
