@@ -16,6 +16,7 @@ Plug 'vim-syntastic/syntastic' " code synstatic
 " tagbar
 Plug 'majutsushi/tagbar'
 
+" python3 ./install.py --clang-completer --go-completer --ts-completer --java-completer
 Plug 'Valloric/YouCompleteMe' " auto to complete
 
 Plug 'vim-scripts/DoxygenToolkit.vim' " auto to complete
@@ -27,9 +28,13 @@ Plug 'artur-shaik/vim-javacomplete2' "  java package auto complement
 
 " go
 Plug 'fatih/vim-go'
-Plug 'leafgarland/typescript-vim'
+" Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 
+Plug 'leafgarland/typescript-vim'
 Plug 'elzr/vim-json'
+
+" A Git wrapper
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
@@ -60,7 +65,7 @@ set nocp
 syntax on " syn light
 set nu " line num
 autocmd InsertLeave * se nocul " now line light
-autocmd InsertEnter * se cul " same 
+autocmd InsertEnter * se cul " same
 set ruler " ruler
 set showcmd
 set laststatus=1
@@ -70,7 +75,6 @@ colorscheme monokai " colerscheme
 " keyboard
 nmap <leader>w :w!<cr>
 nmap <leader>f :find<cr>
-nmap <leader>ff :LeaderfFile<cr>
 
 " 插入时，智能匹配
 set completeopt=menu " code complate
@@ -129,6 +133,8 @@ map <c-]> g<c-]>
 map <silent> en :NERDTreeTabsToggle<CR>
 map <silent> em :TagbarToggle<CR>
 
+map gb :Git blame<CR>
+
 " unix
 set fileformats=unix,dos
 
@@ -153,9 +159,6 @@ set ve=block                " 光标可以定位在没有实际字符的地方
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
-
-" 解决高版本 python YCM 报错问题
-let ycm_server_python_interpreter='/usr/bin/python'
 
 " 补全字典
 set dictionary-=./tags dictionary+=./tags
@@ -227,13 +230,13 @@ map <silent> [d :GoInfo<CR>
 au FileType go set nolist                     " 显示Tab符，
 
 " C++
-let g:ycm_server_python_interpreter = '/usr/local/bin/python3.7'
 let g:ycm_enable_diagnostic_highlighting = 0
 let g:ycm_global_ycm_extra_conf = '~/.vim/conf/.ycm_extra_conf.py'
 
 let NERDTreeShowBookmarks=1 " 默认显示书签
 
 au BufRead,BufNewFile *.json.* set filetype=json " 扩展 json 文件识别方式
+au BufRead *.cava setf java
 
 " temporary fix
 " https://github.com/vim/vim/issues/3117
@@ -243,3 +246,74 @@ endif
 
 " format json
 map <F4> <Esc>:%!python -m json.tool<CR>
+
+" tags
+" let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
+
+" leaderf
+" don't show the help in normal mode
+let g:Lf_HideHelp = 1
+let g:Lf_UseCache = 0
+let g:Lf_UseVersionControlTool = 0
+let g:Lf_IgnoreCurrentBufferName = 1
+" popup mode
+let g:Lf_WindowPosition = 'popup'
+let g:Lf_PreviewInPopup = 1
+let g:Lf_StlSeparator = { 'left': "\ue0b0", 'right': "\ue0b2", 'font': "DejaVu Sans Mono for Powerline" }
+let g:Lf_PreviewResult = {'Function': 0, 'BufTag': 0 }
+
+let g:Lf_ShortcutF = "<leader>ff"
+let g:Lf_ShortcutB = "<leader>bb"
+noremap <leader>fb :<C-U><C-R>=printf("Leaderf buffer %s", "")<CR><CR>
+noremap <leader>fm :<C-U><C-R>=printf("Leaderf mru %s", "")<CR><CR>
+noremap <leader>ft :<C-U><C-R>=printf("Leaderf bufTag %s", "")<CR><CR>
+noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s", "")<CR><CR>
+
+" noremap <C-B> :<C-U><C-R>=printf("Leaderf! rg --current-buffer -e %s ", expand("<cword>"))<CR>
+" noremap <C-F> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
+" search word under cursor, the pattern is treated as regex,
+" append the result to previous search results.
+" noremap <C-G> :<C-U><C-R>=printf("Leaderf! rg --append -e %s ", expand("<cword>"))<CR>
+noremap <C-G> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
+
+" search visually selected text literally
+xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F -e %s ", leaderf#Rg#visual())<CR>
+
+" recall last search. If the result window is closed, reopen it.
+noremap go :<C-U>Leaderf! rg --recall<CR>
+
+" should use `Leaderf gtags --update` first
+let g:Lf_GtagsAutoGenerate = 1
+let g:Lf_Gtagslabel = 'native-pygments'
+noremap <leader>fr :<C-U><C-R>=printf("Leaderf! gtags -r %s --auto-jump", expand("<cword>"))<CR><CR>
+
+" goto define
+noremap <leader>fd :<C-U><C-R>=printf("Leaderf! gtags -d %s --auto-jump", expand("<cword>"))<CR><CR>
+noremap <C-]> :<C-U><C-R>=printf("Leaderf! gtags -d %s --auto-jump", expand("<cword>"))<CR><CR>
+
+noremap <leader>fo :<C-U><C-R>=printf("Leaderf! gtags --recall %s", "")<CR><CR>
+noremap <leader>fn :<C-U><C-R>=printf("Leaderf gtags --next %s", "")<CR><CR>
+noremap <leader>fp :<C-U><C-R>=printf("Leaderf gtags --previous %s", "")<CR><CR>
+
+let g:Lf_RgConfig = [
+        \ "--hidden"
+    \ ]
+
+noremap <Leader>gr :<C-U><C-R>="LeaderfRgInteractive"<CR><CR>
+noremap <Leader>fc :<C-U><C-R>="LeaderfFunction"<CR><CR>
+noremap <Leader>fl :<C-U><C-R>="LeaderfLine"<CR><CR>
+" search word under cursor in *.h and *.cpp files.
+noremap <Leader>a :<C-U><C-R>=printf("Leaderf! rg -e %s -g *.h -g *.cpp", expand("<cword>"))<CR>
+" the same as above
+noremap <Leader>a :<C-U><C-R>=printf("Leaderf! rg -e %s -g *.{h,cpp}", expand("<cword>"))<CR>
+
+" search word under cursor in cpp and java files.
+" noremap <Leader>b :<C-U><C-R>=printf("Leaderf! rg -e %s -t cpp -t java", expand("<cword>"))<CR>
+
+" search word under cursor in cpp files, exclude the *.hpp files
+noremap <Leader>c :<C-U><C-R>=printf("Leaderf! rg -e %s -t cpp -g !*.hpp", expand("<cword>"))<CR>
+
+" create gtags
+" Leaderf gtags --update
+"
+au BufNewFile,BufRead *.flow set filetype=sql
