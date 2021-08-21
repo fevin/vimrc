@@ -4,27 +4,47 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call plug#begin('~/.vim/plugged') " https://github.com/junegunn/vim-plug
+
+" @see: https://github.com/vim-scripts/a.vim
+" :A switches to the header file corresponding to the current file being edited (or vise versa)
+" :AS splits and switches
+" :AV vertical splits and switches
+" :AT new tab and switches
+Plug 'vim-scripts/a.vim'
+
 Plug 'vim-airline/vim-airline' " buttom status line
 Plug 'vim-airline/vim-airline-themes'
+Plug 'NLKNguyen/papercolor-theme'
 
-" NERDTree
+" 快速注释
+" <leader>cc // 注释
+" <leader>cm 只用一组符号注释
+" <leader>cA 在行尾添加注释
+" <leader>c$ /* 注释 */
+" <leader>cs /* 块注释 */
+" <leader>cy 注释并复制
+" <leader>c<space> 注释/取消注释
+" <leader>ca 切换　// 和 /* */
+" <leader>cu 取消注释
+Plug 'preservim/nerdcommenter'
+
+" 高亮感兴趣的词
+" Highlight with `<Leader>k`
+Plug 'lfv89/vim-interestingwords'
+
+" NERDTree 目录树
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
 
 Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeTabsToggle' }
 Plug 'vim-syntastic/syntastic' " code synstatic
 
-" tagbar
+" tagbar 符号标签
 Plug 'majutsushi/tagbar'
-
-" python3 ./install.py --clang-completer --go-completer --ts-completer --java-completer
-Plug 'Valloric/YouCompleteMe' " auto to complete
 
 Plug 'vim-scripts/DoxygenToolkit.vim' " auto to complete
 Plug 'vim-scripts/gtags.vim' " auto to complete
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' } " Fuzzy search file
-" Plug 'ctrlpvim/ctrlp.vim' " search file in global
-Plug 'artur-shaik/vim-javacomplete2' "  java package auto complement
-" Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Plug 'artur-shaik/vim-javacomplete2' "  java package auto complement
 
 " go
 Plug 'fatih/vim-go'
@@ -35,6 +55,13 @@ Plug 'elzr/vim-json'
 
 " A Git wrapper
 Plug 'tpope/vim-fugitive'
+
+" python3 ./install.py --clang-completer --go-completer --ts-completer --java-completer
+" Plug 'Valloric/YouCompleteMe' " auto to complete
+
+" 插件系统，可以安装额外插件支持补全等
+" @link: https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
@@ -70,7 +97,12 @@ set ruler " ruler
 set showcmd
 set laststatus=1
 set foldenable " allow fold
-colorscheme monokai " colerscheme
+
+" 主题配色
+" colorscheme monokai " colerscheme
+colorscheme papercolor
+let g:airline_theme='papercolor'
+set background=dark
 
 " keyboard
 nmap <leader>w :w!<cr>
@@ -177,7 +209,7 @@ let g:DirDiffExcludes = "tags,.*.swp"
 set suffixesadd+=.class.php
 
 " java
-au FileType java setlocal omnifunc=javacomplete#Complete
+" au FileType java setlocal omnifunc=javacomplete#Complete
 
 " auto complement () {} [] ...
 inoremap ( ()<ESC>i
@@ -261,6 +293,13 @@ let g:Lf_WindowPosition = 'popup'
 let g:Lf_PreviewInPopup = 1
 let g:Lf_StlSeparator = { 'left': "\ue0b0", 'right': "\ue0b2", 'font': "DejaVu Sans Mono for Powerline" }
 let g:Lf_PreviewResult = {'Function': 0, 'BufTag': 0 }
+let g:Lf_RootMarkers = ['.git', '.svn', '.hg', '.project', '.root']
+
+" 搜索根目录的方法：
+" 1. 先找当前文件的所有祖先目录里最近的根目录, 如果找到就使用这个根目录为查找起点. (A的含义) 
+" 2. 如果没找到任何根目录, 看看当前打开的文件是否在VIM的工作目录(working directory)下, 或者任何其子目录下. 如果是, 就是用工作目录作为查找起点. (F的含义)
+" 3. 如果当前文件不在工作目录和其后代目录下, 则以当前文件所在目录为查找起点.(default)
+let g:Lf_WorkingDirectoryMode = 'AF'
 
 let g:Lf_ShortcutF = "<leader>ff"
 let g:Lf_ShortcutB = "<leader>bb"
@@ -274,7 +313,8 @@ noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s", "")<CR><CR>
 " search word under cursor, the pattern is treated as regex,
 " append the result to previous search results.
 " noremap <C-G> :<C-U><C-R>=printf("Leaderf! rg --append -e %s ", expand("<cword>"))<CR>
-noremap <C-G> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
+noremap <C-W> :<C-U><C-R>=printf("Leaderf! rg -g '!.git/*' -g '!testdata/*' -g '!*Test.cpp' -e %s ", expand("<cword>"))<CR>
+noremap <C-G> :<C-U><C-R>="Leaderf file --cword"<CR>
 
 " search visually selected text literally
 xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F -e %s ", leaderf#Rg#visual())<CR>
@@ -313,7 +353,40 @@ noremap <Leader>a :<C-U><C-R>=printf("Leaderf! rg -e %s -g *.{h,cpp}", expand("<
 " search word under cursor in cpp files, exclude the *.hpp files
 noremap <Leader>c :<C-U><C-R>=printf("Leaderf! rg -e %s -t cpp -g !*.hpp", expand("<cword>"))<CR>
 
+" 清除上次的搜索高亮效果
+nnoremap <esc> :noh<return><esc>
+
 " create gtags
 " Leaderf gtags --update
 "
 au BufNewFile,BufRead *.flow set filetype=sql
+
+
+" Plug 'preservim/nerdcommenter' 对应的配置 ===== begin
+" Create default mappings
+let g:NERDCreateDefaultMappings = 1
+
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
+
+" Set a language to use its alternate delimiters by default
+let g:NERDAltDelims_java = 1
+
+" Add your own custom formats or override the defaults
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+
+" Enable NERDCommenterToggle to check all selected lines is commented or not
+let g:NERDToggleCheckAllLines = 1
+" Plug 'preservim/nerdcommenter' 对应的配置 ===== end

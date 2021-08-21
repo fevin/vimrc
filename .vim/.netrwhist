@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/fanjingwen/aliexpress/plugin/ha3_plugins/pluginFramework/ha3/adapter/docs'
+let g:netrw_dirhist_0='/Users/fanjingwen'
 let g:netrw_dirhist_9='/Users/fanjingwen/github/ClickHouse/cmake'
 let g:netrw_dirhist_8='/Users/fanjingwen/github/ClickHouse/programs'
 let g:netrw_dirhist_7='/Users/fanjingwen/github/geos/Testing/Temporary'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_5='/Users/fanjingwen/ali/cainiao/cep/build'
 let g:netrw_dirhist_4='/Users/fanjingwen/Downloads/cn_ha3_query的副本/101058/smart_wave'
 let g:netrw_dirhist_3='/Users/fanjingwen/Downloads/cn_ha3_query/101058/smart_wave'
 let g:netrw_dirhist_2='/Users/fanjingwen/ali/search/build_service/build_service'
-let g:netrw_dirhist_1='/Users/fanjingwen/ali/search/build_service/build_service/workflow'
-let g:netrw_dirhist_0='/Users/fanjingwen/ali/search/build_service/build_service'
