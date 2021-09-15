@@ -277,7 +277,7 @@ if has('python3')
 endif
 
 " format json
-map <F4> <Esc>:%!python -m json.tool<CR>
+map <F5> <Esc>:%!python -m json.tool<CR>
 
 " tags
 " let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
@@ -299,7 +299,7 @@ let g:Lf_RootMarkers = ['.git', '.svn', '.hg', '.project', '.root']
 " 1. 先找当前文件的所有祖先目录里最近的根目录, 如果找到就使用这个根目录为查找起点. (A的含义) 
 " 2. 如果没找到任何根目录, 看看当前打开的文件是否在VIM的工作目录(working directory)下, 或者任何其子目录下. 如果是, 就是用工作目录作为查找起点. (F的含义)
 " 3. 如果当前文件不在工作目录和其后代目录下, 则以当前文件所在目录为查找起点.(default)
-let g:Lf_WorkingDirectoryMode = 'AF'
+" let g:Lf_WorkingDirectoryMode = 'AF'
 
 let g:Lf_ShortcutF = "<leader>ff"
 let g:Lf_ShortcutB = "<leader>bb"
@@ -313,8 +313,10 @@ noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s", "")<CR><CR>
 " search word under cursor, the pattern is treated as regex,
 " append the result to previous search results.
 " noremap <C-G> :<C-U><C-R>=printf("Leaderf! rg --append -e %s ", expand("<cword>"))<CR>
-noremap <C-W> :<C-U><C-R>=printf("Leaderf! rg -g '!.git/*' -g '!testdata/*' -g '!*Test.cpp' -e %s ", expand("<cword>"))<CR>
-noremap <C-G> :<C-U><C-R>="Leaderf file --cword"<CR>
+" <C-G> G means grep keyword
+noremap <C-G> :<C-U><C-R>=printf("Leaderf! rg -g '!.git/*' -g '!testdata/*' -g '!*Test.cpp' -e %s ", expand("<cword>"))<CR>
+" <C-S> S means search file
+noremap <C-S> :<C-U><C-R>="Leaderf file --cword"<CR>
 
 " search visually selected text literally
 xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F -e %s ", leaderf#Rg#visual())<CR>
