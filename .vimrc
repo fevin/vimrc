@@ -392,3 +392,10 @@ let g:NERDTrimTrailingWhitespace = 1
 " Enable NERDCommenterToggle to check all selected lines is commented or not
 let g:NERDToggleCheckAllLines = 1
 " Plug 'preservim/nerdcommenter' 对应的配置 ===== end
+
+" 解决 vim 进入时 replace 模式
+" FIX: ssh from wsl starting with REPLACE mode
+" " https://stackoverflow.com/a/11940894
+if $TERM =~ 'xterm-256color'
+  set noek
+endif
