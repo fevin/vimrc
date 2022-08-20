@@ -269,6 +269,8 @@ let NERDTreeShowBookmarks=1 " 默认显示书签
 
 au BufRead,BufNewFile *.json.* set filetype=json " 扩展 json 文件识别方式
 au BufRead *.cava setf java
+au BufNewFile,BufRead *.flow set filetype=sql
+au BufNewFile,BufRead WORKSPACE set syntax=python
 
 " temporary fix
 " https://github.com/vim/vim/issues/3117
@@ -361,8 +363,6 @@ nnoremap <esc> :noh<return><esc>
 " create gtags
 " Leaderf gtags --update
 "
-au BufNewFile,BufRead *.flow set filetype=sql
-
 
 " Plug 'preservim/nerdcommenter' 对应的配置 ===== begin
 " Create default mappings
@@ -399,3 +399,4 @@ let g:NERDToggleCheckAllLines = 1
 if $TERM =~ 'xterm-256color'
   set noek
 endif
+
