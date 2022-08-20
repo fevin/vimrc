@@ -314,7 +314,7 @@ noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s", "")<CR><CR>
 " append the result to previous search results.
 " noremap <C-G> :<C-U><C-R>=printf("Leaderf! rg --append -e %s ", expand("<cword>"))<CR>
 " <C-G> G means grep keyword
-noremap <C-G> :<C-U><C-R>=printf("Leaderf! rg -g '!.git/*' -g '!testdata/*' -g '!*Test.cpp' -e %s ", expand("<cword>"))<CR>
+noremap <C-G> :<C-U><C-R>=printf("Leaderf! rg -g '!.git/*' -g '!*Test.cpp'  -g '!testdata/*' -e %s ", expand("<cword>"))<CR>
 " <C-S> S means search file
 noremap <C-S> :<C-U><C-R>="Leaderf file --cword"<CR>
 
